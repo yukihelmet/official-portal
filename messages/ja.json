@@ -1,0 +1,50 @@
+{
+  "common": {
+    "home": "ホーム",
+    "products": "商品",
+    "cart": "カート",
+    "menu": "メニュー",
+    "login": "ログイン"
+  },
+  "product": {
+    "addToCart": "カートに入れる",
+    "addToCartButton": "カートに入れる",
+    "taxIncluded": "税込",
+    "size": "サイズ",
+    "sizeLabel": "サイズ / Size",
+    "quantity": "数量",
+    "quantityLabel": "数量 / Quantity",
+    "description": "商品説明",
+    "notFound": "商品が見つかりません",
+    "helmet": "安全帽",
+    "off_road_helmet": "越野帽",
+    "system_helmet": "システムヘルメット",
+    "jet_helmet": "3/4ヘルメット",
+    "half_helmet": "瓜皮帽",
+    "full_face_helmet": "フルフェイスヘルメット"
+  },
+  "breadcrumb": {
+    "home": "ホーム",
+    "products": "商品"
+  },
+  "filter": {
+    "brands": "ブランド",
+    "allBrands": "すべてのブランド",
+    "categories": "カテゴリー",
+    "allCategories": "すべてのカテゴリー",
+    "noProducts": "商品が見つかりません"
+  },
+  "seo": {
+    "productDescription": "日本直送、人気商品在庫あり"
+  },
+  "footer": {
+    "brand": "正規輸入、日本語サポート付き。",
+    "quickLinks": "クイックリンク",
+    "customerService": "カスタマーサービス",
+    "followUs": "フォローする",
+    "aboutUs": "私たちについて",
+    "contactUs": "お問い合わせ",
+    "faq": "よくある質問",
+    "copyright": "© 2024 Yuki Helmet. All rights reserved."
+  }
+}

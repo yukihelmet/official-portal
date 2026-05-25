@@ -1,0 +1,50 @@
+{
+  "common": {
+    "home": "首頁",
+    "products": "商品",
+    "cart": "購物車",
+    "menu": "選單",
+    "login": "登入"
+  },
+  "product": {
+    "addToCart": "購物車",
+    "addToCartButton": "加入購物車",
+    "taxIncluded": "含稅",
+    "size": "尺寸",
+    "sizeLabel": "尺寸 / Size",
+    "quantity": "數量",
+    "quantityLabel": "數量 / Quantity",
+    "description": "商品說明",
+    "notFound": "找不到商品",
+    "helmet": "安全帽",
+    "off_road_helmet": "越野帽",
+    "system_helmet": "汽水帽",
+    "jet_helmet": "3/4安全帽",
+    "half_helmet": "瓜皮帽",
+    "full_face_helmet": "全罩式安全帽"
+  },
+  "breadcrumb": {
+    "home": "首頁",
+    "products": "商品"
+  },
+  "filter": {
+    "brands": "品牌",
+    "allBrands": "所有品牌",
+    "categories": "分類",
+    "allCategories": "所有分類",
+    "noProducts": "找不到商品"
+  },
+  "seo": {
+    "productDescription": "日本直送，熱銷現貨在庫"
+  },
+  "footer": {
+    "brand": "原裝日系魂，一鍵直送你的專屬安全。",
+    "quickLinks": "快速連結",
+    "customerService": "客戶服務",
+    "followUs": "追蹤我們",
+    "aboutUs": "關於我們",
+    "contactUs": "聯絡我們",
+    "faq": "常見問題",
+    "copyright": "© 2024 Yuki Helmet. All rights reserved."
+  }
+}

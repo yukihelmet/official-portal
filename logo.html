@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hexagon Logo</title>
+    <style>
+      body {
+        font-family: 'Inter', sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: #f0f4f8;
+      }
+      svg {
+        background-color: #ffffff;
+        border-radius: 8px;
+      }
+    </style>
+    <script src="https://maker.js.org/target/js/browser.maker.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <div id="svg-output"></div>
+
+    <script>
+      window.onload = function () {
+        var makerjs = require('makerjs');
+
+        const sideLength = 25;
+        const halfHeight = (sideLength * Math.sqrt(3)) / 2;
+
+        const [p1, p2, p3, p4, p5, p6] = [
+          [sideLength, 0],
+          [sideLength / 2, halfHeight],
+          [-sideLength / 2, halfHeight],
+          [-sideLength, 0],
+          [-sideLength / 2, -halfHeight],
+          [sideLength / 2, -halfHeight],
+        ];
+
+        function calculatePointOnSegment(pA, pB, ratio) {
+          return [
+            (1 - ratio) * pA[0] + ratio * pB[0],
+            (1 - ratio) * pA[1] + ratio * pB[1]
+          ];
+        }
+
+        // 1. line1: P4 to 3/7 on P2-P1
+        const p12 = calculatePointOnSegment(p2, p1, 3/7);
+        var line1 = new makerjs.paths.Line(p4, p12);
+
+        // 2. line2: P16 to P34
+        const point34 = calculatePointOnSegment(p3, p4, 4/7);
+        const point16 = calculatePointOnSegment(p1, p6, 3/7);
+        var line2 = new makerjs.paths.Line(point16, point34);
+
+        // 3. intersection point
+        var intersection = makerjs.path.intersection(line1, line2);
+        var intersectionPoint = intersection.intersectionPoints[0];
+
+        // 4. chain: P1 -> P12 -> intersection -> P16
+        var chain = new makerjs.models.ConnectTheDots(true, [p1, p12, intersectionPoint, point16]);
+        chain.layer = 'chain';
+
+        // 5. p2 -> p1 -> p6
+        var links = new makerjs.models.ConnectTheDots(false, [p2, p1, p6]);
+        links.layer = 'links';
+
+        // 5b. links_outer - move entire links outward, keeping same side lengths
+        const linksCenter = [
+          (p2[0] + p1[0] + p6[0]) / 3,
+          (p2[1] + p1[1] + p6[1]) / 3,
+        ];
+        const linksCenterLen = Math.sqrt(linksCenter[0] * linksCenter[0] + linksCenter[1] * linksCenter[1]);
+        const radialDir = [linksCenter[0] / linksCenterLen, linksCenter[1] / linksCenterLen];
+        const offset = 0.2 * sideLength;
+
+        var links_outer = new makerjs.models.ConnectTheDots(false, [
+          [p2[0] + radialDir[0] * offset, p2[1] + radialDir[1] * offset],
+          [p1[0] + radialDir[0] * offset, p1[1] + radialDir[1] * offset],
+          [p6[0] + radialDir[0] * offset, p6[1] + radialDir[1] * offset],
+        ]);
+        links_outer.layer = 'links_outer';
+
+        // 6. small hex at intersection
+        const smallSide = sideLength * 0.4;
+        const smallHalfHeight = (smallSide * Math.sqrt(3)) / 2;
+        var smallHex = new makerjs.models.ConnectTheDots(true, [
+          [intersectionPoint[0] + smallSide, intersectionPoint[1]],
+          [intersectionPoint[0] + smallSide / 2, intersectionPoint[1] + smallHalfHeight],
+          [intersectionPoint[0] - smallSide / 2, intersectionPoint[1] + smallHalfHeight],
+          [intersectionPoint[0] - smallSide, intersectionPoint[1]],
+          [intersectionPoint[0] - smallSide / 2, intersectionPoint[1] - smallHalfHeight],
+          [intersectionPoint[0] + smallSide / 2, intersectionPoint[1] - smallHalfHeight],
+        ]);
+        smallHex.layer = 'smallHex';
+        makerjs.model.rotate(smallHex, 15, intersectionPoint);
+
+        // wrapper circle
+        var outerCircle = new makerjs.paths.Circle([0, 0], sideLength * 1.2);
+        var boundary = { paths: { circle: outerCircle }, layer: 'boundary' };
+
+        var result = {
+          models: {
+            boundary,
+            chain,
+            smallHex,
+            links,
+            links_outer,
+            line1: { paths: { line: line1 }, layer: 'line1' },
+            line2: { paths: { line: line2 }, layer: 'line2' },
+          },
+          units: makerjs.unitType.Millimeter,
+          settings: {
+            layers: {
+              line1: { stroke: '#ef4444', strokeWidth: '1px' },
+              line2: { stroke: '#ef4444', strokeWidth: '1px' },
+              chain: { stroke: '#ef4444', strokeWidth: '1px' },
+              links: { stroke: '#ef4444', strokeWidth: '1px' },
+              links_outer: { stroke: '#ef4444', strokeWidth: '1px' },
+              smallHex: { stroke: '#3b82f6', strokeWidth: '1px' },
+              boundary: { stroke: '#10b981', strokeWidth: '1px', strokeDasharray: '5, 5' },
+            },
+          },
+        };
+
+        var svg = makerjs.exporter.toSVG(result);
+        document.getElementById('svg-output').innerHTML = svg;
+      };
+    </script>
+  </body>
+</html>
