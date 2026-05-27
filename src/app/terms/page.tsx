@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "服務條款 - Yuki Helmet",
+  title: "Yuki Helmet",
   description: "Yuki Helmet 服務條款",
 };
 

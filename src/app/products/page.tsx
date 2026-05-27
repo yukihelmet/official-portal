@@ -1,5 +1,10 @@
 import { ProductsClient } from "@/components/pages/product/ProductsClient";
 import { listProducts, listBrands, listCategories } from "@/lib/official-portal-api";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Yuki Helmet",
+};
 
 export const revalidate = 3600;
 

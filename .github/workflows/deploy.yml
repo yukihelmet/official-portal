@@ -32,7 +32,9 @@ jobs:
         run: npm ci
 
       - name: Build
-        run: npm run build
+        run: |
+          npm run build
+          cp CNAME ./out/CNAME
         env:
           NEXT_PUBLIC_API_BASE_URL: https://api.yuki-helmet.com
 
@@ -58,3 +60,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./out
           publish_branch: gh-pages
+          cname: yuki-helmet.com
