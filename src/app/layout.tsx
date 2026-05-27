@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Oswald, Noto_Sans_JP, Noto_Serif_TC } from "next/font/google";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import "./globals.css";
 import { Header } from "@/components/pages/header/Header";
 import { Footer } from "@/components/pages/footer/Footer";
@@ -49,6 +50,7 @@ export default function RootLayout({
             <main className="flex-1 pt-16">{children}</main>
             <Footer />
           </AuthProvider>
+          <GoogleAnalytics gaId="G-E4V8YRPK7W" />
         </I18nProvider>
       </body>
     </html>
