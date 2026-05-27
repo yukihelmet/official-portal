@@ -160,7 +160,7 @@
 
 ■尺寸：S（54-55cm）・M（57-58cm）・L（59-60cm）・XL（61-62cm）
 　※尺寸僅供參考。由於產品設計，即使顯示相同尺寸，佩戴感可能會有所不同。
-　　購買時請務必試穿一次。0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"product":{"id":"1xJURX","name":"KAMUI-3 CIRCLE (カムイ3 サークル) フルフェイスヘルメット フラットブラックレッド","gender":"unisex","brand":"Kabuto","category":"full_face_helmet","prices":[{"size":"S","prices":{"twd":{"price":10300,"discount_price":7800}}}],"images":["https://cdn.jsdelivr.net/gh/yukihelmet/images@main/1xJURX/1.webp"],"description":{"ja":"$3","zhTW":"$4"}}}],["$L5","$L6"],"$L7"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"6Qwz1FJ651kOJyhDOFVdj"}
+　　購買時請務必試穿一次。0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"product":{"id":"1xJURX","name":"KAMUI-3 CIRCLE (カムイ3 サークル) フルフェイスヘルメット フラットブラックレッド","gender":"unisex","brand":"Kabuto","category":"full_face_helmet","prices":[{"size":"S","prices":{"twd":{"price":10300,"discount_price":7800}}}],"images":["https://cdn.jsdelivr.net/gh/yukihelmet/images@main/1xJURX/1.webp"],"description":{"ja":"$3","zhTW":"$4"}}}],["$L5","$L6"],"$L7"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"afE-nKgtRrIBU6IBH39Sx"}
 5:["$","script","script-0",{"src":"/_next/static/chunks/0ve-ab~ut5ayn.js","async":true}]
 6:["$","script","script-1",{"src":"/_next/static/chunks/0c5-_qcbzlcx_.js","async":true}]
 7:["$","$L8",null,{"children":["$","$9",null,{"name":"Next.MetadataOutlet","children":"$@a"}]}]
