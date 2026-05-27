@@ -1,6 +1,6 @@
 1:"$Sreact.fragment"
-2:I[65699,["/_next/static/chunks/0qn8g2g4ojo85.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0ve-ab~ut5ayn.js","/_next/static/chunks/0c5-_qcbzlcx_.js"],"ProductDetailClient"]
-8:I[97367,["/_next/static/chunks/0qn8g2g4ojo85.js","/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
+2:I[65699,["/_next/static/chunks/15q07ppon2ql2.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0ve-ab~ut5ayn.js","/_next/static/chunks/0c5-_qcbzlcx_.js"],"ProductDetailClient"]
+8:I[97367,["/_next/static/chunks/15q07ppon2ql2.js","/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
 9:"$Sreact.suspense"
 3:T1532,FIM公認（S M L XL XXLサイズ）/MFJ2022規格公認取得モデル
 
@@ -122,7 +122,7 @@ SECURITY
 
 VENTILATION
 通氣性
-THUNDER C GP在下巴部和頭部的前方及上部設有進氣口，後腦部設有後擾流器和排氣口。0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"product":{"id":"s4YHmN","name":"THUNDER C GP CARBON サンダー カーボン FIM MFJ 公認 フルフェイスヘルメット","gender":"unisex","brand":"LS2 HELMETS","category":"full_face_helmet","prices":[{"size":"S","prices":{"twd":{"price":19000,"discount_price":19000}}},{"size":"L","prices":{"twd":{"price":19000,"discount_price":19000}}},{"size":"XL","prices":{"twd":{"price":19000,"discount_price":19000}}},{"size":"XXL","prices":{"twd":{"price":19000,"discount_price":19000}}}],"images":["https://cdn.jsdelivr.net/gh/yukihelmet/images@main/s4YHmN/1.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/s4YHmN/2.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/s4YHmN/3.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/s4YHmN/4.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/s4YHmN/5.webp"],"description":{"ja":"$3","zhTW":"$4"}}}],["$L5","$L6"],"$L7"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"afE-nKgtRrIBU6IBH39Sx"}
+THUNDER C GP在下巴部和頭部的前方及上部設有進氣口，後腦部設有後擾流器和排氣口。0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"product":{"id":"s4YHmN","name":"THUNDER C GP CARBON サンダー カーボン FIM MFJ 公認 フルフェイスヘルメット","gender":"unisex","brand":"LS2 HELMETS","category":"full_face_helmet","prices":[{"size":"S","prices":{"twd":{"price":19000,"discount_price":19000}}},{"size":"L","prices":{"twd":{"price":19000,"discount_price":19000}}},{"size":"XL","prices":{"twd":{"price":19000,"discount_price":19000}}},{"size":"XXL","prices":{"twd":{"price":19000,"discount_price":19000}}}],"images":["https://cdn.jsdelivr.net/gh/yukihelmet/images@main/s4YHmN/1.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/s4YHmN/2.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/s4YHmN/3.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/s4YHmN/4.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/s4YHmN/5.webp"],"description":{"ja":"$3","zhTW":"$4"}}}],["$L5","$L6"],"$L7"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"ArnuJrN_fZT3zLFA-qMU6"}
 5:["$","script","script-0",{"src":"/_next/static/chunks/0ve-ab~ut5ayn.js","async":true}]
 6:["$","script","script-1",{"src":"/_next/static/chunks/0c5-_qcbzlcx_.js","async":true}]
 7:["$","$L8",null,{"children":["$","$9",null,{"name":"Next.MetadataOutlet","children":"$@a"}]}]

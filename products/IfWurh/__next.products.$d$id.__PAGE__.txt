@@ -1,6 +1,6 @@
 1:"$Sreact.fragment"
-2:I[65699,["/_next/static/chunks/0qn8g2g4ojo85.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0ve-ab~ut5ayn.js","/_next/static/chunks/0c5-_qcbzlcx_.js"],"ProductDetailClient"]
-7:I[97367,["/_next/static/chunks/0qn8g2g4ojo85.js","/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
+2:I[65699,["/_next/static/chunks/15q07ppon2ql2.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0ve-ab~ut5ayn.js","/_next/static/chunks/0c5-_qcbzlcx_.js"],"ProductDetailClient"]
+7:I[97367,["/_next/static/chunks/15q07ppon2ql2.js","/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
 8:"$Sreact.suspense"
 3:Tfcf,空力をさらに追求した風の巻込軽減シールド採用！
 
@@ -134,7 +134,7 @@
 
 ■顏色：珍珠白・黑色金屬・平黑色・灰色・閃亮紅色
 
-■尺寸：XS（54-55cm）・S（54-55cm）・M（57-58cm）・L（59-60cm）・XL（61-62cm）0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"product":{"id":"IfWurh","name":"EXCEED-2 RIDGE (エクシード2 リッジ) オープンフェイスヘルメット フラットブラックグレー","gender":"unisex","brand":"Kabuto","category":"jet_helmet","prices":[{"size":"XS","prices":{"twd":{"price":10800,"discount_price":10800}}},{"size":"S","prices":{"twd":{"price":10800,"discount_price":10800}}},{"size":"M","prices":{"twd":{"price":10800,"discount_price":10800}}},{"size":"L","prices":{"twd":{"price":10800,"discount_price":10800}}},{"size":"XL","prices":{"twd":{"price":10800,"discount_price":10800}}}],"images":["https://cdn.jsdelivr.net/gh/yukihelmet/images@main/IfWurh/1.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/IfWurh/2.webp"],"description":{"ja":"$3","zhTW":"$4"}}}],[["$","script","script-0",{"src":"/_next/static/chunks/0ve-ab~ut5ayn.js","async":true}],"$L5"],"$L6"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"afE-nKgtRrIBU6IBH39Sx"}
+■尺寸：XS（54-55cm）・S（54-55cm）・M（57-58cm）・L（59-60cm）・XL（61-62cm）0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"product":{"id":"IfWurh","name":"EXCEED-2 RIDGE (エクシード2 リッジ) オープンフェイスヘルメット フラットブラックグレー","gender":"unisex","brand":"Kabuto","category":"jet_helmet","prices":[{"size":"XS","prices":{"twd":{"price":10800,"discount_price":10800}}},{"size":"S","prices":{"twd":{"price":10800,"discount_price":10800}}},{"size":"M","prices":{"twd":{"price":10800,"discount_price":10800}}},{"size":"L","prices":{"twd":{"price":10800,"discount_price":10800}}},{"size":"XL","prices":{"twd":{"price":10800,"discount_price":10800}}}],"images":["https://cdn.jsdelivr.net/gh/yukihelmet/images@main/IfWurh/1.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/IfWurh/2.webp"],"description":{"ja":"$3","zhTW":"$4"}}}],[["$","script","script-0",{"src":"/_next/static/chunks/0ve-ab~ut5ayn.js","async":true}],"$L5"],"$L6"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"ArnuJrN_fZT3zLFA-qMU6"}
 5:["$","script","script-1",{"src":"/_next/static/chunks/0c5-_qcbzlcx_.js","async":true}]
 6:["$","$L7",null,{"children":["$","$8",null,{"name":"Next.MetadataOutlet","children":"$@9"}]}]
 9:null

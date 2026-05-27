@@ -1,6 +1,6 @@
 1:"$Sreact.fragment"
-2:I[65699,["/_next/static/chunks/0qn8g2g4ojo85.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0ve-ab~ut5ayn.js","/_next/static/chunks/0c5-_qcbzlcx_.js"],"ProductDetailClient"]
-8:I[97367,["/_next/static/chunks/0qn8g2g4ojo85.js","/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
+2:I[65699,["/_next/static/chunks/15q07ppon2ql2.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0ve-ab~ut5ayn.js","/_next/static/chunks/0c5-_qcbzlcx_.js"],"ProductDetailClient"]
+8:I[97367,["/_next/static/chunks/15q07ppon2ql2.js","/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
 9:"$Sreact.suspense"
 3:T13aa,スタンダードZENITHに上質なシンプルアクセントで差をつける
 
@@ -111,7 +111,7 @@ JIS2種・SG
 採用大口形狀的脫卸部內部底部形狀，實現順暢的頭盔穿戴。
 耳周圍寬鬆空間
 通過預先設計耳周圍的空間，為耳朵周圍提供了寬裕的空間。
-※可容納最大φ50mm的揚聲器。0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"product":{"id":"DwEGBJ","name":"YJ-20 ZENITH Graphic オープンジェットヘルメット 02-シルバー","gender":"unisex","brand":"YAMAHA","category":"jet_helmet","prices":[{"size":"XS","prices":{"twd":{"price":6900,"discount_price":6300}}},{"size":"S","prices":{"twd":{"price":6900,"discount_price":6300}}},{"size":"M","prices":{"twd":{"price":6900,"discount_price":6300}}},{"size":"L","prices":{"twd":{"price":6900,"discount_price":6300}}},{"size":"XL","prices":{"twd":{"price":6900,"discount_price":6300}}},{"size":"XXL","prices":{"twd":{"price":6900,"discount_price":6300}}}],"images":["https://cdn.jsdelivr.net/gh/yukihelmet/images@main/DwEGBJ/1.webp"],"description":{"ja":"$3","zhTW":"$4"}}}],["$L5","$L6"],"$L7"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"afE-nKgtRrIBU6IBH39Sx"}
+※可容納最大φ50mm的揚聲器。0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"product":{"id":"DwEGBJ","name":"YJ-20 ZENITH Graphic オープンジェットヘルメット 02-シルバー","gender":"unisex","brand":"YAMAHA","category":"jet_helmet","prices":[{"size":"XS","prices":{"twd":{"price":6900,"discount_price":6300}}},{"size":"S","prices":{"twd":{"price":6900,"discount_price":6300}}},{"size":"M","prices":{"twd":{"price":6900,"discount_price":6300}}},{"size":"L","prices":{"twd":{"price":6900,"discount_price":6300}}},{"size":"XL","prices":{"twd":{"price":6900,"discount_price":6300}}},{"size":"XXL","prices":{"twd":{"price":6900,"discount_price":6300}}}],"images":["https://cdn.jsdelivr.net/gh/yukihelmet/images@main/DwEGBJ/1.webp"],"description":{"ja":"$3","zhTW":"$4"}}}],["$L5","$L6"],"$L7"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"ArnuJrN_fZT3zLFA-qMU6"}
 5:["$","script","script-0",{"src":"/_next/static/chunks/0ve-ab~ut5ayn.js","async":true}]
 6:["$","script","script-1",{"src":"/_next/static/chunks/0c5-_qcbzlcx_.js","async":true}]
 7:["$","$L8",null,{"children":["$","$9",null,{"name":"Next.MetadataOutlet","children":"$@a"}]}]
