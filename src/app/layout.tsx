@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Oswald, Noto_Sans_JP } from "next/font/google";
+import { Oswald, Noto_Sans_JP, Noto_Serif_TC } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/pages/header/Header";
 import { Footer } from "@/components/pages/footer/Footer";
@@ -16,6 +16,12 @@ const notoSansJP = Noto_Sans_JP({
   variable: "--font-noto-sans-jp",
   subsets: ["latin"],
   weight: ["400", "500", "700"],
+});
+
+const notoSerifTC = Noto_Serif_TC({
+  variable: "--font-serif",
+  subsets: ["latin"],
+  weight: ["400", "700"],
 });
 
 export const metadata: Metadata = {
@@ -35,7 +41,7 @@ export default function RootLayout({
   return (
     <html lang="zh-TW">
       <body
-        className={`${oswald.variable} ${notoSansJP.variable} h-full antialiased`}
+        className={`${oswald.variable} ${notoSansJP.variable} ${notoSerifTC.variable} h-full antialiased`}
       >
         <I18nProvider>
           <AuthProvider>

@@ -40,9 +40,9 @@ export function Footer() {
             <h3 className="font-semibold mb-4">{tf.customerService}</h3>
             <ul className="space-y-2 text-sm text-gray-400">
               <li><a href="/about" className="hover:text-white transition-colors">{tf.aboutUs}</a></li>
-              <li><a href="/contact" className="hover:text-white transition-colors">{tf.contactUs}</a></li>
-              <li><a href="/faq" className="hover:text-white transition-colors">{tf.faq}</a></li>
-                          </ul>
+              <li><a href="/privacy" className="hover:text-white transition-colors">{tf.privacyPolicy}</a></li>
+              <li><a href="/terms" className="hover:text-white transition-colors">{tf.termsOfService}</a></li>
+            </ul>
           </div>
 
           {/* Social */}
