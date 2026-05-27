@@ -1,0 +1,6 @@
+1:"$Sreact.fragment"
+2:I[65699,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0ve-ab~ut5ayn.js","/_next/static/chunks/0c5-_qcbzlcx_.js"],"ProductDetailClient"]
+3:I[97367,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
+4:"$Sreact.suspense"
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"product":{"id":"7DzxM1","name":"STR ハーフヘルメット WHITE","gender":"unisex","brand":"TNK工業","category":"half_helmet","prices":[{"size":"Free Size","prices":{"twd":{"price":2500,"discount_price":2300}}}],"images":["https://cdn.jsdelivr.net/gh/yukihelmet/images@main/7DzxM1/1.webp"],"description":{"ja":"清涼感内装を採用し、デザイン性の高いハーフヘルメットを実現しました。\n3つボタンがあるので汎用シールドの取り付けが可能です。\n\n\n\n125cc以下対応\n清涼感内装\nワンタッチホルダー\nJTシールド取付可能\nエアインテーク機能","zhTW":"採用清涼感內裝，實現了設計性高的半罩安全帽。\n有3個按鈕，因此可以安裝通用鏡片。\n\n125cc以下對應\n清涼感內裝\n一鍵式支架\n可安裝JT鏡片\n空氣進氣功能"}}}],[["$","script","script-0",{"src":"/_next/static/chunks/0ve-ab~ut5ayn.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/0c5-_qcbzlcx_.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"7wIOYdcIdglYCjTBYKes1"}
+5:null

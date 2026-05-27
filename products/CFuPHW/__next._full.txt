@@ -1,0 +1,86 @@
+1:"$Sreact.fragment"
+2:I[60195,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js"],"I18nProvider"]
+3:I[57951,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js"],"AuthProvider"]
+4:I[48757,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js"],"Header"]
+5:I[39756,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js"],"default"]
+6:I[37457,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js"],"default"]
+7:I[86520,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js"],"Footer"]
+9:I[97367,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
+a:"$Sreact.suspense"
+d:I[97367,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js"],"ViewportBoundary"]
+f:I[97367,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js"],"MetadataBoundary"]
+11:I[68027,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js"],"default",1]
+:HL["/_next/static/chunks/0vyhr97jfvqup.css","style"]
+:HL["/_next/static/chunks/09boug5i5fvqh.css","style"]
+:HL["/_next/static/chunks/017_zo198_vp7.css","style"]
+:HL["/_next/static/media/6ad1cda2f16975ee-s.p.0t8o_f0a-dk8w.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/ad9c66e761fed85a-s.p.0e4b2z5rxsmxh.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"c":["","products","CFuPHW"],"q":"","i":false,"f":[[["",{"children":["products",{"children":[["id","CFuPHW","d",null],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/0vyhr97jfvqup.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/09boug5i5fvqh.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/chunks/017_zo198_vp7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/02tzwvrtnpta..js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/0d3shmwh5_nmn.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"zh-TW","children":["$","body",null,{"className":"oswald_4d97067b-module__Q2dTya__variable noto_sans_jp_43a8d00c-module__snZIpq__variable h-full antialiased","children":["$","$L2",null,{"children":["$","$L3",null,{"children":[["$","$L4",null,{}],["$","main",null,{"className":"flex-1 pt-16","children":["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","$L7",null,{}]]}]}]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L8",[["$","script","script-0",{"src":"/_next/static/chunks/0ve-ab~ut5ayn.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/0c5-_qcbzlcx_.js","async":true,"nonce":"$undefined"}]],["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]]}],{},null,false,null]},null,false,"$@c"]},null,false,"$@c"]},null,false,null],["$","$1","h",{"children":[null,["$","$Ld",null,{"children":"$Le"}],["$","div",null,{"hidden":true,"children":["$","$Lf",null,{"children":["$","$a",null,{"name":"Next.Metadata","children":"$L10"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$11",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/0vyhr97jfvqup.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/09boug5i5fvqh.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/chunks/017_zo198_vp7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"7wIOYdcIdglYCjTBYKes1"}
+12:[]
+c:"$W12"
+e:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+13:I[65699,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0ve-ab~ut5ayn.js","/_next/static/chunks/0c5-_qcbzlcx_.js"],"ProductDetailClient"]
+14:Tdb1,AGV K3 
+MATT BLACK (マットブラック)
+
+クラシックなマットブラックとメタリックを採用したシンプルなデザイン。 
+
+高耐久性熱可塑性素材のシェル、多密度のEPSやウルトラビジョンにより、最も厳しいとされる欧州安全規格ECE2206認証を満たすだけでなく、さらに上回った性能を発揮しています。 
+グローブを装着したままで操作可能なインナーバイザーは、常に最適な視界を提供します。キズ防止仕様のパノラマバイザー「ウルトラビジョン」は、周辺環境を完全に識別できるよう縦横方向ともに広い視野を確保します。
+防曇性に優れたMaxPinlockを装着することで、低温多湿の日でもクリアな視界を確保します。  
+内装にはEyewear Readyを採用しており、ライディング中に眼鏡やサングラスを快適に装着できます。 
+
+K3のエアロダイナミクスは、130km/hの巡航速度で動的重量ゼロを達成するように設計されており、首の筋肉への負担を軽減することで、ライディングに集中することができます。
+着脱可能な内側を柔らかなDry-Comfortで仕上げることで、快適性においても妥協していません。 
+欧州安全規格ECE2206認証、SG認証取得、アジアンフィット。 
+
+アジアンフィットについて： 
+日本国内の正規販売ネットワーク店で取り扱うAGVの「アジアンフィット」とは、日本人の頭の形にあわせてデザインされており、内装もオリジナルのものを採用しております。
+長時間の着用でも違和感なく、快適にご使用頂けるようになっており、欧米向けにデザインされた海外仕様とは異なります。 
+また2年間の無料修理保証が付随するほか、内装交換時にも、国内の同ネットワーク店でアジアンフィット適合の専用パッドをご用意しておりますので、お気に入りのグラフィックを長くご愛用頂けます。 
+
+スペック
+【通気性】
+調節可能なベンチレーション
+背面に排気ベンチレーション1箇所
+前面にベンチレーション4箇所
+
+【シェル】
+耐久性の高いサーモプラスチック
+シェルサイズ3種類
+鎖骨を安全に守るシェイプ
+
+【エアロダイナミクス】
+着脱可能なスポイラー
+エアロダイナミック性能を最大限引き出し、130km/h (80mph)でダイナミックウェイトがゼロになるよう設計されたシェル形状
+すべてのライディングポジションに対応
+
+【内部】
+着脱・洗浄可能な内部
+ステッチのないシームレスな構造
+メガネをかけてもフィットするデザイン
+汎用通信システムに対応
+アジアンフィット
+2Dry：瞬間的に汗を吸収
+
+【バイザー】
+アンチスクラッチ
+最大190°の水平視野角
+マイクロオープニングシステム
+特許取得済みのエクストラクイックリリースシステム
+道具を使用せずに着脱可能なアンチスクラッチサンバイザーを内蔵
+マルチステップ バイザーメカニズム
+100% Max Vision Pinlockを含む
+UVプロテクション
+
+【リテンションシステム(あご紐)】
+Double D (Dリング)
+
+【含まれる付属品】
+ウィンドプロテクター
+
+【重量】
+1,560g (ファーストシェルサイズ)8:["$","$L13",null,{"product":{"id":"CFuPHW","name":"K3 JIST Asian Fit フルフェイスヘルメット MATT BLACK","gender":"unisex","brand":"AGV","category":"full_face_helmet","prices":[{"size":"S(55-56cm)","prices":{"twd":{"price":11100,"discount_price":11100}}},{"size":"M(57-58cm)","prices":{"twd":{"price":11100,"discount_price":11100}}},{"size":"L(59-60cm)","prices":{"twd":{"price":11100,"discount_price":11100}}},{"size":"XL(61-62cm)","prices":{"twd":{"price":11100,"discount_price":11100}}}],"images":["https://cdn.jsdelivr.net/gh/yukihelmet/images@main/CFuPHW/1.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/CFuPHW/2.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/CFuPHW/3.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/CFuPHW/4.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/CFuPHW/5.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/CFuPHW/6.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/CFuPHW/7.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/CFuPHW/8.webp"],"description":{"ja":"$14","zhTW":"AGV K3\nMATT BLACK (啞光黑)\n\n採用經典的啞光黑與金屬色的簡約設計。\n\n高耐久性熱可塑性材料的外殼、多密度的EPS及超視野，不僅滿足最嚴格的歐洲安全標準ECE2206認證，還展現出更卓越的性能。\n可在佩戴手套的情況下操作的內襯遮陽片，始終提供最佳的視野。防刮仕様的全景鏡片「超視野」，確保能夠完全識別周圍環境，並在縱橫方向上提供寬廣的視野。\n透過安裝優異的防霧MaxPinlock，即使在低溫潮濕的日子也能確保清晰的視野。\n內裝採用Eyewear Ready設計，讓您在騎乘中能夠舒適地佩戴眼鏡或太陽眼鏡。\n\nK3的空氣動力學設計旨在以130km/h的巡航速度達成動態重量為零，減輕頸部肌肉的負擔，讓您能夠專注於騎乘。\n可拆卸的內襯使用柔軟的Dry-Comfort材料，對舒適性也毫不妥協。\n歐洲安全標準ECE2206認證，SG認證取得，亞洲適配。\n\n關於亞洲適配：\n在日本國內的正規銷售網絡店中販售的AGV「亞洲適配」是根據日本人的頭型設計，內裝也採用原創材料。\n即使長時間佩戴也不會感到不適，能夠舒適使用，與為歐美市場設計的海外版本不同。\n此外，還附帶2年的免費維修保證，內裝更換時，國內同網絡店也提供適合亞洲適配的專用墊片，讓您能夠長時間享用喜愛的圖案。\n\n規格\n【通氣性】\n可調式通氣\n背面有1處排氣通氣\n前面有4處通氣\n\n【外殼】\n耐久性高的熱塑性塑料\n外殼尺寸3種\n安全保護鎖骨的形狀\n\n【空氣動力學】\n可拆卸的擾流板\n最大限度發揮空氣動力學性能，設計成在130km/h (80mph)時動態重量為零的外殼形狀\n適應所有騎乘姿勢\n\n【內部】\n可拆卸・可清洗的內部\n無縫結構\n即使佩戴眼鏡也能合身的設計\n兼容通用通訊系統\n亞洲適配\n2Dry：瞬間吸汗\n\n【鏡片】\n防刮\n最大190°的水平視野角\n微開口系統\n專利的超快速釋放系統\n內建無需工具即可拆卸的防刮太陽鏡片\n多步驟鏡片機構\n包含100% Max Vision Pinlock\nUV保護\n\n【固定系統(下巴帶)】\nDouble D (D環)\n\n【包含的附屬品】\n風擋\n\n【重量】\n1,560g (第一外殼尺寸)"}}}]
+15:I[27201,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js"],"IconMark"]
+b:null
+10:[["$","title","0",{"children":"K3 JIST Asian Fit フルフェイスヘルメット MATT BLACK | Yuki Helmet"}],["$","meta","1",{"name":"description","content":"[AGV] K3 JIST Asian Fit フルフェイスヘルメット MATT BLACK 日本直送，熱銷現貨在庫"}],["$","meta","2",{"property":"og:title","content":"K3 JIST Asian Fit フルフェイスヘルメット MATT BLACK | Yuki Helmet"}],["$","meta","3",{"property":"og:description","content":"[AGV] K3 JIST Asian Fit フルフェイスヘルメット MATT BLACK 日本直送，熱銷現貨在庫"}],["$","meta","4",{"property":"og:image","content":"https://cdn.jsdelivr.net/gh/yukihelmet/images@main/CFuPHW/1.webp"}],["$","meta","5",{"property":"og:type","content":"website"}],["$","meta","6",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","7",{"name":"twitter:title","content":"K3 JIST Asian Fit フルフェイスヘルメット MATT BLACK | Yuki Helmet"}],["$","meta","8",{"name":"twitter:description","content":"[AGV] K3 JIST Asian Fit フルフェイスヘルメット MATT BLACK 日本直送，熱銷現貨在庫"}],["$","meta","9",{"name":"twitter:image","content":"https://cdn.jsdelivr.net/gh/yukihelmet/images@main/CFuPHW/1.webp"}],["$","link","10",{"rel":"icon","href":"/favicon.ico?favicon.0x3dzn~oxb6tn.ico","sizes":"256x256","type":"image/x-icon"}],["$","link","11",{"rel":"icon","href":"/logo.svg"}],["$","$L15","12",{}]]

@@ -1,0 +1,61 @@
+1:"$Sreact.fragment"
+2:I[60195,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js"],"I18nProvider"]
+3:I[57951,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js"],"AuthProvider"]
+4:I[48757,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js"],"Header"]
+5:I[39756,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js"],"default"]
+6:I[37457,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js"],"default"]
+7:I[86520,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js"],"Footer"]
+9:I[97367,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
+a:"$Sreact.suspense"
+d:I[97367,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js"],"ViewportBoundary"]
+f:I[97367,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js"],"MetadataBoundary"]
+11:I[68027,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js"],"default",1]
+:HL["/_next/static/chunks/0vyhr97jfvqup.css","style"]
+:HL["/_next/static/chunks/09boug5i5fvqh.css","style"]
+:HL["/_next/static/chunks/017_zo198_vp7.css","style"]
+:HL["/_next/static/media/6ad1cda2f16975ee-s.p.0t8o_f0a-dk8w.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/ad9c66e761fed85a-s.p.0e4b2z5rxsmxh.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"c":["","products","pRssfw"],"q":"","i":false,"f":[[["",{"children":["products",{"children":[["id","pRssfw","d",null],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/0vyhr97jfvqup.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/09boug5i5fvqh.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/chunks/017_zo198_vp7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/02tzwvrtnpta..js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/0d3shmwh5_nmn.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"zh-TW","children":["$","body",null,{"className":"oswald_4d97067b-module__Q2dTya__variable noto_sans_jp_43a8d00c-module__snZIpq__variable h-full antialiased","children":["$","$L2",null,{"children":["$","$L3",null,{"children":[["$","$L4",null,{}],["$","main",null,{"className":"flex-1 pt-16","children":["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","$L7",null,{}]]}]}]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L8",[["$","script","script-0",{"src":"/_next/static/chunks/0ve-ab~ut5ayn.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/0c5-_qcbzlcx_.js","async":true,"nonce":"$undefined"}]],["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]]}],{},null,false,null]},null,false,"$@c"]},null,false,"$@c"]},null,false,null],["$","$1","h",{"children":[null,["$","$Ld",null,{"children":"$Le"}],["$","div",null,{"hidden":true,"children":["$","$Lf",null,{"children":["$","$a",null,{"name":"Next.Metadata","children":"$L10"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$11",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/0vyhr97jfvqup.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/09boug5i5fvqh.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/chunks/017_zo198_vp7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"7wIOYdcIdglYCjTBYKes1"}
+12:[]
+c:"$W12"
+e:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+13:I[65699,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0ve-ab~ut5ayn.js","/_next/static/chunks/0c5-_qcbzlcx_.js"],"ProductDetailClient"]
+14:Tc13,ドライファイバー素材のジェットヘルメット
+
+●ドライファイバーシェル
+ドライファイバーシェルは、プレス時に高い圧力を均等に加えて余分な樹脂をシェルに残さず、厚みを安定させることで耐衝撃性と分散性を向上させ、安全性を損なうことなく軽量化させたシェルです。
+
+●別売「フェイスガード」を取り付けてワイドビューフルフェイスに換装
+別売のフェイスガードを装着するとG-FORCE SS JETがワイドビューフルフェイスになります！
+しかもワンタッチで簡単に装着可能！
+フェイスガードにはチンカーテンも付属。下からの風の巻き込みを防ぎます。
+
+●ヘルメット内部に風の通り道をつけることでヘルメットの内部も快適に
+内装には内部EPSにエア・レールが刻まれており、ベンチレーションから取り入れた空気を効率よくヘルメット全体に流すことで快適性を向上させました。
+
+●街乗り・ツーリングで大活躍。ダブルバイザー。
+側面のレバーをスライドさせるだけですばやくインナーバイザーを出し入れ。日差しの強いとき、突然の逆光でもサングラスのような効果が得られます。
+
+●アジャスタブルチークパッド
+カスタマイズ可能な内装スポンジ。
+チークパッドのスポンジを取り外してカスタマイズすることが可能です。
+
+●全部洗える内装パッド
+内装パッドはすべて洗えるので、いつでも清潔に使えます。内装パッドは冷感素材の「スーパークールネスフィット」なので、夏でも快適に使えます。
+
+●M-Slimサイズ誕生
+Mサイズのセンターパッドと、SサイズのチークパッドがセットになったM-Slimサイズが新たに登場！また、このサイズには、内装調整用スポンジが付属します。
+
+●シールドデュアルアクションクロージング。高い機密性。
+G-FORCE SSシリーズのシールドギアに採用されたデュアル・アクション・クロージングは5段階でシールドを開閉します。シールドの開閉タイミングに応じてシールドベース自体が可動してシールドを手前に引き寄せ、最終の5段目のギアで完全密閉します。
+シールドをヘルメット側のワイパーモールに引き寄せ超密閉を実現。シールドとワイパーモールの隙間から雨などの侵入も防ぎます。
+
+●メガネ、サングラスのツルによる圧迫を軽減
+メガネ着用の方、愛用のサングラスを併用したい方のために。
+チークパッド上端部のメガネのツルがあたる部分をスポンジの形状で空間に余裕を持たせることで、メガネのツルによる圧迫を軽減しました。
+
+商品の詳しい情報はウインズジャパンHPをご覧ください。
+https://www.wins-japan.com/helmet/g-force-ss-jet.html8:["$","$L13",null,{"product":{"id":"pRssfw","name":"G-FORCE SS JET typeC マットブラック ジェットヘルメット","gender":"unisex","brand":"WINS JAPAN","category":"jet_helmet","prices":[{"size":"M","prices":{"twd":{"price":9000,"discount_price":9000}}},{"size":"L","prices":{"twd":{"price":9000,"discount_price":9000}}},{"size":"XL","prices":{"twd":{"price":9000,"discount_price":9000}}},{"size":"XXS","prices":{"twd":{"price":9000,"discount_price":9000}}},{"size":"XS","prices":{"twd":{"price":9000,"discount_price":9000}}},{"size":"S","prices":{"twd":{"price":9000,"discount_price":9000}}}],"images":["https://cdn.jsdelivr.net/gh/yukihelmet/images@main/pRssfw/1.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/pRssfw/2.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/pRssfw/3.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/pRssfw/4.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/pRssfw/5.webp"],"description":{"ja":"$14","zhTW":"乾纖維材質的噴射頭盔\n\n●乾纖維外殼\n乾纖維外殼是在壓製時均勻施加高壓，避免多餘的樹脂殘留在外殼上，通過穩定厚度來提高耐衝擊性和分散性，實現輕量化而不損害安全性的外殼。\n\n●可另購「面罩」安裝，轉換為寬視野全罩\n安裝可另購的面罩後，G-FORCE SS JET將變成寬視野全罩！而且只需一鍵即可輕鬆安裝！面罩還附有下巴簾，防止從下方進風。\n\n●在頭盔內部設置風道，讓頭盔內部也舒適\n內裝中內部EPS刻有空氣導軌，通過通氣口引入的空氣能有效地流通整個頭盔，提高舒適性。\n\n●在城市騎乘和旅行騎乘中大放異彩。雙鏡片。\n只需滑動側面的槓桿，即可快速進出內襯遮陽片。在陽光強烈或突然逆光的情況下，能獲得如同墨鏡般的效果。\n\n●可調式頰墊\n可自訂的內裝海綿。\n可拆卸頰墊的海綿以便進行自訂。\n\n●全可清洗的內裝墊\n內裝墊全部可清洗，因此隨時保持清潔。內裝墊使用冷感材質的「超涼感合身」，即使在夏天也能舒適使用。\n\n●M-Slim尺寸誕生\nM尺寸的中央墊和S尺寸的頰墊組合而成的M-Slim尺寸全新登場！此外，這個尺寸還附有內裝調整用海綿。\n\n●鏡片雙動作閉合。高密封性。\nG-FORCE SS系列的鏡片裝備了雙動作閉合，能以5個檔位開關鏡片。根據鏡片的開關時機，鏡片基座本身會活動，將鏡片拉向前方，最終在第5檔完全密閉。\n鏡片被拉向頭盔側的雨刷條，實現超密閉。防止雨水等從鏡片和雨刷條的縫隙進入。\n\n●減輕眼鏡、墨鏡的壓迫\n為了配戴眼鏡的人和想要同時使用喜愛的墨鏡的人。\n在頰墊上端的眼鏡腿接觸部分，通過海綿的形狀留出空間，減輕眼鏡腿的壓迫。\n\n商品的詳細資訊請參閱WINS JAPAN網站。\nhttps://www.wins-japan.com/helmet/g-force-ss-jet.html"}}}]
+15:I[27201,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js"],"IconMark"]
+b:null
+10:[["$","title","0",{"children":"G-FORCE SS JET typeC マットブラック ジェットヘルメット | Yuki Helmet"}],["$","meta","1",{"name":"description","content":"[WINS JAPAN] G-FORCE SS JET typeC マットブラック ジェットヘルメット 日本直送，熱銷現貨在庫"}],["$","meta","2",{"property":"og:title","content":"G-FORCE SS JET typeC マットブラック ジェットヘルメット | Yuki Helmet"}],["$","meta","3",{"property":"og:description","content":"[WINS JAPAN] G-FORCE SS JET typeC マットブラック ジェットヘルメット 日本直送，熱銷現貨在庫"}],["$","meta","4",{"property":"og:image","content":"https://cdn.jsdelivr.net/gh/yukihelmet/images@main/pRssfw/1.webp"}],["$","meta","5",{"property":"og:type","content":"website"}],["$","meta","6",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","7",{"name":"twitter:title","content":"G-FORCE SS JET typeC マットブラック ジェットヘルメット | Yuki Helmet"}],["$","meta","8",{"name":"twitter:description","content":"[WINS JAPAN] G-FORCE SS JET typeC マットブラック ジェットヘルメット 日本直送，熱銷現貨在庫"}],["$","meta","9",{"name":"twitter:image","content":"https://cdn.jsdelivr.net/gh/yukihelmet/images@main/pRssfw/1.webp"}],["$","link","10",{"rel":"icon","href":"/favicon.ico?favicon.0x3dzn~oxb6tn.ico","sizes":"256x256","type":"image/x-icon"}],["$","link","11",{"rel":"icon","href":"/logo.svg"}],["$","$L15","12",{}]]

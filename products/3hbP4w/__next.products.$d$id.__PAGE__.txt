@@ -1,0 +1,33 @@
+1:"$Sreact.fragment"
+2:I[65699,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0ve-ab~ut5ayn.js","/_next/static/chunks/0c5-_qcbzlcx_.js"],"ProductDetailClient"]
+4:I[97367,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:Tc30,Arai アライ VZ-RAM VZ ラム
+さらなるプロテクション進化のステージに生まれ変わり、ライダーの新しい楽しみを広げる新世代オープンフェイス
+
+特徴
+●VAS-Zシールドシステム
+シールドシステムの位置を下げるということは、本来開閉できない位置にシールド取付け部を下げるということになります。
+SZ-Ram4のシールド回転軸となるポイントは1点ですが、一方、VAS(ヴァス)Zの回転軸は、ヘルメット上に仮想軸として存在します。
+シールドの開閉時、仮想軸に基づいたファーストレールと、シールド取付け部を回転軸とするセカンドレール、このふたつのレールを各々のガイドフックが可変して軌道。
+このデュアルレール軌道の組み合わせにより可能にしました。この(VAS-Z)により、シールドシステムの位置を下げつつ、シールドの開閉が可能になったのです。
+
+●PB-cLcスクエア帽体
+F1用ヘルメットの開発過程で生まれたSFB(Super Fiber Belted)プロテクション。アライ独自のスーパーファイバー製ベルトを上部窓カットラインに並列に配し剛性を強化。
+万が一の際、この特殊ベルトが開口部分で強い衝撃を受けた際に発生しやすいクラックの広がりを抑制することができる。
+帽体主材料は、通常のグラスファイバーより、6倍のコストのかかる高価な材料の最新のスーパーファイバーをアライが独占使用している。
+通常のグラスファイバーよりも繊維密度を高め、引張り強度・圧縮強度ともに40％も高い特殊なグラスファイバーに、さらに改良を重ねた結果生まれたアライ独自の最新素材。
+「頭を護る性能」には欠かせない強靭で粘りのあるな帽体を構成する最適な素材である。
+さらに、複合素材として組み合わされる比重の軽い有機素材ARマット(内部素材)も、新しいスーパーファイバーと密着性の高いものへと改良し、強度を高めている。
+また、フラッグシップモデル〈RX-7X〉と同じ樹脂を使用し、強靭ながらも軽量化を追求した。
+高度な技術を持つシェルエキスパートがハンドメイドで一つ一つ丁寧に組み込み帽体を創り上げ、「剛さ」「軽さ」「粘り」を実現した最強の帽体へと進化している。
+
+-------------------------------
+モデル名：VZ-RAM(VZ・ラム)
+帽体：PB-cLc2(ペリフェラリー・ベルテッド・コンプレックス・ラミネート・コンストラクション・スクエア)
+規格：スネル・JIS
+シールドシステム：VAS-Zシールドシステム
+シールド：VAS-Z ブローシールド ライトスモーク標準装備　(※曇り止めピンロックシートは別売)
+内装：ハイフィッティング・アジャスタブル内装(抗菌・消臭・防汚内装)
+サイズ：(54)(55-56)(57-58)(59-60)(61-62)0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"product":{"id":"3hbP4w","name":"VZ-RAM (VZ ラム) オープンフェイスヘルメット 山城コラボモデル ビビッドブルー","gender":"unisex","brand":"Arai","category":"jet_helmet","prices":[{"size":"S(55-56cm)","prices":{"twd":{"price":15800,"discount_price":15800}}},{"size":"M(57-58cm)","prices":{"twd":{"price":15800,"discount_price":15800}}},{"size":"L(59-60cm)","prices":{"twd":{"price":15800,"discount_price":15800}}},{"size":"XL(61-62cm)","prices":{"twd":{"price":15800,"discount_price":15800}}}],"images":["https://cdn.jsdelivr.net/gh/yukihelmet/images@main/3hbP4w/1.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/3hbP4w/2.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/3hbP4w/3.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/3hbP4w/4.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/3hbP4w/5.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/3hbP4w/6.webp"],"description":{"ja":"$3","zhTW":"Arai アライ VZ-RAM VZ ラム\n再度進化的保護階段誕生，擴展騎士的新樂趣的新世代開放式頭盔\n\n特點\n●VAS-Z鏡片系統\n鏡片系統的位置降低，意味著將鏡片安裝部降低到本來無法開閉的位置。\nSZ-Ram4的鏡片旋轉軸為1點，而VAS(ヴァス)Z的旋轉軸則作為虛擬軸存在於頭盔上。\n在鏡片開閉時，基於虛擬軸的第一導軌和以鏡片安裝部為旋轉軸的第二導軌，這兩條導軌各自的導向鉤可變化其軌道。\n這種雙導軌軌道的組合使其成為可能。透過這個(VAS-Z)，在降低鏡片系統位置的同時，實現了鏡片的開閉。\n\n●PB-cLc方形帽體\n在F1頭盔開發過程中誕生的SFB(Super Fiber Belted)保護。Arai獨特的超纖維製帶子平行排列於上部窗切線，增強剛性。\n萬一發生意外，這種特殊帶子能抑制在開口部分受到強烈衝擊時容易產生的裂紋擴展。\n帽體主要材料是Arai獨佔使用的最新超纖維，成本是普通玻璃纖維的6倍。\n比普通玻璃纖維更高的纖維密度，拉伸強度和壓縮強度均高出40%的特殊玻璃纖維，經過進一步改良而成的Arai獨特最新材料。\n「保護頭部的性能」不可或缺的強韌且有韌性的帽體所構成的最佳材料。\n此外，作為複合材料組合的比重輕的有機材料AR墊(內部材料)也經過改良，與新的超纖維的密合性提高，增強了強度。\n同時，使用與旗艦型號〈RX-7X〉相同的樹脂，追求強韌而輕量化。\n擁有高超技術的外殼專家手工精心組裝每一個帽體，實現了「剛性」「輕量」「韌性」的最強帽體的進化。\n\n-------------------------------\n模型名稱：VZ-RAM(VZ・ラム)\n帽體：PB-cLc2(周邊帶式複合層壓結構方形)\n規格：SNELL・JIS\n鏡片系統：VAS-Z鏡片系統\n鏡片：VAS-Z 吹風鏡片 淺煙標準裝備　(※防霧釘鎖片另售)\n內裝：高配戴可調式內裝(抗菌・除臭・防污內裝)\n尺寸：(54)(55-56)(57-58)(59-60)(61-62)"}}}],[["$","script","script-0",{"src":"/_next/static/chunks/0ve-ab~ut5ayn.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/0c5-_qcbzlcx_.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"7wIOYdcIdglYCjTBYKes1"}
+6:null

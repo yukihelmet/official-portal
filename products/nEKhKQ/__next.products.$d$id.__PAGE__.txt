@@ -1,0 +1,6 @@
+1:"$Sreact.fragment"
+2:I[65699,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0ve-ab~ut5ayn.js","/_next/static/chunks/0c5-_qcbzlcx_.js"],"ProductDetailClient"]
+3:I[97367,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
+4:"$Sreact.suspense"
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"product":{"id":"nEKhKQ","name":"ZZ HELMET ジェットヘルメット BROWN","gender":"unisex","brand":"RIDEZ","category":"jet_helmet","prices":[{"size":"59-60cm","prices":{"twd":{"price":4700,"discount_price":4700}}},{"size":"61cm","prices":{"twd":{"price":4700,"discount_price":4700}}}],"images":["https://cdn.jsdelivr.net/gh/yukihelmet/images@main/nEKhKQ/1.webp"],"description":{"ja":"クラッシクな装いが際立つ、上品なチェックパターンと後頭部から首元まで美しくシェイプされたシルエットのヘルメットになています。\n内装は着脱可能で、洗濯できます。","zhTW":"經典的裝扮突顯出，上品的格紋圖案和從後腦部到頸部美麗塑形的輪廓的頭盔。\n內襯可拆卸，並且可以清洗。"}}}],[["$","script","script-0",{"src":"/_next/static/chunks/0ve-ab~ut5ayn.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/0c5-_qcbzlcx_.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"7wIOYdcIdglYCjTBYKes1"}
+5:null

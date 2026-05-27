@@ -1,0 +1,28 @@
+1:"$Sreact.fragment"
+2:I[65699,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0ve-ab~ut5ayn.js","/_next/static/chunks/0c5-_qcbzlcx_.js"],"ProductDetailClient"]
+4:I[97367,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:Tc0a,MFJ公認 レーシングモデルが復活
+レースにも使えるドライカーボンヘルメット
+A-FORCE RRは、MFJの高い基準をクリアしたレースにも使用できるドライカーボンヘルメットです。
+時間が許すときにはレースに現役で参戦するウインズジャパン代表の片岡が自ら指揮を執り、『こんな機能があれば』『こんな快適さがあれば』をこのヘルメットにとことん詰め込みました。
+カーボン素材ならではの「強さ」と「軽さ」、エアロフォルムによる風圧でのライダーへの負荷軽減、大流量ベンチレーションによる快適性を兼ね備え、長時間のライディングでも集中力を維持し、体への負担も軽減します。
+A-FORCE RRは、安全性・快適性・実用性を高次元で融合した、あらゆるライダーにおすすめのヘルメットです。
+
+・走行中の負荷を軽減するエアロフォルム
+A-FORCE RRは、風洞実験を行なった結果をベースにエアロ形状を設計しており、走行中の空気の流れを滑らかにします。 風による押し込みや浮き上がりをおさえ、ライダーへの負担を軽減します。
+
+・背面の乱流を抑えるリアスポイラー
+リアスポイラーは、ヘルメットのリフトや背面に発生する乱流を抑えます。また、乱流を利用して負圧を発生させてヘルメット内部の空気をリアエキゾーストから外に排出します。
+
+・チンスポイラー
+チンスポイラーは、あご下で発生する乱流を抑え、滑らかに風を流すことで、ヘルメットの浮き上がりや、ヘルメット内部の環境の変化を安定させます。
+別売チンカーテンを併用するとさらに空気の流れが安定します。
+
+
+大流量ベンチレーション
+従来製品の約3倍の吸気流量！かつてない快適さを実現
+物理的に安全性の高いヘルメットであっても、ヘルメット内部の環境が悪いとライダーの集中力が低下し、判断力や反応速度に影響を与え、重大なリスクにつながります。
+A-FORCE RRには、合計４つのベンチレーションが装備。従来品の2倍（高さ6ｍｍ→12mm）の開口部となり、吸入穴も倍にふえた大流量トップベンチレーション、新設サイドベンチレーションに加え独自設計によるリンク式回転ルーバーを採用し、吸気流量を大幅にUPし、ライディングポジションの変化にも対応するマウスベンチレーションの組み合わせで圧倒的な吸気性能を実現しました。
+また、リアスポイラーの巻き込み乱流を利用したリアエキゾーストからの負圧排気でヘルメット内部の空気が常に入れ替わり、これにより、走行中でもヘルメット内部の熱気やこもった空気を効率的に排出し、かつてない快適さをライダーに提供します。0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"product":{"id":"687l6h","name":"A-FORCE RR フルフェイスヘルメット","gender":"unisex","brand":"WINS JAPAN","category":"full_face_helmet","prices":[{"size":"XXS","prices":{"twd":{"price":15800,"discount_price":15800}}},{"size":"XS","prices":{"twd":{"price":15800,"discount_price":15800}}},{"size":"S","prices":{"twd":{"price":15800,"discount_price":15800}}},{"size":"M","prices":{"twd":{"price":15800,"discount_price":15800}}},{"size":"L","prices":{"twd":{"price":15800,"discount_price":15800}}},{"size":"XL","prices":{"twd":{"price":15800,"discount_price":15800}}}],"images":["https://cdn.jsdelivr.net/gh/yukihelmet/images@main/687l6h/1.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/687l6h/2.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/687l6h/3.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/687l6h/4.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/687l6h/5.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/687l6h/6.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/687l6h/7.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/687l6h/8.webp"],"description":{"ja":"$3","zhTW":"MFJ公認的賽車型號復活\n可用於賽事的乾碳頭盔\nA-FORCE RR是通過MFJ高標準的可用於賽事的乾碳頭盔。\n當時間允許時，Winds Japan的代表片岡親自指揮，將「如果有這樣的功能」和「如果有這樣的舒適性」徹底融入這款頭盔中。\n碳材料特有的「強度」和「輕量」，通過空氣動力學形狀減輕對騎士的風壓負擔，並具備大流量通氣的舒適性，即使長時間騎乘也能保持專注，減輕對身體的負擔。\nA-FORCE RR是將安全性、舒適性和實用性高次元融合，推薦給所有騎士的頭盔。\n\n・減輕行駛中負擔的空氣動力學形狀\nA-FORCE RR基於風洞實驗的結果設計了空氣動力學形狀，平滑行駛中的空氣流動。抑制風的推壓和浮起，減輕騎士的負擔。\n\n・抑制背面亂流的後擾流板\n後擾流板抑制頭盔的升力和背面產生的亂流。此外，利用亂流產生負壓，將頭盔內部的空氣從後排氣口排出。\n\n・下巴擾流板\n下巴擾流板抑制下巴下方產生的亂流，平滑風流動，穩定頭盔的浮起和頭盔內部環境的變化。搭配另售的下巴簾使用，空氣流動會更加穩定。\n\n大流量通氣\n吸氣流量約為傳統產品的3倍！實現前所未有的舒適性\n即使是物理上安全性高的頭盔，如果頭盔內部環境不佳，騎士的專注力會下降，影響判斷力和反應速度，導致重大風險。\nA-FORCE RR配備了總共4個通氣口。開口面積是傳統產品的2倍（高度6mm→12mm），吸入孔也增加了2倍的大流量頂部通氣，新增的側通氣口以及獨特設計的連結式旋轉百葉窗，顯著提升了吸氣流量，並通過與騎乘姿勢變化相適應的口部通氣組合實現了壓倒性的吸氣性能。\n此外，利用後擾流板的捲入亂流產生的負壓排氣，頭盔內部的空氣不斷更換，從而在行駛中有效排出頭盔內部的熱氣和悶氣，為騎士提供前所未有的舒適性。"}}}],[["$","script","script-0",{"src":"/_next/static/chunks/0ve-ab~ut5ayn.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/0c5-_qcbzlcx_.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"7wIOYdcIdglYCjTBYKes1"}
+6:null

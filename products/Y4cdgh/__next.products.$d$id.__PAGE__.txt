@@ -1,0 +1,6 @@
+1:"$Sreact.fragment"
+2:I[65699,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0ve-ab~ut5ayn.js","/_next/static/chunks/0c5-_qcbzlcx_.js"],"ProductDetailClient"]
+3:I[97367,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
+4:"$Sreact.suspense"
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"product":{"id":"Y4cdgh","name":"TS-28R ハーフヘルメット MATBLACK","gender":"unisex","brand":"TNK工業","category":"half_helmet","prices":[{"size":"Free Size","prices":{"twd":{"price":2200,"discount_price":2200}}}],"images":["https://cdn.jsdelivr.net/gh/yukihelmet/images@main/Y4cdgh/1.webp"],"description":{"ja":"余計な機能をすべて取り除き、圧倒的な価格を実現しました。\n\n125cc以下対応\nワンタッチホルダー","zhTW":"去除了所有多餘的功能，實現了壓倒性的價格。\n\n適用於125cc以下\n一鍵式支架"}}}],[["$","script","script-0",{"src":"/_next/static/chunks/0ve-ab~ut5ayn.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/0c5-_qcbzlcx_.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"7wIOYdcIdglYCjTBYKes1"}
+5:null

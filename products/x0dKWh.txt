@@ -1,0 +1,79 @@
+1:"$Sreact.fragment"
+2:I[60195,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js"],"I18nProvider"]
+3:I[57951,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js"],"AuthProvider"]
+4:I[48757,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js"],"Header"]
+5:I[39756,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js"],"default"]
+6:I[37457,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js"],"default"]
+7:I[86520,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js"],"Footer"]
+9:I[97367,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
+a:"$Sreact.suspense"
+d:I[97367,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js"],"ViewportBoundary"]
+f:I[97367,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js"],"MetadataBoundary"]
+11:I[68027,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js"],"default",1]
+:HL["/_next/static/chunks/0vyhr97jfvqup.css","style"]
+:HL["/_next/static/chunks/09boug5i5fvqh.css","style"]
+:HL["/_next/static/chunks/017_zo198_vp7.css","style"]
+:HL["/_next/static/media/6ad1cda2f16975ee-s.p.0t8o_f0a-dk8w.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/ad9c66e761fed85a-s.p.0e4b2z5rxsmxh.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"c":["","products","x0dKWh"],"q":"","i":false,"f":[[["",{"children":["products",{"children":[["id","x0dKWh","d",null],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/0vyhr97jfvqup.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/09boug5i5fvqh.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/chunks/017_zo198_vp7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/02tzwvrtnpta..js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/0d3shmwh5_nmn.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"zh-TW","children":["$","body",null,{"className":"oswald_4d97067b-module__Q2dTya__variable noto_sans_jp_43a8d00c-module__snZIpq__variable h-full antialiased","children":["$","$L2",null,{"children":["$","$L3",null,{"children":[["$","$L4",null,{}],["$","main",null,{"className":"flex-1 pt-16","children":["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","$L7",null,{}]]}]}]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L8",[["$","script","script-0",{"src":"/_next/static/chunks/0ve-ab~ut5ayn.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/0c5-_qcbzlcx_.js","async":true,"nonce":"$undefined"}]],["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]]}],{},null,false,null]},null,false,"$@c"]},null,false,"$@c"]},null,false,null],["$","$1","h",{"children":[null,["$","$Ld",null,{"children":"$Le"}],["$","div",null,{"hidden":true,"children":["$","$Lf",null,{"children":["$","$a",null,{"name":"Next.Metadata","children":"$L10"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$11",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/0vyhr97jfvqup.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/09boug5i5fvqh.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/chunks/017_zo198_vp7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"7wIOYdcIdglYCjTBYKes1"}
+12:[]
+c:"$W12"
+e:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+13:I[65699,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0ve-ab~ut5ayn.js","/_next/static/chunks/0c5-_qcbzlcx_.js"],"ProductDetailClient"]
+14:Tb9f,ITALIA CARBONIO FORGIATO は従来のカーボンヘルメットが織物状のカーボンシートを使うのに対して、細かく切断されたカーボン繊維の層を重ねた構造(フォージドカーボン)を採用し、ヘルメットの総重量を同じにしながら、衝撃時のエネルギー吸収をより大きくすることを可能にしています。
+
+フォージドカーボンは艶ありに仕上がっており、シェルがユニークなデザインとなっています。アイコニックなイタリア国旗を再現したPROスポイラー、FLUO REDのエアベントを採用しています。
+
+アジアンフィットについて：
+日本国内の正規販売ネットワーク店で取り扱うAGVの「アジアンフィット」とは、日本人の頭の形にあわせてデザインされており、内装もオリジナルのものを採用しております。長時間の着用でも違和感なく、快適にご使用頂けるようになっており、欧米向けにデザインされた海外仕様とは異なります。
+
+また2年間の無料修理保証が付随するほか、内装交換時にも、国内の同ネットワーク店でアジアンフィット適合の専用パッドをご用意しておりますので、お気に入りのグラフィックを長くご愛用頂けます。
+
+【シェル】
+100% カーボンファイバー
+シェルサイズ3種類
+鎖骨を安全に守るシェイプ
+回転の加速度を最小限に抑えるように設計されたシェルとEPS構造（FIM公認）
+5密度EPSを3サイズで展開
+
+【エアロダイナミクス】
+レーシングスーツにフィット
+着脱可能なPROスポイラー
+
+【内部】
+着脱・洗浄可能な内部
+着脱可能なノーズガード
+着脱可能なウィンドプロテクター
+チークパッド セーフティーリリースシステム
+敏感な部分にステッチなし
+チークパッド：高速走行でも柔らかく安定感あるShalimarファブリック
+頭頂部パッド：伸縮性・通気性のあるマイクロファイバー
+2Dry：瞬間的に汗を吸収
+Microsense：快適な肌触り
+360°フィット
+頭頂部のフィット感を調節できる3ピースパッド
+ネックロールデザインを採用
+ネックロール：伸縮性と防水性のある通気性ファブリック
+
+【通気性】
+メタル 吸気・排気ベンチレーション
+前面にベンチレーション5箇所
+背面に排気ベンチレーション2箇所
+
+【バイザー】
+アンチスクラッチ
+100% Max Vision Pinlock (120)を含む
+厚さ5mm
+特許取得済みのバイザーロックシステム
+垂直視野角85°
+最大190°の水平視野角
+Optic class 1
+マイクロオープニングシステム
+特許取得済みのエクストラクイックリリースシステム
+メタルバイザーメカニズム
+
+【リテンションシステム】
+チタン製Double Dリング8:["$","$L13",null,{"product":{"id":"x0dKWh","name":"PISTA GP RR JIST Asian Fit フルフェイスヘルメット 003-ITALIA CARBONIO FORGIATO","gender":"unisex","brand":"AGV","category":"full_face_helmet","prices":[{"size":"S","prices":{"twd":{"price":78600,"discount_price":78600}}},{"size":"M","prices":{"twd":{"price":78600,"discount_price":78600}}},{"size":"L","prices":{"twd":{"price":78600,"discount_price":78600}}},{"size":"XL","prices":{"twd":{"price":78600,"discount_price":78600}}}],"images":["https://cdn.jsdelivr.net/gh/yukihelmet/images@main/x0dKWh/1.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/x0dKWh/2.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/x0dKWh/3.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/x0dKWh/4.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/x0dKWh/5.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/x0dKWh/6.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/x0dKWh/7.webp"],"description":{"ja":"$14","zhTW":"ITALIA CARBONIO FORGIATO 採用與傳統碳纖維安全帽使用織物狀碳纖維板不同的結構，使用細小切割的碳纖維層重疊的結構（鍛造碳），在保持安全帽總重量相同的情況下，能夠更大程度地吸收衝擊時的能量。\n\n鍛造碳表面光滑，外殼設計獨特。採用重現標誌性的義大利國旗的PRO擾流板，以及FLUO RED的通氣孔。\n\n關於亞洲合身：\n在日本國內的正規銷售網絡店中販售的AGV的「亞洲合身」是根據日本人的頭型設計，內裝也採用原創材料。即使長時間佩戴也不會感到不適，能夠舒適使用，與為歐美市場設計的海外版本不同。\n\n此外，還附帶2年的免費維修保證，內裝更換時，國內同網絡店也提供適合亞洲合身的專用墊片，讓您能夠長時間使用喜愛的圖案。\n\n【外殼】\n100% 碳纖維\n外殼尺寸3種\n安全保護鎖骨的形狀\n設計以最小化旋轉加速度的外殼和EPS結構（FIM認證）\n5密度EPS以3種尺寸展開\n\n【空氣動力學】\n適合賽車服\n可拆卸的PRO擾流板\n\n【內部】\n可拆卸・可清洗的內部\n可拆卸的鼻護板\n可拆卸的風防護板\n頰墊安全釋放系統\n敏感部位無縫線\n頰墊：即使高速行駛也柔軟穩定的Shalimar面料\n頭頂墊：具有彈性・透氣性的微纖維\n2Dry：瞬間吸汗\nMicrosense：舒適的觸感\n360°合身\n可調整頭頂合身感的3片墊\n採用頸部護墊設計\n頸部護墊：具有彈性和防水性的透氣面料\n\n【通氣性】\n金屬吸氣・排氣通氣\n前面有5處通氣孔\n背面有2處排氣通氣孔\n\n【鏡片】\n抗刮\n包含100% Max Vision Pinlock (120)\n厚度5mm\n專利的鏡片鎖定系統\n垂直視野角85°\n最大190°的水平視野角\nOptic class 1\n微開口系統\n專利的超快速釋放系統\n金屬鏡片機構\n\n【固定系統】\n鈦合金製Double D環"}}}]
+15:I[27201,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js"],"IconMark"]
+b:null
+10:[["$","title","0",{"children":"PISTA GP RR JIST Asian Fit フルフェイスヘルメット 003-ITALIA CARBONIO FORGIATO | Yuki Helmet"}],["$","meta","1",{"name":"description","content":"[AGV] PISTA GP RR JIST Asian Fit フルフェイスヘルメット 003-ITALIA CARBONIO FORGIATO 日本直送，熱銷現貨在庫"}],["$","meta","2",{"property":"og:title","content":"PISTA GP RR JIST Asian Fit フルフェイスヘルメット 003-ITALIA CARBONIO FORGIATO | Yuki Helmet"}],["$","meta","3",{"property":"og:description","content":"[AGV] PISTA GP RR JIST Asian Fit フルフェイスヘルメット 003-ITALIA CARBONIO FORGIATO 日本直送，熱銷現貨在庫"}],["$","meta","4",{"property":"og:image","content":"https://cdn.jsdelivr.net/gh/yukihelmet/images@main/x0dKWh/1.webp"}],["$","meta","5",{"property":"og:type","content":"website"}],["$","meta","6",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","7",{"name":"twitter:title","content":"PISTA GP RR JIST Asian Fit フルフェイスヘルメット 003-ITALIA CARBONIO FORGIATO | Yuki Helmet"}],["$","meta","8",{"name":"twitter:description","content":"[AGV] PISTA GP RR JIST Asian Fit フルフェイスヘルメット 003-ITALIA CARBONIO FORGIATO 日本直送，熱銷現貨在庫"}],["$","meta","9",{"name":"twitter:image","content":"https://cdn.jsdelivr.net/gh/yukihelmet/images@main/x0dKWh/1.webp"}],["$","link","10",{"rel":"icon","href":"/favicon.ico?favicon.0x3dzn~oxb6tn.ico","sizes":"256x256","type":"image/x-icon"}],["$","link","11",{"rel":"icon","href":"/logo.svg"}],["$","$L15","12",{}]]

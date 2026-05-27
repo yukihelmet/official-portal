@@ -1,0 +1,160 @@
+1:"$Sreact.fragment"
+2:I[60195,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js"],"I18nProvider"]
+3:I[57951,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js"],"AuthProvider"]
+4:I[48757,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js"],"Header"]
+5:I[39756,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js"],"default"]
+6:I[37457,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js"],"default"]
+7:I[86520,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js"],"Footer"]
+9:I[97367,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
+a:"$Sreact.suspense"
+d:I[97367,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js"],"ViewportBoundary"]
+f:I[97367,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js"],"MetadataBoundary"]
+11:I[68027,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js"],"default",1]
+:HL["/_next/static/chunks/0vyhr97jfvqup.css","style"]
+:HL["/_next/static/chunks/09boug5i5fvqh.css","style"]
+:HL["/_next/static/chunks/017_zo198_vp7.css","style"]
+:HL["/_next/static/media/6ad1cda2f16975ee-s.p.0t8o_f0a-dk8w.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/ad9c66e761fed85a-s.p.0e4b2z5rxsmxh.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"c":["","products","4cpJO1"],"q":"","i":false,"f":[[["",{"children":["products",{"children":[["id","4cpJO1","d",null],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/0vyhr97jfvqup.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/09boug5i5fvqh.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/chunks/017_zo198_vp7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/02tzwvrtnpta..js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/0d3shmwh5_nmn.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"zh-TW","children":["$","body",null,{"className":"oswald_4d97067b-module__Q2dTya__variable noto_sans_jp_43a8d00c-module__snZIpq__variable h-full antialiased","children":["$","$L2",null,{"children":["$","$L3",null,{"children":[["$","$L4",null,{}],["$","main",null,{"className":"flex-1 pt-16","children":["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","$L7",null,{}]]}]}]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L8",[["$","script","script-0",{"src":"/_next/static/chunks/0ve-ab~ut5ayn.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/0c5-_qcbzlcx_.js","async":true,"nonce":"$undefined"}]],["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]]}],{},null,false,null]},null,false,"$@c"]},null,false,"$@c"]},null,false,null],["$","$1","h",{"children":[null,["$","$Ld",null,{"children":"$Le"}],["$","div",null,{"hidden":true,"children":["$","$Lf",null,{"children":["$","$a",null,{"name":"Next.Metadata","children":"$L10"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$11",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/0vyhr97jfvqup.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/09boug5i5fvqh.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/chunks/017_zo198_vp7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"7wIOYdcIdglYCjTBYKes1"}
+12:[]
+c:"$W12"
+e:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+13:I[65699,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0ve-ab~ut5ayn.js","/_next/static/chunks/0c5-_qcbzlcx_.js"],"ProductDetailClient"]
+14:T102d,快適性をアップデートした、軽量コンパクトモデル！
+
+■帝人株式会社 熱線遮蔽素材使用「UV＆IRカットシールド」採用
+　UV（紫外線）とIR（赤外線）をカットする、帝人株式会社の高機能ポリカーボネートをシールド素材として用いた『UV＆IRカットシールド』を採用。
+　太陽光の赤外線（IR）で発生する日射熱による温度上昇を抑制する熱線遮蔽性能があり、ヘルメット用シールドでは最も重要な「クリアな視認性」を保ったまま、ヘルメット内部への熱伝導を低減させます。
+
+■軽量コンパクト設計
+　ライダーに大きなメリットを与える「軽さ」。
+　ヘルメットの軽量化は、走行風や加減速Gなどでライダーの首や肩にかかる負担・ストレスの低減につながります。
+　基本コンセプトである「軽量」「コンパクト」を実現させるため、部品構成から素材セレクトまで徹底してこだわりました。
+
+■細やかなフィッティング
+　帽体を４サイズに分けることで、細やかなフィッティングと軽量･コンパクト化を実現しています。
+
+■操作性が向上したシールドロック
+　ボタン形状の変更によってシールドロックの操作性を向上。
+　よりスムーズなシールドの開閉を実現しました。
+
+■先進のエアロフォルム
+　CFDを駆使し、極限まで絞り込んだ前面投影面積により、ロングツーリング時などでのライダーにかかるストレスを軽減します。
+
+■先進の帽体成形技術と安全設計
+　耐貫通性と衝撃吸収性を兼ね備えた高強度複合素材帽体（A.C.T.-EVO）とFEM（有限要素法）構造解析を導入し各部の強度を最適化。
+
+■ウェイクスタビライザー（PAT.）
+　帽体付近の気流をコントロールし、負荷を軽減するKabutoの特許システム。
+
+■二軸ラチェットシールドシステム
+　2軸構成の「DAF-Rラチェット」、素早い交換が可能なDAF-1シールドと一体式トリムラバーの採用で密閉性と静粛性を向上。
+
+■フレッシュエアコントロール
+　シェル内部のエアルートへとつながる大型エアインレットは、シールド内面やメガネの曇りを抑え息苦しさを低減します。
+
+■スピーカー専用スペース
+　脱着式イヤーカップを採用し、インカムスピーカー用スペースを予め左右に設定。
+　※一部特殊な形状は取付不可。
+
+■眼鏡対応チークパッド
+　眼鏡やサングラスをスムーズにかけることができるチークパッド形状を採用。
+　※メガネの形状や、顔の形により個人差があります。
+
+■脱着スムーズフォルム
+　広がりやすいアンダートリム形状で、高いフィット感でありながらストレスを感じさせずに脱着が可能です。
+
+■DAF Pinlock Original Insert Lens
+　ワイドタイプの100% MAX VISIONピンロックシート（別売）装着可能。
+
+■D-リング
+　レースモデルなど厳しい使用環境に適したスタンダードタイプです。
+
+■COOLMAX & 内装フル脱着システム
+　肌触りのよいCOOLMAX生地を一部に使用。
+　内装は全て取り外して洗うことも可能。
+
+■標準装備品 / 同梱品
+　・標準装着シールド
+　　品番：DAF-1 UICシールド
+　　カラー：UICクリア
+　・ブレスガードNo.12
+　・ウィンドシャッターNo.3
+
+■規格：JIS
+
+■カラー：パールホワイト・ブラックメタリック・フラットブラック・フラットクールガンメタ
+
+■サイズ：XS（54-55cm）・S（54-55cm）・M（57-58cm）・L（59-60cm）・XL（61-62cm）・XXL（63-64cm）
+　※サイズはあくまで目安です。製品の設計により同じサイズ表示でも装着感が異なる場合があります。
+　　ご購入の際は必ず一度ご試着ください。15:Tb8b,舒適性升級的輕量緊湊型模型！
+
+■使用帝人株式會社熱線遮蔽材料的「UV＆IR切割鏡片」採用
+　採用帝人株式會社的高功能聚碳酸酯作為鏡片材料的『UV＆IR切割鏡片』，可切割UV（紫外線）和IR（紅外線）。
+　具備抑制因陽光的紅外線（IR）所產生的日射熱導致的溫度上升的熱線遮蔽性能，並在保持頭盔鏡片最重要的「清晰可視性」的同時，降低頭盔內部的熱傳導。
+
+■輕量緊湊設計
+　為騎士帶來巨大優勢的「輕量」。
+　頭盔的輕量化，能減少在行駛風和加減速G等情況下對騎士的頸部和肩部的負擔與壓力。
+　為了實現基本概念「輕量」「緊湊」，從部件組成到材料選擇都徹底講究。
+
+■細緻的配戴
+　將帽體分為4個尺寸，實現細緻的配戴和輕量・緊湊化。
+
+■操作性提升的鏡片鎖
+　通過按鈕形狀的變更提升鏡片鎖的操作性。
+　實現更順暢的鏡片開關。
+
+■先進的空氣動力學形狀
+　利用CFD技術，通過極限縮小的前面投影面積，減輕長途旅行時對騎士的壓力。
+
+■先進的帽體成型技術與安全設計
+　結合耐穿透性和衝擊吸收性的高強度複合材料帽體（A.C.T.-EVO）及FEM（有限元素法）結構分析，優化各部的強度。
+
+■醒目穩定器（PAT.）
+　控制帽體附近的氣流，減輕負荷的Kabuto專利系統。
+
+■二軸棘輪鏡片系統
+　採用2軸結構的「DAF-R棘輪」，與可快速更換的DAF-1鏡片及一體式修邊橡膠，提高密閉性和靜音性。
+
+■新鮮空氣控制
+　連接到外殼內部的氣流通道的大型進氣口，能抑制鏡片內面及眼鏡的霧氣，減少呼吸困難。
+
+■專用揚聲器空間
+　採用可拆卸耳罩，預先在左右設置了對講機揚聲器的空間。
+　※部分特殊形狀無法安裝。
+
+■眼鏡適用的頰墊
+　採用能順利佩戴眼鏡或太陽眼鏡的頰墊形狀。
+　※眼鏡的形狀及臉型會有個人差異。
+
+■拆卸順暢的形狀
+　擴展性強的下修邊形狀，能在高適配感的同時，無壓力地進行拆卸。
+
+■DAF Pinlock原裝插入鏡片
+　可安裝寬型的100% MAX VISION Pinlock片（另售）。
+
+■D-環
+　適合賽車模型等嚴苛使用環境的標準型。
+
+■COOLMAX & 內裝全拆卸系統
+　部分使用觸感良好的COOLMAX面料。
+　內裝可完全拆卸清洗。
+
+■標準配備 / 同捆品
+　・標準裝配鏡片
+　　品號：DAF-1 UIC鏡片
+　　顏色：UIC透明
+　・呼吸防護No.12
+　・風擋No.3
+
+■規格：JIS
+
+■顏色：珍珠白・黑色金屬・平面黑色・平面冷槍金屬
+
+■尺寸：XS（54-55cm）・S（54-55cm）・M（57-58cm）・L（59-60cm）・XL（61-62cm）・XXL（63-64cm）
+　※尺寸僅供參考。由於產品設計，即使顯示相同尺寸，佩戴感可能會有所不同。
+　　購買時請務必試戴一次。8:["$","$L13",null,{"product":{"id":"4cpJO1","name":"AEROBLADE-6 DYNA (エアロブレード6 ダイナ) フルフェイスヘルメット フラットブラックグレー","gender":"unisex","brand":"Kabuto","category":"full_face_helmet","prices":[{"size":"XS","prices":{"twd":{"price":12600,"discount_price":12000}}},{"size":"S","prices":{"twd":{"price":12600,"discount_price":12000}}},{"size":"M","prices":{"twd":{"price":12600,"discount_price":12000}}},{"size":"L","prices":{"twd":{"price":12600,"discount_price":12000}}},{"size":"XL","prices":{"twd":{"price":12600,"discount_price":12000}}},{"size":"XXL","prices":{"twd":{"price":12600,"discount_price":12000}}}],"images":["https://cdn.jsdelivr.net/gh/yukihelmet/images@main/4cpJO1/1.webp"],"description":{"ja":"$14","zhTW":"$15"}}}]
+16:I[27201,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js"],"IconMark"]
+b:null
+10:[["$","title","0",{"children":"AEROBLADE-6 DYNA (エアロブレード6 ダイナ) フルフェイスヘルメット フラットブラックグレー | Yuki Helmet"}],["$","meta","1",{"name":"description","content":"[Kabuto] AEROBLADE-6 DYNA (エアロブレード6 ダイナ) フルフェイスヘルメット フラットブラックグレー 日本直送，熱銷現貨在庫"}],["$","meta","2",{"property":"og:title","content":"AEROBLADE-6 DYNA (エアロブレード6 ダイナ) フルフェイスヘルメット フラットブラックグレー | Yuki Helmet"}],["$","meta","3",{"property":"og:description","content":"[Kabuto] AEROBLADE-6 DYNA (エアロブレード6 ダイナ) フルフェイスヘルメット フラットブラックグレー 日本直送，熱銷現貨在庫"}],["$","meta","4",{"property":"og:image","content":"https://cdn.jsdelivr.net/gh/yukihelmet/images@main/4cpJO1/1.webp"}],["$","meta","5",{"property":"og:type","content":"website"}],["$","meta","6",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","7",{"name":"twitter:title","content":"AEROBLADE-6 DYNA (エアロブレード6 ダイナ) フルフェイスヘルメット フラットブラックグレー | Yuki Helmet"}],["$","meta","8",{"name":"twitter:description","content":"[Kabuto] AEROBLADE-6 DYNA (エアロブレード6 ダイナ) フルフェイスヘルメット フラットブラックグレー 日本直送，熱銷現貨在庫"}],["$","meta","9",{"name":"twitter:image","content":"https://cdn.jsdelivr.net/gh/yukihelmet/images@main/4cpJO1/1.webp"}],["$","link","10",{"rel":"icon","href":"/favicon.ico?favicon.0x3dzn~oxb6tn.ico","sizes":"256x256","type":"image/x-icon"}],["$","link","11",{"rel":"icon","href":"/logo.svg"}],["$","$L16","12",{}]]

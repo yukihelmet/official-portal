@@ -1,0 +1,6 @@
+1:"$Sreact.fragment"
+2:I[65699,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0ve-ab~ut5ayn.js","/_next/static/chunks/0c5-_qcbzlcx_.js"],"ProductDetailClient"]
+3:I[97367,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
+4:"$Sreact.suspense"
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"product":{"id":"Bwv2Sm","name":"JLT スモールJET BLACK/GUNMETA","gender":"unisex","brand":"TNK工業","category":"jet_helmet","prices":[{"size":"Free Size","prices":{"twd":{"price":3100,"discount_price":3100}}}],"images":["https://cdn.jsdelivr.net/gh/yukihelmet/images@main/Bwv2Sm/1.webp"],"description":{"ja":"JLT用シールド/バブルタイプを標準装備したジェットヘルメットです。\nJL-65シリーズ人気の2ラインデザインがお求め安くなって登場。\nSR2用シールド/フラットタイプを取り付けることも可能です。\n\n全排気量対応\nUVカット\nワンタッチホルダー\nパーツあり","zhTW":"這是一款標準配備JLT用鏡片/泡泡型的噴射頭盔。\nJL-65系列受歡迎的雙線設計以更實惠的價格登場。\n也可以安裝SR2用鏡片/平面型。\n\n全排氣量適用\nUV防護\n一鍵式固定器\n配件齊全"}}}],[["$","script","script-0",{"src":"/_next/static/chunks/0ve-ab~ut5ayn.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/0c5-_qcbzlcx_.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"7wIOYdcIdglYCjTBYKes1"}
+5:null

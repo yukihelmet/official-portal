@@ -1,0 +1,6 @@
+1:"$Sreact.fragment"
+2:I[65699,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0ve-ab~ut5ayn.js","/_next/static/chunks/0c5-_qcbzlcx_.js"],"ProductDetailClient"]
+3:I[97367,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
+4:"$Sreact.suspense"
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"product":{"id":"yt0UMS","name":"GG-2 ハーフヘルメット ビッグ BLACK","gender":"unisex","brand":"TNK工業","category":"half_helmet","prices":[{"size":"60~62cm","prices":{"twd":{"price":2700,"discount_price":2600}}}],"images":["https://cdn.jsdelivr.net/gh/yukihelmet/images@main/yt0UMS/1.webp"],"description":{"ja":"汎用シールド取り付け可能なビッグサイズのハーフヘルメットとなります。\n内装は脱着式で洗えます。\n3つボタンがあるので汎用シールドの取り付けが可能です。\n\n\n125cc以下対応\n洗える内装\nワンタッチホルダー\nシールド取付可能","zhTW":"汎用鏡片可安裝的大尺寸半罩安全帽。\n內襯可拆卸且可清洗。\n有3個按鈕，因此可以安裝汎用鏡片。\n\n125cc以下適用\n可清洗內襯\n一鍵式固定器\n鏡片可安裝"}}}],[["$","script","script-0",{"src":"/_next/static/chunks/0ve-ab~ut5ayn.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/0c5-_qcbzlcx_.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"7wIOYdcIdglYCjTBYKes1"}
+5:null

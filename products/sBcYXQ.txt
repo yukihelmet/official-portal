@@ -1,0 +1,66 @@
+1:"$Sreact.fragment"
+2:I[60195,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js"],"I18nProvider"]
+3:I[57951,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js"],"AuthProvider"]
+4:I[48757,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js"],"Header"]
+5:I[39756,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js"],"default"]
+6:I[37457,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js"],"default"]
+7:I[86520,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js"],"Footer"]
+9:I[97367,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
+a:"$Sreact.suspense"
+d:I[97367,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js"],"ViewportBoundary"]
+f:I[97367,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js"],"MetadataBoundary"]
+11:I[68027,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js"],"default",1]
+:HL["/_next/static/chunks/0vyhr97jfvqup.css","style"]
+:HL["/_next/static/chunks/09boug5i5fvqh.css","style"]
+:HL["/_next/static/chunks/017_zo198_vp7.css","style"]
+:HL["/_next/static/media/6ad1cda2f16975ee-s.p.0t8o_f0a-dk8w.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/ad9c66e761fed85a-s.p.0e4b2z5rxsmxh.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"c":["","products","sBcYXQ"],"q":"","i":false,"f":[[["",{"children":["products",{"children":[["id","sBcYXQ","d",null],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/0vyhr97jfvqup.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/09boug5i5fvqh.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/chunks/017_zo198_vp7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/02tzwvrtnpta..js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/0d3shmwh5_nmn.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"zh-TW","children":["$","body",null,{"className":"oswald_4d97067b-module__Q2dTya__variable noto_sans_jp_43a8d00c-module__snZIpq__variable h-full antialiased","children":["$","$L2",null,{"children":["$","$L3",null,{"children":[["$","$L4",null,{}],["$","main",null,{"className":"flex-1 pt-16","children":["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","$L7",null,{}]]}]}]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L8",[["$","script","script-0",{"src":"/_next/static/chunks/0ve-ab~ut5ayn.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/0c5-_qcbzlcx_.js","async":true,"nonce":"$undefined"}]],["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]]}],{},null,false,null]},null,false,"$@c"]},null,false,"$@c"]},null,false,null],["$","$1","h",{"children":[null,["$","$Ld",null,{"children":"$Le"}],["$","div",null,{"hidden":true,"children":["$","$Lf",null,{"children":["$","$a",null,{"name":"Next.Metadata","children":"$L10"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$11",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/0vyhr97jfvqup.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/09boug5i5fvqh.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/chunks/017_zo198_vp7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"7wIOYdcIdglYCjTBYKes1"}
+12:[]
+c:"$W12"
+e:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+13:I[65699,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0ve-ab~ut5ayn.js","/_next/static/chunks/0c5-_qcbzlcx_.js"],"ProductDetailClient"]
+14:Tc9c,超高強度軽量素材LEXANポリカーボネートを使用した、アドベンチャークロスオーバーヘルメット。
+世界で初めて、チンガード脱着ヘルメットを作ったNOLAN社ならではのイノベーションモデル。アドベンチャータイプのクロスオ ーバーという、新しいヘルメットのカタチ。
+
+アウターシェル材質 ： ハイファンクション・ハイグレードLEXANポリカーボネート
+内装：脱着洗濯可能（チークパッド一体型）
+あごひも：マイクロロック
+規格：SG規格
+付属品：PINLOCK曇り止めシート
+
+※N-COMの日本での取り扱いはありません。
+
+【TECHNOLOGY】
+・アゴ部の衝撃試験
+ベースモデルのイタリア仕様は、フルフェイスとジェットの両方でECE規格を取得 しています。
+アゴ部への衝撃試験もあるECE規格通過品と同じチンガードの採用で、安心してご使用頂けます。
+ワンタッチで脱着可能なチンガードは様々なスタイルに対応できます。
+※ SG規格の試験には、あご部分の衝撃試験はありません。
+
+・安全爽快シールド
+ECEの厳しい貫通試験、光学試験をパスし、強度や視界のゆがみといった安全性 に配慮した設計です。
+また、広い視界により、ジェットヘルメットの様な爽快感が味わえます。
+※ SG規格の試験には、シールド部分の試験はありませんが、ECE規格をクリ アしたシールドを採用しております。
+
+・PINLOCK（曇り止めシート）
+PINLOCKシートは、2枚ガラスのように中空状態を作ることで、曇らないシールドを実現しています。NOLAN社の特許システムにより、シールドを取り外すことなく、外側からPINLOCKシートの調節が可能です。
+
+・UV400インナーバイザー
+インナーバイザーは、サングラスとしての高い機能をもつUV400タイプ。左下側面のレバーにより、４つの高さポジションが選べる仕様で、ワンプッシュで格納できる優れものです。また、両面に曇り防止及びアンチスクラッチ加工を施しております。
+
+・ネックロール・アジャスター
+ネック部分にはアジャスターが付き、ライディングポジションやライダーの体に合わせてヘルメット開口部の調整が可能です。
+
+・風洞技術とベンチレーション
+NOLAN社の高い風洞性技術により、大きなバイザー（ひさし）を装備しながら、高速域でも風に取られにくく、長時間でも快適で疲れにくい設計です。
+また、エアブースターの高い技術により、充分な通気を確保しライダーの頭を快適に保ちます。
+
+・マイクロロック
+世界で初めてラチェット式あご紐を採用したNOLAN社は、その高い技術力で利便性だけでなく、度重なる耐久試験など、安全性も考慮した設計になっております。
+
+・チンストラップカバー
+チンストラップカバーは内装と一体で取り外して洗う事が出来ます。8:["$","$L13",null,{"product":{"id":"sBcYXQ","name":"N70-2X CONVINTO YELLOW/345","gender":"unisex","brand":"NOLAN","category":"off_road_helmet","prices":[{"size":"M(57-58cm)","prices":{"twd":{"price":17400,"discount_price":17400}}},{"size":"L(59-60cm)","prices":{"twd":{"price":17400,"discount_price":17400}}},{"size":"XL(61-62cm)","prices":{"twd":{"price":17400,"discount_price":17400}}}],"images":["https://cdn.jsdelivr.net/gh/yukihelmet/images@main/sBcYXQ/1.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/sBcYXQ/2.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/sBcYXQ/3.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/sBcYXQ/4.webp"],"description":{"ja":"$14","zhTW":"超高強度輕量材料LEXAN聚碳酸酯製作的冒險跨界頭盔。\n世界首創，脖部護具可拆卸頭盔的NOLAN公司獨特創新型號。冒險類型的跨界，這是一種全新的頭盔形狀。\n\n外殼材質 ： 高功能・高級LEXAN聚碳酸酯\n內裝：可拆卸洗滌（頰墊一體型）\n下巴帶：微鎖\n規格：SG規格\n附屬品：PINLOCK防霧片\n\n※N-COM在日本沒有販售。\n\n【技術】\n・下巴部的衝擊測試\n基礎型號的義大利規格，無論是全罩式還是開放式均已獲得ECE規格認證。\n下巴部的衝擊測試也採用通過ECE規格的同樣護具，讓您可以安心使用。\n一鍵可拆卸的下巴護具可適應各種風格。\n※ SG規格的測試中，下巴部分的衝擊測試並不存在。\n\n・安全清爽鏡片\n通過ECE的嚴格穿透測試和光學測試，設計考慮了強度和視野的扭曲等安全性。\n此外，寬廣的視野讓您能夠體驗如開放式頭盔般的清爽感。\n※ SG規格的測試中，鏡片部分的測試並不存在，但採用了通過ECE規格的鏡片。\n\n・PINLOCK（防霧片）\nPINLOCK片通過創造兩片玻璃之間的中空狀態，實現了不會起霧的鏡片。NOLAN公司的專利系統使得無需拆卸鏡片，即可從外部調整PINLOCK片。\n\n・UV400內襯遮陽片\n內襯遮陽片具備高功能的UV400類型，通過左下側的槓桿可選擇4個高度位置，並可一鍵收納，十分方便。此外，雙面均施加了防霧及抗刮加工。\n\n・頸部調整器\n頸部配有調整器，可根據騎乘姿勢和騎士的體型調整頭盔開口部。\n\n・風洞技術與通氣\nNOLAN公司的高風洞性技術使得在裝備大鏡片（遮陽板）的同時，於高速行駛時不易被風吹走，設計上長時間騎乘也能保持舒適且不易疲勞。\n此外，通過高技術的空氣增壓器，確保充足的通氣，讓騎士的頭部保持舒適。\n\n・微鎖\n世界首創的棘輪式下巴帶由NOLAN公司採用，其高技術不僅考慮了便利性，還考慮了多次耐久測試等安全性設計。\n\n・下巴帶罩\n下巴帶罩與內裝一體，可拆卸清洗。"}}}]
+15:I[27201,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js"],"IconMark"]
+b:null
+10:[["$","title","0",{"children":"N70-2X CONVINTO YELLOW/345 | Yuki Helmet"}],["$","meta","1",{"name":"description","content":"[NOLAN] N70-2X CONVINTO YELLOW/345 日本直送，熱銷現貨在庫"}],["$","meta","2",{"property":"og:title","content":"N70-2X CONVINTO YELLOW/345 | Yuki Helmet"}],["$","meta","3",{"property":"og:description","content":"[NOLAN] N70-2X CONVINTO YELLOW/345 日本直送，熱銷現貨在庫"}],["$","meta","4",{"property":"og:image","content":"https://cdn.jsdelivr.net/gh/yukihelmet/images@main/sBcYXQ/1.webp"}],["$","meta","5",{"property":"og:type","content":"website"}],["$","meta","6",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","7",{"name":"twitter:title","content":"N70-2X CONVINTO YELLOW/345 | Yuki Helmet"}],["$","meta","8",{"name":"twitter:description","content":"[NOLAN] N70-2X CONVINTO YELLOW/345 日本直送，熱銷現貨在庫"}],["$","meta","9",{"name":"twitter:image","content":"https://cdn.jsdelivr.net/gh/yukihelmet/images@main/sBcYXQ/1.webp"}],["$","link","10",{"rel":"icon","href":"/favicon.ico?favicon.0x3dzn~oxb6tn.ico","sizes":"256x256","type":"image/x-icon"}],["$","link","11",{"rel":"icon","href":"/logo.svg"}],["$","$L15","12",{}]]

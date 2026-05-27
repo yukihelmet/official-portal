@@ -1,0 +1,6 @@
+1:"$Sreact.fragment"
+2:I[65699,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0ve-ab~ut5ayn.js","/_next/static/chunks/0c5-_qcbzlcx_.js"],"ProductDetailClient"]
+3:I[97367,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
+4:"$Sreact.suspense"
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"product":{"id":"iEJx34","name":"アルミナムワイルドワン","gender":"unisex","brand":"BUCO","category":"jet_helmet","prices":[{"size":"金 L(60~61)cm","prices":{"twd":{"price":11600,"discount_price":11600}}}],"images":["https://cdn.jsdelivr.net/gh/yukihelmet/images@main/iEJx34/1.webp"],"description":{"ja":"米国メタル・フレーク社のアルミ素材をベースにシンプルなデザインを描いたタイプです。新開発のフレーク素材を用いた新しいデザインヘルメットです。\n\n米国メタル・フレーク社のアルミ素材をベースにシンプルなデザインを描いたタイプです。新開発のフレーク素材を用いた新しいデザインヘルメットです。","zhTW":"以美國金屬閃光公司所提供的鋁材為基礎，描繪出簡約的設計類型。這是一款使用新開發的閃光材料所設計的新型頭盔。\n\n以美國金屬閃光公司所提供的鋁材為基礎，描繪出簡約的設計類型。這是一款使用新開發的閃光材料所設計的新型頭盔。"}}}],[["$","script","script-0",{"src":"/_next/static/chunks/0ve-ab~ut5ayn.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/0c5-_qcbzlcx_.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"7wIOYdcIdglYCjTBYKes1"}
+5:null

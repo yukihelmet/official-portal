@@ -1,0 +1,6 @@
+1:"$Sreact.fragment"
+2:I[65699,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0ve-ab~ut5ayn.js","/_next/static/chunks/0c5-_qcbzlcx_.js"],"ProductDetailClient"]
+3:I[97367,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
+4:"$Sreact.suspense"
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"product":{"id":"W4SLAy","name":"CX-40B ハーフヘルメット GUNMETA","gender":"unisex","brand":"TNK工業","category":"half_helmet","prices":[{"size":"60~62cm","prices":{"twd":{"price":2500,"discount_price":2500}}}],"images":["https://cdn.jsdelivr.net/gh/yukihelmet/images@main/W4SLAy/1.webp"],"description":{"ja":"イヤーカバー脱着可能で、つば付きヘルメットの定番といえます。\n\n125cc以下対応\nイヤーカバー着脱\nワンタッチホルダー","zhTW":"耳罩可拆卸，算得上是有帽檐的安全帽的經典之作。\n\n適用於125cc以下\n耳罩可拆卸\n一鍵式固定器"}}}],[["$","script","script-0",{"src":"/_next/static/chunks/0ve-ab~ut5ayn.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/0c5-_qcbzlcx_.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"7wIOYdcIdglYCjTBYKes1"}
+5:null

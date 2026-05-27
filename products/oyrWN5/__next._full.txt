@@ -1,0 +1,237 @@
+1:"$Sreact.fragment"
+2:I[60195,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js"],"I18nProvider"]
+3:I[57951,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js"],"AuthProvider"]
+4:I[48757,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js"],"Header"]
+5:I[39756,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js"],"default"]
+6:I[37457,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js"],"default"]
+7:I[86520,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js"],"Footer"]
+9:I[97367,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
+a:"$Sreact.suspense"
+d:I[97367,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js"],"ViewportBoundary"]
+f:I[97367,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js"],"MetadataBoundary"]
+11:I[68027,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js"],"default",1]
+:HL["/_next/static/chunks/0vyhr97jfvqup.css","style"]
+:HL["/_next/static/chunks/09boug5i5fvqh.css","style"]
+:HL["/_next/static/chunks/017_zo198_vp7.css","style"]
+:HL["/_next/static/media/6ad1cda2f16975ee-s.p.0t8o_f0a-dk8w.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/ad9c66e761fed85a-s.p.0e4b2z5rxsmxh.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"c":["","products","oyrWN5"],"q":"","i":false,"f":[[["",{"children":["products",{"children":[["id","oyrWN5","d",null],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/0vyhr97jfvqup.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/09boug5i5fvqh.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/chunks/017_zo198_vp7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/02tzwvrtnpta..js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/0d3shmwh5_nmn.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"zh-TW","children":["$","body",null,{"className":"oswald_4d97067b-module__Q2dTya__variable noto_sans_jp_43a8d00c-module__snZIpq__variable h-full antialiased","children":["$","$L2",null,{"children":["$","$L3",null,{"children":[["$","$L4",null,{}],["$","main",null,{"className":"flex-1 pt-16","children":["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","$L7",null,{}]]}]}]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L8",[["$","script","script-0",{"src":"/_next/static/chunks/0ve-ab~ut5ayn.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/0c5-_qcbzlcx_.js","async":true,"nonce":"$undefined"}]],["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]]}],{},null,false,null]},null,false,"$@c"]},null,false,"$@c"]},null,false,null],["$","$1","h",{"children":[null,["$","$Ld",null,{"children":"$Le"}],["$","div",null,{"hidden":true,"children":["$","$Lf",null,{"children":["$","$a",null,{"name":"Next.Metadata","children":"$L10"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$11",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/0vyhr97jfvqup.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/09boug5i5fvqh.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/chunks/017_zo198_vp7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"7wIOYdcIdglYCjTBYKes1"}
+12:[]
+c:"$W12"
+e:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+13:I[65699,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0ve-ab~ut5ayn.js","/_next/static/chunks/0c5-_qcbzlcx_.js"],"ProductDetailClient"]
+14:T1d45,最高の空力技術が、戦いを次のステージへ
+Kabuto独自の最新空力技術を採用した、リアルレーシング・エアロダイナミクスモデル、誕生。
+
+■TECHNOLOGY
+　ライディング中の集中力を維持する全方向型エアロダイナミクス
+　ハイスピードの状況で発生する空気抵抗、揚力を徹底的に解析。
+
+■最先端のエアロフォルム
+　CFD（3次元数値流体解析）を駆使して開発されたKabuto独自の空力デバイス「ウェイクスタビライザー（PAT.NO.4311691）」と、極限まで絞り込んだ前面投影面積を採用した帽体により、直進時だけではなく横風や後方確認時の空気抵抗を低減。
+　さらに走行風で発生するヘルメットが浮き上がろうとする力を抑制し、優れた空力性能に大きく寄与するデバイス「クレストスポイラー（PAT.P）」の新採用など、最先端のエアロフォルムは、あらゆる速度域での高い集中力維持に大きく貢献します。
+
+■クレストスポイラー（PAT.P.）
+　ヘルメット上部の気流をあえて乱すことにより浮き上がろうとする力を抑え、F-17本来の優れた空力性能にも寄与するデバイスです。
+　幅広い角度で効果が発揮される弓状の形状を採用し、もっとも顕著に効果が確認できたデバイスサイズとしています。
+
+■ウェイクスタビライザー（PAT.)
+　走行中発生する帽体付近の気流をコントロールし、負荷を軽減するKabutoの特許システム。
+　長年にわたる研究･風洞実験を重ね生まれました。
+　気流をコントロールし、揚力や空気抵抗を低減。
+　高速走行時にヘルメットの安定感を高めます。
+
+■最先端の帽体成形技術と安全設計
+　優れた耐貫通性と衝撃吸収性を兼ね備えた高強度複合素材帽体（A.C.T.-2）を採用するとともに、FEM（有限要素法）構造解析を導入し各部の強度を最適化。
+　安全性と首への負担を低減するその驚異的な軽さは、あらゆる状況においてライダーの負担を軽減。
+
+■新帽体構造「A.C.T.-2」
+　定評あるA.C.T.構造をさらに進化させた「A.C.T.-2」構造を採用。
+　厳しい耐貫通性能が求められるMFJの安全基準を高次元でクリアしながら更にチンガード部分にも高強度有機繊維を配置し、帽体強度を更に向上。
+
+■サイドベンチレーション
+　コーナリング姿勢でも効率よく風を捉え、直進時の姿勢と同等のエア導入を目的としたサイドベンチレーションを採用。
+　開口面積・開口幅ともに大幅拡大したチンベンチレーションと相まって、常にヘルメット内部へフレッシュなエアを取り込みます。
+
+■センターロック/二軸ラチェットシールドシステム
+　2軸構成の新型「DAF-Rラチェット」、素早い交換が可能なDAF-1Rシールド、新形状の一体式トリムラバーの採用により密閉性と静粛性を向上。
+　また大型レバーを備えたセンターロック式で、グローブを装着したままでも確実に開閉可能です。
+
+■トップエアロベンチレーション
+　整流効果と同時に、ヘルメット内部にこもった熱気を放出するKabuto独自のシステム。
+　シェル内部を通過してリアベンチレーションフィンに設けられたエア排出路へとつながるエアルートを確保し、優れた換気性能と軽量化を両立。
+　※リアベンチレーションに開閉機能はありません。
+
+■過酷な状況下で徹底的に検証された、「着脱のしやすさ」と「極上のかぶり心地」
+　独自の空間認知技術採用など、設計思想から見直した内装は、サポートライダーの多くが「従来品よりもかぶり心地が良くなった」と回答。
+　「点のフィット感から包み込むフィット感」への転換が極上のかぶり心地を実現。
+
+■「制菌加工」内装 ※一部に使用
+　インナーパッド表地に、繊維上の細菌の増殖を抑制する、DEOFACTORの「制菌加工」を採用。
+　DEOFACTORは制菌作用により、衣類や繊維製品に付着する有害物質を分解します。
+　※DEOFACTORはKOKORO CAREが開発した特殊加工技術です。
+
+■エマージェンシーシステム（PAT.P）※緊急時以外使用不可
+　アクシデント発生時に、救助者が簡単かつ素早く安全にヘルメットを脱がさなければならない状況でも、内装ウレタン材を引き抜く方式により頬に当たる生地はそのまま残り、スムーズでライダーへの負担も少ないKabutoの独自構造です。
+
+■フレッシュエアコントロール
+　シェル内部のエアルートへとつながる新設計の大型エアインレットは、シールド内面やメガネの曇りを抑え息苦しさを低減します。
+
+■エアベンチレーション
+　従来モデルよりエア導入面積を大幅にアップ。
+　※リアベンチレーションに開閉機能はありません。
+
+■DAF Pinlock Original Insert Lens
+　外気温とヘルメット内部の温度差を平衡に保ち、シールドの曇りを抑えます。
+
+■レーシングティアオフ取付可能シールドポスト付き
+　使い捨てフィルム「DAF-1R レーシングティアオフ（別売）」の取り付けが可能です。
+
+■眼鏡対応チークパッド
+　眼鏡やサングラスをスムーズにかけることができるチークパッド形状を採用。
+　※メガネの形状や、顔の形により個人差があります。
+
+■インカム取り付け専用スペース
+　専用スペースを予め左右に設定。
+　ケーブルルートも設置しスマートな配線が可能。
+　※一部特殊な形状は取付不可
+
+■COOLMAX&内装フル脱着システム
+　肌触りのよいCOOLMAX生地を使用。
+　内装は全て取り外して洗うことも可能。
+
+■ゆったりスペース確保の口元
+　インカムマイクの設置にも有効で、ゆったりとしたスペースを確保しています。
+
+■ウィンドシャッターNo.5
+　お好みで脱着可能。走行中に発生するあご付近からの風の巻き込みを軽減。
+
+■ブレスガードNo.10
+　シールド裏面への吹き出し面積を拡大した新設計ブレスガードを採用。
+　シールドの曇り除去に貢献します。
+
+■標準装備品 / 同梱品
+・標準装着シールド
+　品番：DAF-1Rシールド
+　カラー：クリア
+・ブレスガードNo.10
+・DAF Pinlock Original Insert Lens（1枚）
+・ウィンドシャッターNo.5
+・GC-01リキッドボトルキット
+・KF17ジョイントベース
+
+■規格：JIS・MFJ公認
+
+■カラー：ホワイト・ブラックメタリック・フラットブラック
+
+■サイズ：XS（54-55cm）・S（54-55cm）・M（57-58cm）・L（59-60cm）・XL（61-62cm）・XXL（63-64cm）
+　※サイズはあくまで目安です。製品の設計により同じサイズ表示でも装着感が異なる場合があります。
+　　ご購入の際は必ず一度ご試着ください。15:T14a6,最好的空氣動力技術，將戰鬥提升到下一個階段
+Kabuto獨特的最新空氣動力技術採用，真實賽車空氣動力學模型，誕生。
+
+■TECHNOLOGY
+　在騎乘中維持集中力的全方向型空氣動力學
+　徹底分析在高速情況下產生的空氣阻力、升力。
+
+■最先進的空氣形狀
+　利用CFD（3維數值流體分析）開發的Kabuto獨特的空氣裝置「尾流穩定器（PAT.NO.4311691）」和極限縮小的前面投影面積的帽體，降低不僅在直行時，還有側風和後方確認時的空氣阻力。
+　此外，抑制因行駛風而產生的頭盔浮起的力量，優秀的空氣性能大幅貢獻的裝置「頂部擾流板（PAT.P）」的新採用等，最先進的空氣形狀在各種速度範圍內大幅貢獻於高集中力的維持。
+
+■頂部擾流板（PAT.P）
+　故意擾亂頭盔上部的氣流，抑制浮起的力量，並貢獻於F-17本來的優秀空氣性能的裝置。
+　採用在寬廣角度下發揮效果的弓形狀，成為最顯著效果的裝置尺寸。
+
+■尾流穩定器（PAT.)
+　控制行駛中帽體附近的氣流，減輕負荷的Kabuto專利系統。
+　經過多年研究和風洞實驗而誕生。
+　控制氣流，降低升力和空氣阻力。
+　提高高速行駛時頭盔的穩定性。
+
+■最先進的帽體成型技術和安全設計
+　採用兼具優秀耐穿透性和衝擊吸收性的高強度複合材料帽體（A.C.T.-2），同時導入FEM（有限元素法）結構分析，優化各部的強度。
+　安全性和對頸部的負擔降低，其驚人的輕量化在各種情況下減輕騎士的負擔。
+
+■新帽體結構「A.C.T.-2」
+　進一步進化的「A.C.T.-2」結構，清除MFJ的安全標準所要求的嚴格耐穿透性能，同時在下巴護板部分配置高強度有機纖維，進一步提高帽體強度。
+
+■側通氣
+　即使在過彎姿勢下也能有效捕捉風，採用側通氣以達到與直行時相同的空氣導入。
+　與大幅擴大開口面積和開口寬度的下巴通氣相結合，持續將新鮮空氣引入頭盔內部。
+
+■中央鎖定/雙軸棘輪鏡片系統
+　採用2軸結構的新型「DAF-R棘輪」，快速更換的DAF-1R鏡片，新形狀的一體式修邊橡膠，提高密閉性和靜音性。
+　此外，配備大型槓桿的中央鎖定式，即使戴著手套也能確實開關。
+
+■頂部空氣通氣
+　Kabuto獨特的系統，同時具備整流效果，釋放頭盔內部積聚的熱氣。
+　確保通過外殼內部連接到後通氣鰭的空氣路徑，實現優秀的通風性能和輕量化。
+　※後通氣不具開關功能。
+
+■在惡劣情況下徹底驗證的「易於脫卸」和「極佳的佩戴感」
+　採用獨特的空間認知技術等，重新檢視的內裝，許多支持騎士回應「比舊款更好佩戴感」。
+　「點的貼合感轉變為包覆的貼合感」實現了極佳的佩戴感。
+
+■「抗菌加工」內裝 ※部分使用
+　內襯墊表面採用抑制纖維上細菌增殖的DEOFACTOR的「抗菌加工」。
+　DEOFACTOR通過抗菌作用分解附著在衣物和纖維產品上的有害物質。
+　※DEOFACTOR是KOKORO CARE開發的特殊加工技術。
+
+■緊急系統（PAT.P）※緊急時以外不可使用
+　在事故發生時，救助者必須簡單且迅速安全地脫下頭盔的情況下，內裝泡棉材料以拔出方式，頰部接觸的布料保持不變，Kabuto的獨特結構實現平滑且對騎士負擔小。
+
+■新鮮空氣控制
+　連接到外殼內部的空氣路徑的新設計大型空氣進氣口，抑制鏡片內面和眼鏡的霧氣，減少呼吸困難感。
+
+■空氣通氣
+　相比舊款大幅提升空氣導入面積。
+　※後通氣不具開關功能。
+
+■DAF Pinlock原裝插入鏡片
+　保持外界氣溫和頭盔內部的溫度差平衡，抑制鏡片的霧氣。
+
+■可安裝賽車撕膜的鏡片支架
+　可安裝一次性薄膜「DAF-1R賽車撕膜（另售）」。
+
+■眼鏡兼容的頰墊
+　採用能夠順利佩戴眼鏡或太陽眼鏡的頰墊形狀。
+　※根據眼鏡的形狀和臉型會有個人差異。
+
+■專用的對講機安裝空間
+　預先在左右設置專用空間。
+　設置電纜路徑，實現智能配線。
+　※部分特殊形狀不可安裝
+
+■COOLMAX&內裝全拆卸系統
+　使用觸感良好的COOLMAX面料。
+　內裝可完全拆卸清洗。
+
+■寬敞的口部空間
+　對於對講機麥克風的安裝也有效，確保寬敞的空間。
+
+■風擋No.5
+　可根據喜好脫卸。減少行駛中從下巴附近產生的風的捲入。
+
+■呼吸護罩No.10
+　採用新設計的呼吸護罩，擴大鏡片背面的吹出面積。
+　有助於去除鏡片的霧氣。
+
+■標準配備/隨附品
+・標準裝配鏡片
+　品號：DAF-1R鏡片
+　顏色：透明
+・呼吸護罩No.10
+・DAF Pinlock原裝插入鏡片（1片）
+・風擋No.5
+・GC-01液體瓶套件
+・KF17接頭基座
+
+■規格：JIS・MFJ認證
+
+■顏色：白色・黑色金屬・平黑色
+
+■尺寸：XS（54-55cm）・S（54-55cm）・M（57-58cm）・L（59-60cm）・XL（61-62cm）・XXL（63-64cm）
+　※尺寸僅供參考。由於產品設計，即使顯示相同尺寸，佩戴感可能會有所不同。
+　　購買時請務必試戴一次。8:["$","$L13",null,{"product":{"id":"oyrWN5","name":"F-17 ZESTAL (エフイチナナ ゼスタル) フルフェイスヘルメット ホワイトブルーレットﾞ","gender":"unisex","brand":"Kabuto","category":"full_face_helmet","prices":[{"size":"XS","prices":{"twd":{"price":16300,"discount_price":15600}}},{"size":"S","prices":{"twd":{"price":16300,"discount_price":15600}}},{"size":"M","prices":{"twd":{"price":16300,"discount_price":15600}}},{"size":"L","prices":{"twd":{"price":16300,"discount_price":15600}}},{"size":"XL","prices":{"twd":{"price":16300,"discount_price":15600}}},{"size":"XXL","prices":{"twd":{"price":16300,"discount_price":15600}}}],"images":["https://cdn.jsdelivr.net/gh/yukihelmet/images@main/oyrWN5/1.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/oyrWN5/2.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/oyrWN5/3.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/oyrWN5/4.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/oyrWN5/5.webp"],"description":{"ja":"$14","zhTW":"$15"}}}]
+16:I[27201,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js"],"IconMark"]
+b:null
+10:[["$","title","0",{"children":"F-17 ZESTAL (エフイチナナ ゼスタル) フルフェイスヘルメット ホワイトブルーレットﾞ | Yuki Helmet"}],["$","meta","1",{"name":"description","content":"[Kabuto] F-17 ZESTAL (エフイチナナ ゼスタル) フルフェイスヘルメット ホワイトブルーレットﾞ 日本直送，熱銷現貨在庫"}],["$","meta","2",{"property":"og:title","content":"F-17 ZESTAL (エフイチナナ ゼスタル) フルフェイスヘルメット ホワイトブルーレットﾞ | Yuki Helmet"}],["$","meta","3",{"property":"og:description","content":"[Kabuto] F-17 ZESTAL (エフイチナナ ゼスタル) フルフェイスヘルメット ホワイトブルーレットﾞ 日本直送，熱銷現貨在庫"}],["$","meta","4",{"property":"og:image","content":"https://cdn.jsdelivr.net/gh/yukihelmet/images@main/oyrWN5/1.webp"}],["$","meta","5",{"property":"og:type","content":"website"}],["$","meta","6",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","7",{"name":"twitter:title","content":"F-17 ZESTAL (エフイチナナ ゼスタル) フルフェイスヘルメット ホワイトブルーレットﾞ | Yuki Helmet"}],["$","meta","8",{"name":"twitter:description","content":"[Kabuto] F-17 ZESTAL (エフイチナナ ゼスタル) フルフェイスヘルメット ホワイトブルーレットﾞ 日本直送，熱銷現貨在庫"}],["$","meta","9",{"name":"twitter:image","content":"https://cdn.jsdelivr.net/gh/yukihelmet/images@main/oyrWN5/1.webp"}],["$","link","10",{"rel":"icon","href":"/favicon.ico?favicon.0x3dzn~oxb6tn.ico","sizes":"256x256","type":"image/x-icon"}],["$","link","11",{"rel":"icon","href":"/logo.svg"}],["$","$L16","12",{}]]

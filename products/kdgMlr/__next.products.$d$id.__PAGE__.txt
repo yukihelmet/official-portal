@@ -1,0 +1,6 @@
+1:"$Sreact.fragment"
+2:I[65699,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0ve-ab~ut5ayn.js","/_next/static/chunks/0c5-_qcbzlcx_.js"],"ProductDetailClient"]
+3:I[97367,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
+4:"$Sreact.suspense"
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"product":{"id":"kdgMlr","name":"スモールジェットヘルメット ホワイト フリー","gender":"unisex","brand":"モトボワットBB","category":"jet_helmet","prices":[{"size":"Free Size","prices":{"twd":{"price":2500,"discount_price":2500}}}],"images":["https://cdn.jsdelivr.net/gh/yukihelmet/images@main/kdgMlr/1.webp"],"description":{"ja":"新SG規格適合品で安全です。\n\n仕様\nPSマークの種類：PSCマーク\n規格：新SG規格\n抗菌防臭内装\nワンタッチホルダー\n\n用途\n全排気量対応","zhTW":"新SG規格適合品，安全。\n\n【規格】\nPS標誌的種類：PSC標誌\n規格：新SG規格\n抗菌防臭內裝\n一鍵式固定器\n\n【用途】\n全排氣量適用"}}}],[["$","script","script-0",{"src":"/_next/static/chunks/0ve-ab~ut5ayn.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/0c5-_qcbzlcx_.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"7wIOYdcIdglYCjTBYKes1"}
+5:null

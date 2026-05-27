@@ -1,0 +1,6 @@
+1:"$Sreact.fragment"
+2:I[65699,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0ve-ab~ut5ayn.js","/_next/static/chunks/0c5-_qcbzlcx_.js"],"ProductDetailClient"]
+3:I[97367,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
+4:"$Sreact.suspense"
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"product":{"id":"o2M6zt","name":"B-50 ハーフヘルメット WHITE","gender":"unisex","brand":"TNK工業","category":"half_helmet","prices":[{"size":"Free Size","prices":{"twd":{"price":2700,"discount_price":2700}}}],"images":["https://cdn.jsdelivr.net/gh/yukihelmet/images@main/o2M6zt/1.webp"],"description":{"ja":"BENシリーズにハーフヘルメットが登場。1950年代を彷彿とさせるデザイン。\n3つボタンがあるので汎用シールドの取り付けが可能です。\n\n125cc以下対応\n清涼感内装\nDリング式あごひも","zhTW":"BEN系列推出了半罩安全帽。設計讓人想起1950年代。\n有3個按鈕，因此可以安裝通用鏡片。\n\n適用於125cc以下\n清涼感內裝\nD環式下巴帶"}}}],[["$","script","script-0",{"src":"/_next/static/chunks/0ve-ab~ut5ayn.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/0c5-_qcbzlcx_.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"7wIOYdcIdglYCjTBYKes1"}
+5:null
