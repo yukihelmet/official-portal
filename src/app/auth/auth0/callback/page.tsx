@@ -4,10 +4,10 @@ import { useState, useEffect, Suspense } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
 import { Loading } from "@/components/ui/loading";
 import { Icon } from "@iconify/react";
-import { googleCallback } from "@/lib/official-portal-api";
+import { auth0Callback } from "@/lib/official-portal-api";
 import { useAuth } from "@/contexts/AuthContext";
 
-function GoogleCallbackContent() {
+function Auth0CallbackContent() {
   const router = useRouter();
   const searchParams = useSearchParams();
   const code = searchParams.get("code");
@@ -16,7 +16,7 @@ function GoogleCallbackContent() {
 
   useEffect(() => {
     if (code && !failed) {
-      googleCallback(code)
+      auth0Callback(code)
         .then((tokens) => {
           if (tokens.access_token && tokens.access_token_exp) {
             setAccessToken(tokens.access_token, tokens.access_token_exp);
@@ -40,10 +40,10 @@ function GoogleCallbackContent() {
   return <Loading />;
 }
 
-export default function GoogleCallbackPage() {
+export default function Auth0CallbackPage() {
   return (
     <Suspense fallback={<Loading />}>
-      <GoogleCallbackContent />
+      <Auth0CallbackContent />
     </Suspense>
   );
 }

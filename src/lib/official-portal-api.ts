@@ -112,16 +112,16 @@ export interface AccessTokenResponse {
 }
 
 // Auth API
-export async function googleLogin(): Promise<string> {
-  const response = await request<GeneralResponse<string>>("/v1/auth/google");
+export async function auth0Login(): Promise<string> {
+  const response = await request<GeneralResponse<string>>("/v1/auth/auth0");
   return response.result;
 }
 
-export async function googleCallback(
+export async function auth0Callback(
   code: string,
 ): Promise<AccessTokenResponse> {
   const response = await request<GeneralResponse<AccessTokenResponse>>(
-    "/v1/auth/google/callback",
+    "/v1/auth/auth0/callback",
     { code },
   );
   return response.result;

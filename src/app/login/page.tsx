@@ -3,21 +3,20 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
-import { Icon } from "@iconify/react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { useI18n } from "@/i18n";
-import { googleLogin } from "@/lib/official-portal-api";
+import { auth0Login } from "@/lib/official-portal-api";
 
 export default function LoginPage() {
   const router = useRouter();
   const { t } = useI18n();
   const [isLoading, setIsLoading] = useState(false);
 
-  async function handleGoogleLogin() {
+  async function handleAuth0Login() {
     setIsLoading(true);
     try {
-      const url = await googleLogin();
+      const url = await auth0Login();
       window.location.href = url;
     } catch {
       router.push("/?error=login_failed");
@@ -40,11 +39,10 @@ export default function LoginPage() {
             variant="outline"
             size="lg"
             className="w-full gap-2 rounded border-primary hover:bg-white hover:text-primary cursor-pointer"
-            onClick={handleGoogleLogin}
+            onClick={handleAuth0Login}
             disabled={isLoading}
           >
-            <Icon icon="mdi:google" className="size-5" />
-            {isLoading ? "Redirecting..." : "Continue with Google"}
+            {isLoading ? "Redirecting..." : "Login"}
           </Button>
         </CardContent>
       </Card>
