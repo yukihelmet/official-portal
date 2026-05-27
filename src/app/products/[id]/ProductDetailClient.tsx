@@ -68,6 +68,7 @@ export function ProductDetailClient({
                         src={src}
                         alt={`${product.name} ${index + 1}`}
                         fill
+                        loading="eager"
                         className="object-contain"
                       />
                     </div>
@@ -94,7 +95,7 @@ export function ProductDetailClient({
         <div className="lg:w-1/2 flex flex-col">
           {product.brand && <p className="text-sm text-gray-500 mb-2">{product.brand}</p>}
 
-          <h1 className="text-3xl font-bold tracking-wider border-b-2 border-gray-200 relative pb-4 -mb-0.5">
+          <h1 className="text-3xl font-bold tracking-wider border-b-2 border-gray-200 relative pb-4 -mb-0.5 text-primary">
             {product.name}
             <span className="absolute -bottom-px left-0 w-10 h-0.5 bg-red-600 z-10"></span>
           </h1>
@@ -166,7 +167,7 @@ export function ProductDetailClient({
           <div className="py-6">
             <button
               disabled={!selectedSize}
-              className={`w-full py-4 text-lg font-semibold transition-colors ${
+              className={`w-full py-4 text-lg font-semibold transition-colors cursor-pointer ${
                 selectedSize
                   ? "bg-primary text-white hover:bg-primary/90"
                   : "bg-gray-300 text-gray-500 cursor-not-allowed"

@@ -27,6 +27,7 @@ export function ProductCard({ product, currencyKey }: ProductCardProps) {
               src={product.images[0]}
               alt={product.name}
               fill
+              loading="eager"
               className="object-contain group-hover:scale-105 transition-transform duration-300"
             />
           ) : (
@@ -39,7 +40,7 @@ export function ProductCard({ product, currencyKey }: ProductCardProps) {
           {product.brand && (
             <p className="text-xs font-semibold text-gray-500">{product.brand}</p>
           )}
-          <h3 className="font-medium text-sm line-clamp-2 group-hover:text-primary">
+          <h3 className="font-medium text-sm line-clamp-2 text-primary group-hover:text-[#1A1A1A] transition-colors">
             {product.name}
           </h3>
           {product.category && (

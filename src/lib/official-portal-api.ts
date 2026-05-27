@@ -1,5 +1,7 @@
 const API_BASE_URL =
-  process.env.NEXT_PUBLIC_API_BASE_URL || "https://api.yuki-helmet.com";
+  process.env.NODE_ENV === "development"
+    ? "http://localhost:80"
+    : process.env.NEXT_PUBLIC_API_BASE_URL || "https://api.yuki-helmet.com";
 
 export type {
   Product,
@@ -56,7 +58,7 @@ async function request<
     }
     return res.json();
   } catch (err) {
-    if (attempt < 5) {
+    if (attempt < 3) {
       const baseDelay = Math.pow(2, attempt) * 1000;
       const jitter = Math.random() * 1000;
       const delay = baseDelay + jitter;
@@ -97,6 +99,110 @@ export async function listBrands(): Promise<string[]> {
 export async function listCategories(): Promise<string[]> {
   const response = await request<ListResponse<string>>(
     "/v1/products/categories",
+  );
+  return response.result;
+}
+
+// Auth types
+export interface AccessTokenResponse {
+  access_token: string;
+  access_token_exp: number;
+  refresh_token?: string;
+  refresh_token_exp?: number;
+}
+
+// Auth API
+export async function googleLogin(): Promise<string> {
+  const response = await request<GeneralResponse<string>>("/v1/auth/google");
+  return response.result;
+}
+
+export async function googleCallback(
+  code: string,
+): Promise<AccessTokenResponse> {
+  const response = await request<GeneralResponse<AccessTokenResponse>>(
+    "/v1/auth/google/callback",
+    { code },
+  );
+  return response.result;
+}
+
+export async function refreshToken(): Promise<AccessTokenResponse> {
+  const response = await request<GeneralResponse<AccessTokenResponse>>(
+    "/v1/auth/refresh-token",
+  );
+  return response.result;
+}
+
+// Global auth state
+const AUTH_STORAGE_KEY = "auth_token";
+
+interface AuthToken {
+  accessToken: string;
+  accessTokenExp: number;
+}
+
+function getAuthToken(): AuthToken | null {
+  if (typeof window === "undefined") return null;
+  const raw = localStorage.getItem(AUTH_STORAGE_KEY);
+  if (!raw) return null;
+  try {
+    return JSON.parse(raw) as AuthToken;
+  } catch {
+    return null;
+  }
+}
+
+export function getAccessToken(): string | null {
+  return getAuthToken()?.accessToken ?? null;
+}
+
+export function setAccessToken(token: string, exp: number): void {
+  if (typeof window === "undefined") return;
+  localStorage.setItem(AUTH_STORAGE_KEY, JSON.stringify({ accessToken: token, accessTokenExp: exp }));
+}
+
+export function clearAccessToken(): void {
+  if (typeof window === "undefined") return;
+  localStorage.removeItem(AUTH_STORAGE_KEY);
+}
+
+// Profile API
+export interface ProfileResponse {
+  email: string;
+}
+
+async function requestWithAuth<T>(
+  path: string,
+  refreshed = false,
+): Promise<T> {
+  const token = getAccessToken();
+  if (!token) throw new Error("Not authenticated");
+
+  const res = await fetch(`${API_BASE_URL}${path}`, {
+    headers: {
+      Authorization: `Bearer ${token}`,
+    },
+  });
+  if (!res.ok) {
+    if (res.status === 401 && !refreshed) {
+      try {
+        const tokens = await refreshToken();
+        setAccessToken(tokens.access_token, tokens.access_token_exp);
+        return requestWithAuth<T>(path, true);
+      } catch {
+        clearAccessToken();
+        throw new Error("Session expired");
+      }
+    }
+    throw new Error(`API error: ${res.status}`);
+  }
+  return res.json();
+}
+
+export async function getProfile(): Promise<ProfileResponse> {
+  const response = await requestWithAuth<GeneralResponse<ProfileResponse>>(
+    "/v1/profile",
   );
   return response.result;
 }

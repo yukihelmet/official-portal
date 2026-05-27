@@ -4,6 +4,7 @@ import "./globals.css";
 import { Header } from "@/components/pages/header/Header";
 import { Footer } from "@/components/pages/footer/Footer";
 import { I18nProvider } from "@/i18n";
+import { AuthProvider } from "@/contexts/AuthContext";
 
 const oswald = Oswald({
   variable: "--font-oswald",
@@ -37,9 +38,11 @@ export default function RootLayout({
         className={`${oswald.variable} ${notoSansJP.variable} h-full antialiased`}
       >
         <I18nProvider>
-          <Header />
-          <main className="flex-1 pt-16">{children}</main>
-          <Footer />
+          <AuthProvider>
+            <Header />
+            <main className="flex-1 pt-16">{children}</main>
+            <Footer />
+          </AuthProvider>
         </I18nProvider>
       </body>
     </html>

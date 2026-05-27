@@ -4,7 +4,8 @@
     "products": "商品",
     "cart": "カート",
     "menu": "メニュー",
-    "login": "ログイン"
+    "login": "ログイン",
+    "signInToContinue": "ログインして続行"
   },
   "product": {
     "addToCart": "カートに入れる",
