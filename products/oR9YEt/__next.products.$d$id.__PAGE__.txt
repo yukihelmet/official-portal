@@ -1,6 +1,6 @@
 1:"$Sreact.fragment"
-2:I[65699,["/_next/static/chunks/15q07ppon2ql2.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0ve-ab~ut5ayn.js","/_next/static/chunks/0c5-_qcbzlcx_.js"],"ProductDetailClient"]
-8:I[97367,["/_next/static/chunks/15q07ppon2ql2.js","/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
+2:I[65699,["/_next/static/chunks/0x2k~pvwyh-fp.js","/_next/static/chunks/0eewamb49pw7k.js","/_next/static/chunks/0ve-ab~ut5ayn.js","/_next/static/chunks/0.sroli-83n80.js"],"ProductDetailClient"]
+8:I[97367,["/_next/static/chunks/0x2k~pvwyh-fp.js","/_next/static/chunks/0eewamb49pw7k.js"],"OutletBoundary"]
 9:"$Sreact.suspense"
 3:T117d,「かわす性能」でライダーの頭を護り続けるアライと共に昨年、世界最高峰レースのMoto２クラスでチャンピオンを獲得し、今シーズンはトラックハウスMotoGPチーム（アプリリア）より最高峰「MotoGP」クラスでデビューより快進撃をしている日本人唯一のフル参戦ライダー『小椋 藍』選手のオープンフェイス版〈VZ-RAM オグラ〉の登場です。
 更なるプロテクション進化のステージに生まれ変わった〈VZ-RAM〉をベースに世界で戦っているフルフェイスカラーと同じ、スピード感あふれるラインと日本古来の伝統美「藍染」模様は、まさに侍ブルーで世界に挑む若きライダーを象徴したカラーリングモデルとなっています。
@@ -92,8 +92,8 @@ VAS-Z專業遮陽片的太陽罩，抬起時作為遮陽片功能，放下時作
 鏡片系統：VAS-Z鏡片系統
 鏡片：VAS-Z 吹風鏡片（淺煙色）標準裝備（※防霧釘鎖片另售）
 內裝：高配戴可調式內裝（抗菌・除臭・防污內裝）
-尺寸：（54）（55-56）（57-58）（59-60）（61-62）0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"product":{"id":"oR9YEt","name":"VZ-RAM OGURA (VZ ラム オグラ) オープンフェイスヘルメット","gender":"unisex","brand":"Arai","category":"jet_helmet","prices":[{"size":"54cm","prices":{"twd":{"price":18100,"discount_price":18100}}},{"size":"S(55-56cm)","prices":{"twd":{"price":18100,"discount_price":18100}}},{"size":"M(57-58cm)","prices":{"twd":{"price":18100,"discount_price":18100}}},{"size":"L(59-60cm)","prices":{"twd":{"price":18100,"discount_price":18100}}},{"size":"XL(61-62cm)","prices":{"twd":{"price":18100,"discount_price":18100}}}],"images":["https://cdn.jsdelivr.net/gh/yukihelmet/images@main/oR9YEt/1.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/oR9YEt/2.webp"],"description":{"ja":"$3","zhTW":"$4"}}}],["$L5","$L6"],"$L7"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"ArnuJrN_fZT3zLFA-qMU6"}
+尺寸：（54）（55-56）（57-58）（59-60）（61-62）0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"product":{"id":"oR9YEt","name":"VZ-RAM OGURA (VZ ラム オグラ) オープンフェイスヘルメット","gender":"unisex","brand":"Arai","category":"jet_helmet","prices":[{"size":"54cm","prices":{"twd":{"price":18100,"discount_price":18100}}},{"size":"S(55-56cm)","prices":{"twd":{"price":18100,"discount_price":18100}}},{"size":"M(57-58cm)","prices":{"twd":{"price":18100,"discount_price":18100}}},{"size":"L(59-60cm)","prices":{"twd":{"price":18100,"discount_price":18100}}},{"size":"XL(61-62cm)","prices":{"twd":{"price":18100,"discount_price":18100}}}],"images":["https://cdn.jsdelivr.net/gh/yukihelmet/images@main/oR9YEt/1.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/oR9YEt/2.webp"],"description":{"ja":"$3","zhTW":"$4"}}}],["$L5","$L6"],"$L7"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"i4V_jkNhAzx8UOHWnL5np"}
 5:["$","script","script-0",{"src":"/_next/static/chunks/0ve-ab~ut5ayn.js","async":true}]
-6:["$","script","script-1",{"src":"/_next/static/chunks/0c5-_qcbzlcx_.js","async":true}]
+6:["$","script","script-1",{"src":"/_next/static/chunks/0.sroli-83n80.js","async":true}]
 7:["$","$L8",null,{"children":["$","$9",null,{"name":"Next.MetadataOutlet","children":"$@a"}]}]
 a:null
