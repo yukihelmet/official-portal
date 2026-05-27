@@ -1,6 +1,6 @@
 1:"$Sreact.fragment"
-2:I[65699,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0ve-ab~ut5ayn.js","/_next/static/chunks/0c5-_qcbzlcx_.js"],"ProductDetailClient"]
-8:I[97367,["/_next/static/chunks/02tzwvrtnpta..js","/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
+2:I[65699,["/_next/static/chunks/0qn8g2g4ojo85.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0ve-ab~ut5ayn.js","/_next/static/chunks/0c5-_qcbzlcx_.js"],"ProductDetailClient"]
+8:I[97367,["/_next/static/chunks/0qn8g2g4ojo85.js","/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
 9:"$Sreact.suspense"
 3:T102d,快適性をアップデートした、軽量コンパクトモデル！
 
@@ -136,7 +136,7 @@
 
 ■尺寸：XS（54-55cm）・S（54-55cm）・M（57-58cm）・L（59-60cm）・XL（61-62cm）・XXL（63-64cm）
 　※尺寸僅供參考。由於產品設計，即使顯示相同尺寸，佩戴感可能會有所不同。
-　　購買時請務必試戴一次。0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"product":{"id":"4t3RHk","name":"AEROBLADE-6 ELFI DARK (エアロブレード6 エルフィ ダーク) フルフェイスヘルメット ブラックホワイトパープル","gender":"unisex","brand":"Kabuto","category":"full_face_helmet","prices":[{"size":"XS","prices":{"twd":{"price":12800,"discount_price":12200}}},{"size":"S","prices":{"twd":{"price":12800,"discount_price":12200}}},{"size":"M","prices":{"twd":{"price":12800,"discount_price":12200}}},{"size":"L","prices":{"twd":{"price":12800,"discount_price":12200}}},{"size":"XL","prices":{"twd":{"price":12800,"discount_price":12200}}},{"size":"XXL","prices":{"twd":{"price":12800,"discount_price":12200}}}],"images":["https://cdn.jsdelivr.net/gh/yukihelmet/images@main/4t3RHk/1.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/4t3RHk/2.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/4t3RHk/3.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/4t3RHk/4.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/4t3RHk/5.webp"],"description":{"ja":"$3","zhTW":"$4"}}}],["$L5","$L6"],"$L7"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"7wIOYdcIdglYCjTBYKes1"}
+　　購買時請務必試戴一次。0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"product":{"id":"4t3RHk","name":"AEROBLADE-6 ELFI DARK (エアロブレード6 エルフィ ダーク) フルフェイスヘルメット ブラックホワイトパープル","gender":"unisex","brand":"Kabuto","category":"full_face_helmet","prices":[{"size":"XS","prices":{"twd":{"price":12800,"discount_price":12200}}},{"size":"S","prices":{"twd":{"price":12800,"discount_price":12200}}},{"size":"M","prices":{"twd":{"price":12800,"discount_price":12200}}},{"size":"L","prices":{"twd":{"price":12800,"discount_price":12200}}},{"size":"XL","prices":{"twd":{"price":12800,"discount_price":12200}}},{"size":"XXL","prices":{"twd":{"price":12800,"discount_price":12200}}}],"images":["https://cdn.jsdelivr.net/gh/yukihelmet/images@main/4t3RHk/1.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/4t3RHk/2.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/4t3RHk/3.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/4t3RHk/4.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/4t3RHk/5.webp"],"description":{"ja":"$3","zhTW":"$4"}}}],["$L5","$L6"],"$L7"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"6Qwz1FJ651kOJyhDOFVdj"}
 5:["$","script","script-0",{"src":"/_next/static/chunks/0ve-ab~ut5ayn.js","async":true}]
 6:["$","script","script-1",{"src":"/_next/static/chunks/0c5-_qcbzlcx_.js","async":true}]
 7:["$","$L8",null,{"children":["$","$9",null,{"name":"Next.MetadataOutlet","children":"$@a"}]}]
