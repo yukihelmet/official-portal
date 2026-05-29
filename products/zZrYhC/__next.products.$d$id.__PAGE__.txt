@@ -1,6 +1,0 @@
-1:"$Sreact.fragment"
-2:I[65699,["/_next/static/chunks/0x2k~pvwyh-fp.js","/_next/static/chunks/0eewamb49pw7k.js","/_next/static/chunks/0ve-ab~ut5ayn.js","/_next/static/chunks/0.sroli-83n80.js"],"ProductDetailClient"]
-3:I[97367,["/_next/static/chunks/0x2k~pvwyh-fp.js","/_next/static/chunks/0eewamb49pw7k.js"],"OutletBoundary"]
-4:"$Sreact.suspense"
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"product":{"id":"zZrYhC","name":"JS-65R JETヘルメット MAT.BK","gender":"unisex","brand":"TNK工業","category":"jet_helmet","prices":[{"size":"Free Size","prices":{"twd":{"price":3000,"discount_price":3000}}}],"images":["https://cdn.jsdelivr.net/gh/yukihelmet/images@main/zZrYhC/1.webp"],"description":{"ja":"内装脱着式のジェットヘルメットです。標準シールドはついておりません。\nFREE（58~59cm）","zhTW":"內裝可拆式的飛行頭盔。\n標準鏡片並不包含。\nFREE（58~59cm）"}}}],[["$","script","script-0",{"src":"/_next/static/chunks/0ve-ab~ut5ayn.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/0.sroli-83n80.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"i4V_jkNhAzx8UOHWnL5np"}
-5:null

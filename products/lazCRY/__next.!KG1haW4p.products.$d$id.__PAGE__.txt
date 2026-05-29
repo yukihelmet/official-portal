@@ -1,0 +1,105 @@
+1:"$Sreact.fragment"
+2:I[97739,["/_next/static/chunks/0swer~2.5rrch.js","/_next/static/chunks/0eewamb49pw7k.js","/_next/static/chunks/078bui296zti1.js","/_next/static/chunks/0qmzdw4-qa8ve.js","/_next/static/chunks/15ji0vfxofmty.js","/_next/static/chunks/0z8m53lzz18g3.js"],"ProductDetailClient"]
+8:I[97367,["/_next/static/chunks/0swer~2.5rrch.js","/_next/static/chunks/0eewamb49pw7k.js","/_next/static/chunks/078bui296zti1.js"],"OutletBoundary"]
+9:"$Sreact.suspense"
+3:T128e,完全新設計のX-Fifteen
+
+ライダーの勝利への貢献に徹底してこだわったX-Fifteenが、レースシーンに新たな風を巻き起こす。
+
+・AEROFORM
+
+レースから生まれ、進化した空力性能を体感
+
+SHOEIのノウハウとそれを裏付ける圧力解析から空気抵抗の少ない形状を割り出し、それをベースに自社大型風洞設備での検証を重ねブラッシュアップ。 時速350km/hを超える超高速走行でも安定した空力性能を発揮する完全新設計のエアロフォルムは、ピンと張りつめた緊張感のある雰囲気を漂わせます。
+
+・VENTILATION
+
+レースやスポーツライディングに最適化したベンチレーション
+
+ヘルメット内部のエアルートは従来モデルに比べ1.5倍以上溝を深くし、また、リアスタビライザーのトンネル部分にアウトレットホールを装備することで、より高い換気性能を実現しました。
+
+・SHIELD SYSTEM
+
+あらゆるライディングシーンにフィットする快適さ
+
+シールドと窓ゴム (ウインドウビーディング) との密着を高め、風や雨の侵入を防ぐセンターロック式のCWR-F2Rシールドを装備。 ティアオフボタンを共用する防曇シート用ピンが視界の外側に配置されたことで、 防曇シート装着時も視界のほぼ全域を防曇シートがカバーし、より広くクリアな視界を確保します。
+
+・UPPER FIELD OF VISION
+
+X-Fifteenはアイポートの位置を従来モデルより5mm上方へ移動。ヘルメット内での頭の被り位置を変えることなく、かつ上下視界のバランスは損なわずに、より広い上方視界を確保しました。また、従来モデルから受け継いだチークパッドのレーシングポジションも相まって、その視界の広さはMotoGPライダーからも高く評価され、レース中の安全性向上にも貢献しています。
+
+・INTERIOR PARTS
+
+より詳細なセルフアジャストでベストなフィット感をつくる
+
+分割式センターパッドが更に進化し、フィット感の調整幅が広がりました。各パッドをポケットタイプとし、オプションの調整用パッドで頭のかたちに合わせて部分的に隙間を詰めたり、厚みの異なるパッドに交換したり出来ることに加え、前後左右のパッドは外側1層を再剥離式とすることで部分的にフィット感をゆるめることも出来、フィット感をユーザー自身で微調整することが可能です。
+
+チークパッドはヘルメット被り口側にくる下端部分の独自形状により、走行時にリフトを抑え、また、頬にあたる面積が従来モデル比116%と拡大したことで高速走行時でもぶれにくいホールド感を実現。
+
+・READY FOR HYDRATION SYSTEM
+
+耐久レースや夏場の過酷な環境下における長時間のライディングにおいて使用されるハイドレーションシステム。X-Fifteenはハイドレーションシステムの取り付け機構を口元に設け、オプションのハイドレーションチューブと市販のハイドレーション用品を組み合わせることで、容易にハイドレーションシステムを使用することが可能です。
+
+・QUIETNESS
+
+ライディング時の集中を高め、負担を軽減する静かさ
+
+ノイズの発生を抑え、ヘルメット内の静粛性を高めることはライディングへの集中力を高め、ライダーの疲労も軽減します。密閉性を高めたセンターロック式のCWR-F2Rシールドは、左右両端にボーテックスジェネレーターを装備。シールドサイドの風を後方へ流す整流効果により、シールドサイドのノイズ発生を抑えます。
+
+・エマージェンシークイックリリースシステム
+
+万が一のアクシデント時に備えた緊急用ヘルメット取り外しシステム
+
+万が一のアクシデントが発生してしまった場合、救護作業を行う第三者がライダーからヘルメットを取り外すことは想像以上に困難です。衝撃吸収性能や快適性はもちろんですが、このような緊急時の救護作業をサポートすることも、ヘルメットの大切な機能のひとつ。SHOEIが開発したE.Q.R.S. （Emergency Quick Release System）は、専用のリボンを引くだけの簡単操作で、負傷の可能性のある頚部への負担を最小限に抑えつつ、容易にヘルメットを取り外すことが可能です。4:Tc5c,完全新設計的X-Fifteen
+
+徹底專注於騎士的勝利貢獻的X-Fifteen，將在賽車場景中掀起新的風潮。
+
+・AEROFORM
+
+從賽車中誕生，進化的空氣動力性能體驗
+
+SHOEI的專業知識及其背後的壓力分析，導出低空氣阻力的形狀，並以此為基礎在自家大型風洞設備中進行反覆驗證和改進。即使在時速超過350km/h的超高速行駛中，完全新設計的空氣動力形狀也能展現穩定的空氣動力性能，散發出緊張感的氛圍。
+
+・VENTILATION
+
+針對賽車和運動騎乘最佳化的通氣
+
+頭盔內部的氣流路徑相比於舊款加深了1.5倍，並且在後方穩定器的隧道部分裝備了排氣孔，實現了更高的通風性能。
+
+・SHIELD SYSTEM
+
+適合各種騎乘場景的舒適性
+
+增強了鏡片與窗橡膠（窗邊密封）的緊密接觸，防止風和雨的侵入，配備了中央鎖定式的CWR-F2R鏡片。共用的撕除按鈕防霧片的釘子被放置在視野的外側，這樣即使在裝上防霧片時，防霧片也幾乎覆蓋了視野的全域，確保了更寬廣清晰的視野。
+
+・UPPER FIELD OF VISION
+
+X-Fifteen將眼孔的位置上移了5mm。無需改變頭部在頭盔內的佩戴位置，且上下視野的平衡不受損，確保了更寬廣的上方視野。此外，繼承自舊款的頰墊的賽車位置也使得這種視野的寬廣受到MotoGP騎士的高度評價，並有助於提高賽車中的安全性。
+
+・INTERIOR PARTS
+
+更詳細的自我調整以創造最佳的貼合感
+
+分割式中央墊進一步進化，調整的範圍擴大。各墊片採用口袋式設計，並可使用選配的調整墊根據頭型部分性地填補空隙或更換不同厚度的墊片，此外，前後左右的墊片外層1層為可再剝離式，這樣可以部分放鬆貼合感，讓用戶能夠自行微調貼合感。
+
+頰墊因其獨特形狀位於頭盔佩戴口側的下端部分，能在行駛時抑制升力，並且與舊款相比，接觸面積擴大了116%，實現了在高速行駛時也不易晃動的穩定感。
+
+・READY FOR HYDRATION SYSTEM
+
+在耐久賽或夏季惡劣環境下進行長時間騎乘時使用的水合系統。X-Fifteen在口部設置了水合系統的安裝機構，通過選配的水合管和市售的水合用品的組合，能夠輕鬆使用水合系統。
+
+・QUIETNESS
+
+提高騎乘時的專注力，減輕負擔的靜音
+
+抑制噪音的產生，提高頭盔內的靜音性，能提高騎乘的專注力，減輕騎士的疲勞。密閉性提高的中央鎖定式CWR-F2R鏡片，左右兩端裝備了渦流發生器。鏡片側的風流向後流動的整流效果，抑制了鏡片側的噪音產生。
+
+・緊急快速釋放系統
+
+為了應對意外事故而設計的緊急頭盔拆卸系統
+
+如果發生意外事故，第三方救護人員從騎士身上拆卸頭盔的難度超乎想像。除了衝擊吸收性能和舒適性外，支持這種緊急救護工作的功能也是頭盔的重要功能之一。SHOEI開發的E.Q.R.S.（Emergency Quick Release System）只需拉動專用的帶子，便可輕鬆操作，將可能受傷的頸部負擔降至最低，輕鬆拆卸頭盔。0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"product":{"id":"lazCRY","name":"X-Fifteen TOPRAK エックス - フィフティーン トプラック TC-2 (BLUE/RED) フルフェイスヘルメット","gender":"unisex","brand":"SHOEI","category":"full_face_helmet","prices":[{"size":"XS(53-54cm)","prices":{"twd":{"price":23900,"discount_price":23900}}},{"size":"S(55-56cm)","prices":{"twd":{"price":23900,"discount_price":23900}}},{"size":"M(57-58cm)","prices":{"twd":{"price":23900,"discount_price":23900}}},{"size":"L(59-60cm)","prices":{"twd":{"price":23900,"discount_price":23900}}},{"size":"XL(61-62cm)","prices":{"twd":{"price":23900,"discount_price":23900}}},{"size":"XXL(63-64cm)","prices":{"twd":{"price":23900,"discount_price":23900}}}],"images":["https://cdn.jsdelivr.net/gh/yukihelmet/images@main/lazCRY/1.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/lazCRY/2.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/lazCRY/3.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/lazCRY/4.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/lazCRY/5.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/lazCRY/6.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/lazCRY/7.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/lazCRY/8.webp"],"description":{"ja":"$3","zhTW":"$4"}}}],["$L5","$L6"],"$L7"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Cj9xbrX0YuTz9hjjuKqoU"}
+5:["$","script","script-0",{"src":"/_next/static/chunks/15ji0vfxofmty.js","async":true}]
+6:["$","script","script-1",{"src":"/_next/static/chunks/0z8m53lzz18g3.js","async":true}]
+7:["$","$L8",null,{"children":["$","$9",null,{"name":"Next.MetadataOutlet","children":"$@a"}]}]
+a:null

@@ -1,6 +1,0 @@
-1:"$Sreact.fragment"
-2:I[65699,["/_next/static/chunks/0x2k~pvwyh-fp.js","/_next/static/chunks/0eewamb49pw7k.js","/_next/static/chunks/0ve-ab~ut5ayn.js","/_next/static/chunks/0.sroli-83n80.js"],"ProductDetailClient"]
-3:I[97367,["/_next/static/chunks/0x2k~pvwyh-fp.js","/_next/static/chunks/0eewamb49pw7k.js"],"OutletBoundary"]
-4:"$Sreact.suspense"
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"product":{"id":"yXz8vN","name":"JS-65GXα スモールJET MADBLACK/GUNMETA","gender":"unisex","brand":"TNK工業","category":"jet_helmet","prices":[{"size":"60~62cm","prices":{"twd":{"price":3400,"discount_price":3100}}}],"images":["https://cdn.jsdelivr.net/gh/yukihelmet/images@main/yXz8vN/1.webp"],"description":{"ja":"すっきりしたデザインにメッキモールを採用し、コンパクトなフォルムを実現しています。\n3つボタンがあるので汎用シールドの取り付けが可能です。\n\n全排気量対応\nワンタッチホルダー\nシールド取付可能","zhTW":"採用簡潔的設計與鍍鉻裝飾條，實現了緊湊的外形。\n因為有3個按鈕，所以可以安裝通用鏡片。\n\n全排氣量適用\n一鍵式支架\n鏡片可安裝"}}}],[["$","script","script-0",{"src":"/_next/static/chunks/0ve-ab~ut5ayn.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/0.sroli-83n80.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"i4V_jkNhAzx8UOHWnL5np"}
-5:null

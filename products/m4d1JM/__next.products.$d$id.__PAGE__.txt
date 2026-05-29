@@ -1,6 +1,0 @@
-1:"$Sreact.fragment"
-2:I[65699,["/_next/static/chunks/0x2k~pvwyh-fp.js","/_next/static/chunks/0eewamb49pw7k.js","/_next/static/chunks/0ve-ab~ut5ayn.js","/_next/static/chunks/0.sroli-83n80.js"],"ProductDetailClient"]
-3:I[97367,["/_next/static/chunks/0x2k~pvwyh-fp.js","/_next/static/chunks/0eewamb49pw7k.js"],"OutletBoundary"]
-4:"$Sreact.suspense"
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"product":{"id":"m4d1JM","name":"ZJ-3 JETヘルメット HALFMADKHAKI","gender":"unisex","brand":"TNK工業","category":"jet_helmet","prices":[{"size":"58~60cm","prices":{"twd":{"price":3200,"discount_price":3100}}}],"images":["https://cdn.jsdelivr.net/gh/yukihelmet/images@main/m4d1JM/1.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/m4d1JM/2.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/m4d1JM/3.webp"],"description":{"ja":"インナーシールドスモークを内蔵したダブルシールド構造のジェットヘルメット。ほほパッドが広がるから装着しやすく、あご紐の調整でフェイスラインを正しく保護します。","zhTW":"內建煙色內襯遮陽片的雙鏡片結構的噴射頭盔。因為頰墊擴展，所以容易佩戴，並且透過調整下巴帶來正確保護臉部輪廓。"}}}],[["$","script","script-0",{"src":"/_next/static/chunks/0ve-ab~ut5ayn.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/0.sroli-83n80.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"i4V_jkNhAzx8UOHWnL5np"}
-5:null

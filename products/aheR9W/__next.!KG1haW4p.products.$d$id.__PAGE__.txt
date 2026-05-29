@@ -1,0 +1,58 @@
+1:"$Sreact.fragment"
+2:I[97739,["/_next/static/chunks/0swer~2.5rrch.js","/_next/static/chunks/0eewamb49pw7k.js","/_next/static/chunks/078bui296zti1.js","/_next/static/chunks/0qmzdw4-qa8ve.js","/_next/static/chunks/15ji0vfxofmty.js","/_next/static/chunks/0z8m53lzz18g3.js"],"ProductDetailClient"]
+4:I[97367,["/_next/static/chunks/0swer~2.5rrch.js","/_next/static/chunks/0eewamb49pw7k.js","/_next/static/chunks/078bui296zti1.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:Tc2c,AGV K1 S DREAMTIME (ドリームタイム)
+
+2008年のオーストラリアGPで行われたウィンターテストでバレンティーノ・ロッシが着用したグラフィックを再現しました。
+ロッシの象徴である「太陽と月」とオーストラリアの古代アボリジニ人のアートから着想を得ており、「ALDO DRUDI/アルド・ドゥルディ」によりデザインされました。 
+
+MotoGPで得たAGVレーシング技術から誕生したK1 Sは、空気力学的形状と高強度熱可塑性素材のシェルにより、日常の課題に立ち向かうように設計されています。
+アロダイナミックフォルム、レーシング用に開発されたフロントのパンチング孔、風洞で設計された新しいエアロスポイラーがパフォーマンスを最大限まで高め、高速走行時に安定性をもたらします。
+キズ防止仕様のパノラマバイザー「ウルトラビジョン」は、周辺環境を完全に識別できるよう縦横方向ともに広い視野を確保します。
+着脱可能な内側を柔らかなDry-Comfortで仕上げることで、快適性においても妥協していません。 
+
+AGV Extreme Safetyにより、K1 Sは厳しい安全規格ECE2206を満たすだけでなく、さらに上回っています。
+欧州安全規格ECE2206認証、SG認証取得、アジアンフィット。 
+
+アジアンフィットについて： 
+日本国内の正規販売ネットワーク店で取り扱うAGVの「アジアンフィット」とは、日本人の頭の形にあわせてデザインされており、内装もオリジナルのものを採用しております。 
+長時間の着用でも違和感なく、快適にご使用頂けるようになっており、欧米向けにデザインされた海外仕様とは異なります。 
+また2年間の無料修理保証が付随するほか、内装交換時にも、
+国内の同ネットワーク店でアジアンフィット適合の専用パッドをご用意しておりますので、お気に入りのグラフィックを長くご愛用頂けます。
+
+スペック
+【通気性】
+調節可能なベンチレーション
+前面にベンチレーション5箇所
+背面に排気ベンチレーション2箇所
+
+【シェル】
+シェルサイズ2種類
+4サイズ展開の4倍密度EPS
+耐久性の高いサーモプラスチック
+鎖骨を安全に守るシェイプ
+
+【エアロダイナミクス】
+スポイラー付き
+
+【内部】
+着脱・洗浄可能な内部
+着脱可能なノーズガード
+着脱可能なウィンドプロテクター
+メガネをかけてもフィットするデザイン
+Dry-Comfortファブリック
+汎用通信システムに対応
+アジアンフィット
+
+【バイザー】
+アンチスクラッチ
+最大190°の水平視野角
+マイクロオープニングシステム
+特許取得済みのエクストラクイックリリースシステム
+マルチステップ バイザーメカニズム
+Max Pinlock装着可能
+
+【リテンションシステム】
+Double D0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"product":{"id":"aheR9W","name":"K1 S JIST Asian Fit フルフェイスヘルメット DREAMTIME","gender":"unisex","brand":"AGV","category":"full_face_helmet","prices":[{"size":"S(55-56cm)","prices":{"twd":{"price":10800,"discount_price":10800}}},{"size":"L(59-60cm)","prices":{"twd":{"price":10800,"discount_price":10800}}}],"images":["https://cdn.jsdelivr.net/gh/yukihelmet/images@main/aheR9W/1.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/aheR9W/2.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/aheR9W/3.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/aheR9W/4.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/aheR9W/5.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/aheR9W/6.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/aheR9W/7.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/aheR9W/8.webp"],"description":{"ja":"$3","zhTW":"AGV K1 S DREAMTIME (ドリームタイム)\n\n2008年的澳洲GP進行的冬季測試中，瓦倫蒂諾·羅西所穿的圖案得以重現。\n羅西的象徵「太陽與月亮」以及澳洲古代土著藝術的靈感，皆由「ALDO DRUDI/阿爾多·德魯迪」設計。\n\n從MotoGP獲得的AGV賽車技術誕生的K1 S，透過空氣動力學形狀和高強度熱塑性材料的外殼，設計用以應對日常挑戰。\n流線型的外形、為賽車開發的前方通氣孔、在風洞中設計的新型空氣擾流器，最大限度提升性能，並在高速行駛時提供穩定性。\n防刮的全景護目鏡「超視野」確保能完全識別周圍環境，提供寬廣的視野。\n內部使用可拆卸的柔軟Dry-Comfort材料，確保在舒適性上不妥協。\n\nAGV極限安全技術使得K1 S不僅滿足嚴格的安全標準ECE2206，還超越了這些標準。\n歐洲安全標準ECE2206認證、SG認證取得、亞洲適配。\n\n關於亞洲適配：\n在日本國內的正規銷售網絡店中販售的AGV「亞洲適配」是根據日本人的頭型設計，內裝也採用原創材料。\n即使長時間佩戴也不會感到不適，能夠舒適使用，與為歐美市場設計的海外版本不同。\n此外，還附帶2年的免費維修保證，內裝更換時，\n國內同網絡店也提供適合亞洲適配的專用墊片，讓您能長時間享用喜愛的圖案。\n\n規格\n【通氣性】\n可調式通氣\n前面有5個通氣孔\n背面有2個排氣通氣孔\n\n【外殼】\n外殼尺寸2種\n4種尺寸展開的4倍密度EPS\n耐久性高的熱塑性塑料\n安全保護鎖骨的形狀\n\n【空氣動力學】\n附擾流器\n\n【內部】\n可拆卸・可清洗的內部\n可拆卸的鼻護\n可拆卸的風擋\n即使佩戴眼鏡也能合適的設計\nDry-Comfort面料\n兼容通用通訊系統\n亞洲適配\n\n【護目鏡】\n防刮\n最大190°的水平視野角\n微開啟系統\n已獲專利的超快速釋放系統\n多步驟護目鏡機構\n可安裝Max Pinlock\n\n【固定系統】\nDouble D"}}}],[["$","script","script-0",{"src":"/_next/static/chunks/15ji0vfxofmty.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/0z8m53lzz18g3.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Cj9xbrX0YuTz9hjjuKqoU"}
+6:null
