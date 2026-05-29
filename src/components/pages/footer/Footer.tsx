@@ -64,6 +64,7 @@ export function Footer() {
         {/* Copyright */}
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-sm text-gray-400">
           <p>© {new Date().getFullYear()} Yuki Helmet. All rights reserved.</p>
+          <p className="mt-1 text-xs text-gray-600">{process.env.NEXT_PUBLIC_APP_VERSION}</p>
         </div>
       </div>
     </footer>

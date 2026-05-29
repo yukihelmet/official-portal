@@ -79,8 +79,8 @@ export default function CartPage() {
         currencyKey,
       );
       window.location.href = url;
-    } catch (err) {
-      setCheckoutError(err instanceof Error ? err.message : t("cart.checkoutError"));
+    } catch {
+      setCheckoutError(t("cart.checkoutError"));
     } finally {
       setIsCheckingOut(false);
     }

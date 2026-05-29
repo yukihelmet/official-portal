@@ -46,7 +46,7 @@
     "clear": "清空購物車",
     "subtotal": "小計",
     "checkout": "結帳",
-    "checkoutError": "結帳失敗，請稍後再試"
+    "checkoutError": "系統繁忙中，請稍後再試"
   },
   "payment": {
     "success": {

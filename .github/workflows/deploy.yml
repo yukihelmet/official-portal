@@ -37,6 +37,7 @@ jobs:
           cp CNAME ./out/CNAME
         env:
           NEXT_PUBLIC_API_BASE_URL: https://api.yuki-helmet.com
+          NEXT_PUBLIC_APP_VERSION: ${{ github.ref_name }}
 
       - name: Upload artifact
         uses: actions/upload-artifact@v5
