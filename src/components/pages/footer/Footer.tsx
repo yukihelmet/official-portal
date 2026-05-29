@@ -6,7 +6,6 @@ import { Icon } from "@iconify/react";
 
 export function Footer() {
   const { t } = useI18n();
-  const tf = t.footer as Record<string, string>;
 
   return (
     <footer className="bg-gray-900 text-white">
@@ -21,33 +20,33 @@ export function Footer() {
                 <span className="text-xs font-normal leading-tight text-gray-400">Helmet</span>
               </div>
             </a>
-            <p className="text-sm text-gray-400">{tf.brand}</p>
+            <p className="text-sm text-gray-400">{t("footer.brand")}</p>
           </div>
 
           {/* Quick Links */}
           <div>
-            <h3 className="font-semibold mb-4">{tf.quickLinks}</h3>
+            <h3 className="font-semibold mb-4">{t("footer.quickLinks")}</h3>
             <ul className="space-y-2 text-sm text-gray-400">
-              <li><a href="/" className="hover:text-white transition-colors">{t.common.home}</a></li>
-              <li><a href="/products" className="hover:text-white transition-colors">{t.common.products}</a></li>
-              <li><a href="/cart" className="hover:text-white transition-colors">{t.common.cart}</a></li>
-              <li><a href="/login" className="hover:text-white transition-colors">{t.common.login}</a></li>
+              <li><a href="/" className="hover:text-white transition-colors">{t("common.home")}</a></li>
+              <li><a href="/products" className="hover:text-white transition-colors">{t("common.products")}</a></li>
+              <li><a href="/cart" className="hover:text-white transition-colors">{t("common.cart")}</a></li>
+              <li><a href="/login" className="hover:text-white transition-colors">{t("common.login")}</a></li>
             </ul>
           </div>
 
           {/* Customer Service */}
           <div>
-            <h3 className="font-semibold mb-4">{tf.customerService}</h3>
+            <h3 className="font-semibold mb-4">{t("footer.customerService")}</h3>
             <ul className="space-y-2 text-sm text-gray-400">
-              <li><a href="/about" className="hover:text-white transition-colors">{tf.aboutUs}</a></li>
-              <li><a href="/privacy" className="hover:text-white transition-colors">{tf.privacyPolicy}</a></li>
-              <li><a href="/terms" className="hover:text-white transition-colors">{tf.termsOfService}</a></li>
+              <li><a href="/about" className="hover:text-white transition-colors">{t("footer.aboutUs")}</a></li>
+              <li><a href="/privacy" className="hover:text-white transition-colors">{t("footer.privacyPolicy")}</a></li>
+              <li><a href="/terms" className="hover:text-white transition-colors">{t("footer.termsOfService")}</a></li>
             </ul>
           </div>
 
           {/* Social */}
           <div>
-            <h3 className="font-semibold mb-4">{tf.followUs}</h3>
+            <h3 className="font-semibold mb-4">{t("footer.followUs")}</h3>
             <div className="flex gap-4">
               <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
                 <Icon icon="mdi:facebook" className="w-6 h-6" />

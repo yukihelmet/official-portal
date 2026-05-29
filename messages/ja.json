@@ -5,11 +5,13 @@
     "cart": "カート",
     "menu": "メニュー",
     "login": "ログイン",
-    "signInToContinue": "ログインして続行"
+    "signInToContinue": "ログインして続行",
+    "loading": "処理中..."
   },
   "product": {
     "addToCart": "カートに入れる",
     "addToCartButton": "カートに入れる",
+    "addedToCart": "追加済み！",
     "taxIncluded": "税込",
     "size": "サイズ",
     "sizeLabel": "サイズ / Size",
@@ -37,6 +39,22 @@
   },
   "seo": {
     "productDescription": "日本直送、人気商品在庫あり"
+  },
+  "cart": {
+    "empty": "カートは空です",
+    "emptyDesc": "商品を見てみましょう",
+    "clear": "カートを空にする",
+    "subtotal": "小計",
+    "checkout": "チェックアウト",
+    "checkoutError": "決済に失敗しました。しばらくしてからもう一度お試しください"
+  },
+  "payment": {
+    "success": {
+      "title": "ご注文ありがとうございます！",
+      "desc": "ご購入いただきありがとうございます。ご注文を承りました。",
+      "hint": "確認メールをご登録のメールアドレスにお送りしました。受信トレイをご確認ください。",
+      "continueShopping": "ショッピングを続ける"
+    }
   },
   "footer": {
     "brand": "正規輸入、日本語サポート付き。",

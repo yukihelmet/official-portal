@@ -31,7 +31,6 @@ export function ProductsClient({
   initialNextId: initialNextIdProp,
 }: ProductsClientProps) {
   const { locale, t } = useI18n();
-  const tf = t.filter as Record<string, string>;
   const currencyKey = locale === "ja" ? "jpy" : "twd";
 
   const [products, setProducts] = useState<Product[]>(initialProducts);
@@ -39,7 +38,7 @@ export function ProductsClient({
   const [categories] = useState(initialCategories);
   const [selectedBrand, setSelectedBrand] = useState<string>("");
   const [selectedCategory, setSelectedCategory] = useState<string>("");
-  const [selectedCategoryLabel, setSelectedCategoryLabel] = useState<string>(t.filter.allCategories);
+  const [selectedCategoryLabel, setSelectedCategoryLabel] = useState<string>(t("filter.allCategories"));
   const [nextId, setNextId] = useState<string | null>(initialNextIdProp);
   const [isLoading, setIsLoading] = useState(false);
   const [isLoadingMore, setIsLoadingMore] = useState(false);
@@ -120,10 +119,10 @@ export function ProductsClient({
       <div className="flex flex-wrap gap-4 mb-8">
         <Select value={selectedBrand} onValueChange={(v) => setSelectedBrand(v || "")}>
           <SelectTrigger className="w-36">
-            <SelectValue placeholder={tf.allBrands} />
+            <SelectValue placeholder={t("filter.allBrands")} />
           </SelectTrigger>
           <SelectContent>
-            <SelectItem value="">{tf.allBrands}</SelectItem>
+            <SelectItem value="">{t("filter.allBrands")}</SelectItem>
             {brands.map((brand) => (
               <SelectItem key={brand} value={brand}>
                 {brand}
@@ -137,9 +136,9 @@ export function ProductsClient({
             onValueChange={(v) => {
               setSelectedCategory(v || "");
               if (!v) {
-                setSelectedCategoryLabel(tf.allCategories);
+                setSelectedCategoryLabel(t("filter.allCategories"));
               } else {
-                const label = (t.product as Record<string, string>)[v] ?? v;
+                const label = t(`product.${v}`) ?? v;
                 setSelectedCategoryLabel(label);
               }
             }}
@@ -148,10 +147,10 @@ export function ProductsClient({
               <SelectValue>{selectedCategoryLabel}</SelectValue>
           </SelectTrigger>
           <SelectContent>
-            <SelectItem value="">{tf.allCategories}</SelectItem>
+            <SelectItem value="">{t("filter.allCategories")}</SelectItem>
             {categories.map((category) => (
               <SelectItem key={category} value={category}>
-                {(t.product as Record<string, string>)[category] ?? category}
+                {(t(`product.${category}`) as string) ?? category}
               </SelectItem>
             ))}
           </SelectContent>
@@ -162,7 +161,7 @@ export function ProductsClient({
       {isLoading ? (
         <Loading />
       ) : products.length === 0 ? (
-        <div className="text-center py-12 text-gray-500">{tf.noProducts}</div>
+        <div className="text-center py-12 text-gray-500">{t("filter.noProducts")}</div>
       ) : (
         <>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">

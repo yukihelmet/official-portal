@@ -7,10 +7,13 @@ import { NavBtn } from "./navbtn";
 import { Logo } from "@/components/pages/logo/Logo";
 import { Icon } from "@iconify/react";
 import { useAuth } from "@/contexts/AuthContext";
+import { useCart } from "@/contexts/CartContext";
 
 export function Header() {
   const { t } = useI18n();
   const { isAuthenticated, profile, clearAccessToken } = useAuth();
+  const { items } = useCart();
+  const cartCount = items.reduce((sum, item) => sum + item.quantity, 0);
   const [showDropdown, setShowDropdown] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
 
@@ -46,7 +49,7 @@ export function Header() {
 
           {/* Icons */}
           <div className="flex items-center gap-6">
-            <NavBtn icon="mdi:cart" label={t.common.cart} href="/cart" badge={0} />
+            <NavBtn icon="mdi:cart" label={t("common.cart")} href="/cart" badge={cartCount} />
             {isAuthenticated ? (
               <div className="relative" ref={dropdownRef}>
                 <button
@@ -73,7 +76,7 @@ export function Header() {
                 )}
               </div>
             ) : (
-              <NavBtn icon="mdi:account" label={t.common.login} href="/login" />
+              <NavBtn icon="mdi:account" label={t("common.login")} href="/login" />
             )}
           </div>
         </div>

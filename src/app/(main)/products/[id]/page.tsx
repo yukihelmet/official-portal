@@ -1,7 +1,7 @@
 import { ProductDetailClient } from "./ProductDetailClient";
 import { listProducts, getProductById } from "@/lib/official-portal-api";
 import type { Metadata } from "next";
-import messages from "../../../../messages/zh-TW.json";
+import messages from "../../../../../messages/zh-TW.json";
 
 export const revalidate = 3600;
 

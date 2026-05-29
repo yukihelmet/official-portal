@@ -4,7 +4,10 @@ import { useState, useMemo } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { Product } from "@/entities/Product";
+import { CartItem } from "@/entities/CartItem";
 import { useI18n } from "@/i18n";
+import { useCart } from "@/contexts/CartContext";
+import { Icon } from "@iconify/react";
 import {
   Carousel,
   CarouselContent,
@@ -21,8 +24,10 @@ export function ProductDetailClient({
   product,
 }: ProductDetailClientProps) {
   const { t, locale } = useI18n();
+  const { addItem } = useCart();
   const [selectedSize, setSelectedSize] = useState<string>(product.prices[0]?.size ?? "");
   const [quantity, setQuantity] = useState(1);
+  const [added, setAdded] = useState(false);
 
   const currencyKey = locale === "ja" ? "JPY" : "TWD";
 
@@ -48,9 +53,9 @@ export function ProductDetailClient({
     <div className="w-[90%] max-w-[var(--container-max, 1200px)] mx-auto py-8">
       {/* Breadcrumb */}
       <nav className="text-sm text-gray-500 mb-6">
-        <Link href="/" className="hover:text-gray-800">{t.breadcrumb.home}</Link>
+        <Link href="/" className="hover:text-gray-800">{t("breadcrumb.home")}</Link>
         <span className="mx-2">/</span>
-        <Link href="/products" className="hover:text-gray-800">{t.breadcrumb.products}</Link>
+        <Link href="/products" className="hover:text-gray-800">{t("breadcrumb.products")}</Link>
         <span className="mx-2">/</span>
         <span className="text-gray-800">{product.name}</span>
       </nav>
@@ -111,13 +116,13 @@ export function ProductDetailClient({
               <span className="text-2xl font-bold text-red-600">
                 {formatPrice(selectedPrice.price)}
               </span>
-              <span className="text-sm text-gray-500">({t.product.taxIncluded})</span>
+              <span className="text-sm text-gray-500">({t("product.taxIncluded")})</span>
             </div>
           </div>
 
           {/* Size Selector */}
           <div className="py-6 border-b border-gray-200">
-            <p className="text-sm font-semibold mb-3">{t.product.sizeLabel}</p>
+            <p className="text-sm font-semibold mb-3">{t("product.sizeLabel")}</p>
             <div className="flex flex-wrap gap-2">
               {sizes.map((size) => (
                 <button
@@ -137,7 +142,7 @@ export function ProductDetailClient({
 
           {/* Quantity */}
           <div className="py-6 border-b border-gray-200">
-            <p className="text-sm font-semibold mb-3">{t.product.quantityLabel}</p>
+            <p className="text-sm font-semibold mb-3">{t("product.quantityLabel")}</p>
             <div className="flex items-center gap-3">
               <button
                 onClick={() => setQuantity(Math.max(1, quantity - 1))}
@@ -167,13 +172,34 @@ export function ProductDetailClient({
           <div className="py-6">
             <button
               disabled={!selectedSize}
-              className={`w-full py-4 text-lg font-semibold transition-colors cursor-pointer ${
+              onClick={() => {
+                if (selectedSize) {
+                  const item: CartItem = {
+                    productId: product.id,
+                    size: selectedSize,
+                    quantity,
+                  };
+                  addItem(item);
+                  setAdded(true);
+                  setTimeout(() => setAdded(false), 2000);
+                }
+              }}
+              className={`w-full py-4 text-lg font-semibold transition-all cursor-pointer flex items-center justify-center gap-2 ${
                 selectedSize
-                  ? "bg-primary text-white hover:bg-primary/90"
+                  ? added
+                    ? "bg-primary/80 text-white"
+                    : "bg-primary text-white hover:bg-primary/90"
                   : "bg-gray-300 text-gray-500 cursor-not-allowed"
               }`}
             >
-              {t.product.addToCartButton}
+              {added ? (
+                <>
+                  <Icon icon="mdi:check" className="size-5" />
+                  {t("product.addedToCart")}
+                </>
+              ) : (
+                t("product.addToCartButton")
+              )}
             </button>
           </div>
         </div>
@@ -182,7 +208,7 @@ export function ProductDetailClient({
       {/* Description - below the product section */}
       {description && (
         <div className="mt-8 border-t border-gray-200 pt-8">
-          <h2 className="text-lg font-semibold mb-4">{t.product.description}</h2>
+          <h2 className="text-lg font-semibold mb-4">{t("product.description")}</h2>
           <div className="text-sm text-gray-600 whitespace-pre-line">
             {description}
           </div>

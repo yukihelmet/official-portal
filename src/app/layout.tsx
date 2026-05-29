@@ -6,6 +6,7 @@ import { Header } from "@/components/pages/header/Header";
 import { Footer } from "@/components/pages/footer/Footer";
 import { I18nProvider } from "@/i18n";
 import { AuthProvider } from "@/contexts/AuthContext";
+import { CartProvider } from "@/contexts/CartContext";
 
 const oswald = Oswald({
   variable: "--font-oswald",
@@ -45,11 +46,12 @@ export default function RootLayout({
         className={`${oswald.variable} ${notoSansJP.variable} ${notoSerifTC.variable} h-full antialiased`}
       >
         <I18nProvider>
-          <AuthProvider>
-            <Header />
-            <main className="flex-1 pt-16">{children}</main>
-            <Footer />
-          </AuthProvider>
+          <CartProvider>
+            <AuthProvider>
+              <Header />
+              <main className="flex-1 pt-16">{children}</main>
+            </AuthProvider>
+          </CartProvider>
           <GoogleAnalytics gaId="G-E4V8YRPK7W" />
         </I18nProvider>
       </body>

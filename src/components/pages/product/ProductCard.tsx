@@ -16,7 +16,7 @@ export function ProductCard({ product, currencyKey }: ProductCardProps) {
   const displayPrice = price?.discount_price ?? price?.price ?? 0;
   const originalPrice = price?.discount_price ? price?.price : undefined;
   const symbol = currencyKey === "jpy" ? "¥" : "$";
-  const categoryLabel = (t.product as Record<string, string>)[product.category] ?? product.category;
+  const categoryLabel = t(`product.${product.category}`) ?? product.category;
 
   return (
     <Link href={`/products/${product.id}`}>

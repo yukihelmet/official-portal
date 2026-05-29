@@ -11,7 +11,7 @@ type Messages = (typeof allMessages)[Locale];
 interface I18nContextType {
   locale: Locale;
   setLocale: (locale: Locale) => void;
-  t: Messages;
+  t: (key: string) => string;
 }
 
 const I18nContext = createContext<I18nContextType | null>(null);
@@ -20,12 +20,22 @@ export function I18nProvider({ children }: { children: React.ReactNode }) {
   const [locale, setLocaleState] = useState<Locale>("zh-TW");
   const [messages, setMessages] = useState<Messages>(zhTW);
 
-  const setLocale = (_newLocale: Locale) => {
-    // Language is fixed to zh-TW
+  const setLocale = (newLocale: Locale) => {
+    setLocaleState(newLocale);
+    setMessages(allMessages[newLocale]);
+  };
+
+  const t = (key: string): string => {
+    const keys = key.split(".");
+    let value: unknown = messages;
+    for (const k of keys) {
+      value = (value as Record<string, unknown>)?.[k];
+    }
+    return typeof value === "string" ? value : key;
   };
 
   return (
-    <I18nContext.Provider value={{ locale, setLocale, t: messages }}>
+    <I18nContext.Provider value={{ locale, setLocale, t }}>
       {children}
     </I18nContext.Provider>
   );

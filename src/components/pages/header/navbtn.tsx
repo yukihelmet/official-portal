@@ -17,8 +17,8 @@ export function NavBtn({ icon, label, href, badge }: NavBtnProps) {
         {label}
       </span>
       {badge !== undefined && badge > 0 && (
-        <span className="absolute -top-1 -right-1 bg-red-500 text-white text-xs w-5 h-5 rounded-full flex items-center justify-center">
-          {badge}
+        <span className="absolute -top-1 -right-1 bg-primary text-white text-[10px] w-4 h-4 rounded-full flex items-center justify-center leading-none border-white border">
+          {badge > 99 ? "99+" : badge}
         </span>
       )}
     </div>

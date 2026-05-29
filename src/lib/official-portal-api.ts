@@ -206,3 +206,57 @@ export async function getProfile(): Promise<ProfileResponse> {
   );
   return response.result;
 }
+
+// Payment types
+export interface CheckoutItem {
+  product_id: string;
+  size: string;
+  quantity: number;
+}
+
+export interface CheckoutResponse {
+  checkout_url: string;
+}
+
+async function postRequestWithAuth<T>(
+  path: string,
+  body: unknown,
+  refreshed = false,
+): Promise<T> {
+  const token = getAccessToken();
+  if (!token) throw new Error("Not authenticated");
+
+  const res = await fetch(`${API_BASE_URL}${path}`, {
+    method: "POST",
+    headers: {
+      Authorization: `Bearer ${token}`,
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify(body),
+  });
+  if (!res.ok) {
+    if (res.status === 401 && !refreshed) {
+      try {
+        const tokens = await refreshToken();
+        setAccessToken(tokens.access_token, tokens.access_token_exp);
+        return postRequestWithAuth<T>(path, body, true);
+      } catch {
+        clearAccessToken();
+        throw new Error("Session expired");
+      }
+    }
+    throw new Error(`API error: ${res.status}`);
+  }
+  return res.json();
+}
+
+export async function checkout(
+  items: CheckoutItem[],
+  currency: string,
+): Promise<string> {
+  const response = await postRequestWithAuth<GeneralResponse<CheckoutResponse>>(
+    "/v1/payment/checkout",
+    { currency, items },
+  );
+  return response.result.checkout_url;
+}
