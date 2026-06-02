@@ -3,7 +3,7 @@ import { listProducts, listBrands, listCategories } from "@/lib/official-portal-
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Yuki Helmet",
+  title: "結城安全帽",
 };
 
 export const revalidate = 3600;

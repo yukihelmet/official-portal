@@ -14,7 +14,7 @@ export function ProductCard({ product, currencyKey }: ProductCardProps) {
   const { t } = useI18n();
   const price = product.prices[0]?.prices?.[currencyKey];
   const displayPrice = price?.discount_price ?? price?.price ?? 0;
-  const originalPrice = price?.discount_price ? price?.price : undefined;
+  const originalPrice = price?.discount_price && price?.discount_price !== price?.price ? price?.price : undefined;
   const symbol = currencyKey === "jpy" ? "¥" : "$";
   const categoryLabel = t(`product.${product.category}`) ?? product.category;
 

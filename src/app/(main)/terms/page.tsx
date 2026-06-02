@@ -1,8 +1,8 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Yuki Helmet",
-  description: "Yuki Helmet 服務條款",
+  title: "結城安全帽",
+  description: "結城安全帽服務條款",
 };
 
 export default function TermsPage() {
@@ -16,7 +16,7 @@ export default function TermsPage() {
             服務說明
           </h2>
           <p>
-            Yuki Helmet 透過網站提供線上安全帽銷售服務。使用本網站即表示您同意遵守以下條款。我們保留隨時修改這些條款的權利，修改後的條款於網站上公布時生效。
+            結城安全帽透過網站提供線上安全帽銷售服務。使用本網站即表示您同意遵守以下條款。我們保留隨時修改這些條款的權利，修改後的條款於網站上公布時生效。
           </p>
         </section>
 

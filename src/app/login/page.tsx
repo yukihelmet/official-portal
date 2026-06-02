@@ -2,11 +2,11 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-import Image from "next/image";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { useI18n } from "@/i18n";
 import { auth0Login } from "@/lib/official-portal-api";
+import { Logo } from "@/components/pages/logo/Logo";
 
 export default function LoginPage() {
   const router = useRouter();
@@ -27,9 +27,12 @@ export default function LoginPage() {
     <div className="flex min-h-screen items-center justify-center bg-linear-to-br from-background to-muted p-4">
       <Card className="w-full max-w-sm rounded-none border-none">
         <CardContent className="flex flex-col items-center gap-6 pt-6">
-          <Image src="/logo.svg" alt="Yuki Helmet" width={64} height={64} />
+          <div className="flex items-center gap-2">
+            <Logo className="w-10 h-10 scale-x-[-1]" />
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/yukihelmet.svg" alt="結城安全帽" className="h-10 w-auto" />
+          </div>
           <div className="flex flex-col items-center gap-2 text-center">
-            <h1 className="text-2xl font-heading font-bold text-primary">Yuki Helmet</h1>
             <p className="text-sm text-muted-foreground">
               - {t("common.signInToContinue")} -
             </p>

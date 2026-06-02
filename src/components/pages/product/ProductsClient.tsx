@@ -39,6 +39,13 @@ export function ProductsClient({
   const [selectedBrand, setSelectedBrand] = useState<string>("");
   const [selectedCategory, setSelectedCategory] = useState<string>("");
   const [selectedCategoryLabel, setSelectedCategoryLabel] = useState<string>(t("filter.allCategories"));
+  const [orderByBestPrice, setOrderByBestPrice] = useState<"asc" | "desc" | "">("");
+
+  const orderByBestPriceLabel = orderByBestPrice === "asc"
+    ? t("filter.priceLowToHigh")
+    : orderByBestPrice === "desc"
+      ? t("filter.priceHighToLow")
+      : t("filter.sortByPrice");
   const [nextId, setNextId] = useState<string | null>(initialNextIdProp);
   const [isLoading, setIsLoading] = useState(false);
   const [isLoadingMore, setIsLoadingMore] = useState(false);
@@ -57,6 +64,7 @@ export function ProductsClient({
         brand: selectedBrand || undefined,
         category: selectedCategory || undefined,
         after_id: reset ? undefined : (afterId ?? undefined),
+        order_by_best_price: orderByBestPrice || undefined,
       };
 
       // Fallback: use last product's ID if afterId is not provided but we have products
@@ -84,7 +92,7 @@ export function ProductsClient({
       }
     },
     // eslint-disable-next-line react-hooks/exhaustive-deps
-    [selectedBrand, selectedCategory]
+    [selectedBrand, selectedCategory, orderByBestPrice]
   );
 
   useEffect(() => {
@@ -109,7 +117,7 @@ export function ProductsClient({
       fetchProducts(true);
     });
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [selectedBrand, selectedCategory]);
+  }, [selectedBrand, selectedCategory, orderByBestPrice]);
 
   return (
     <div className="w-[90%] max-w-[var(--container-max, 1200px)] mx-auto py-8">
@@ -118,7 +126,7 @@ export function ProductsClient({
       {/* Filters */}
       <div className="flex flex-wrap gap-4 mb-8">
         <Select value={selectedBrand} onValueChange={(v) => setSelectedBrand(v || "")}>
-          <SelectTrigger className="w-36">
+          <SelectTrigger className="w-28">
             <SelectValue placeholder={t("filter.allBrands")} />
           </SelectTrigger>
           <SelectContent>
@@ -143,7 +151,7 @@ export function ProductsClient({
               }
             }}
           >
-            <SelectTrigger className="w-36">
+            <SelectTrigger className="w-28">
               <SelectValue>{selectedCategoryLabel}</SelectValue>
           </SelectTrigger>
           <SelectContent>
@@ -153,6 +161,17 @@ export function ProductsClient({
                 {(t(`product.${category}`) as string) ?? category}
               </SelectItem>
             ))}
+          </SelectContent>
+        </Select>
+
+        <Select value={orderByBestPrice} onValueChange={(v) => setOrderByBestPrice((v || "") as "asc" | "desc" | "")}>
+          <SelectTrigger className="w-28">
+            <span>{orderByBestPriceLabel}</span>
+          </SelectTrigger>
+          <SelectContent>
+            <SelectItem value="">{t("filter.defaultSort")}</SelectItem>
+            <SelectItem value="asc">{t("filter.priceLowToHigh")}</SelectItem>
+            <SelectItem value="desc">{t("filter.priceHighToLow")}</SelectItem>
           </SelectContent>
         </Select>
       </div>

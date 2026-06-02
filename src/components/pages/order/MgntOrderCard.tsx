@@ -1,0 +1,144 @@
+'use client';
+
+import { useState } from "react";
+import { Order } from "@/lib/official-portal-api";
+import { Icon } from "@iconify/react";
+import { useI18n } from "@/i18n";
+
+interface MgntOrderCardProps {
+  order: Order;
+  currencyKey: "jpy" | "twd";
+  onEdit: (order: Order) => void;
+}
+
+const statusConfig: Record<string, { label: string; color: string; icon: string }> = {
+  pending: { label: "order.status.pending", color: "text-yellow-600", icon: "lucide:clock" },
+  paid: { label: "order.status.paid", color: "text-blue-600", icon: "lucide:credit-card" },
+  complete: { label: "order.status.complete", color: "text-green-600", icon: "lucide:check-circle" },
+  cancelled: { label: "order.status.cancelled", color: "text-gray-500", icon: "lucide:x-circle" },
+};
+
+const shippingStatusConfig: Record<string, { label: string; color: string; icon: string }> = {
+  pending: { label: "order.shippingStatus.pending", color: "text-yellow-600", icon: "lucide:clock" },
+  not_shipped: { label: "order.shippingStatus.notShipped", color: "text-gray-500", icon: "lucide:package" },
+  shipped: { label: "order.shippingStatus.shipped", color: "text-green-600", icon: "lucide:truck" },
+};
+
+function parseShippingDesc(desc: string | null | undefined): string[] {
+  if (!desc) return [];
+  try {
+    const parsed = JSON.parse(desc);
+    return Array.isArray(parsed) ? parsed : [];
+  } catch {
+    return [];
+  }
+}
+
+export function MgntOrderCard({ order, currencyKey, onEdit }: MgntOrderCardProps) {
+  const { t, locale } = useI18n();
+  const [copied, setCopied] = useState(false);
+  const symbol = currencyKey === "jpy" ? "¥" : "$";
+
+  const status = statusConfig[order.status] ?? { label: `order.status.${order.status}`, color: "text-gray-600", icon: "lucide:circle" };
+  const shippingStatus = shippingStatusConfig[order.shipping_status] ?? { label: `order.shippingStatus.${order.shipping_status}`, color: "text-gray-600", icon: "lucide:package" };
+
+  const formatDate = (dateStr: string) => {
+    const date = new Date(dateStr);
+    return date.toLocaleDateString(locale === "ja" ? "ja-JP" : "zh-TW");
+  };
+
+  const handleCopy = (text: string) => {
+    navigator.clipboard.writeText(text);
+    setCopied(true);
+    setTimeout(() => setCopied(false), 1500);
+  };
+
+  return (
+    <div className="flex flex-col md:grid md:grid-cols-8 gap-2 p-4 border-b border-gray-200 last:border-b-0 hover:bg-gray-50">
+      {/* Order Number & Date */}
+      <div className="md:col-span-1 flex justify-between md:block">
+        <div className="flex items-center gap-1">
+          <p className="font-mono font-semibold text-sm">{order.public_id.slice(0, 8)}</p>
+          <button
+            onClick={() => handleCopy(order.public_id)}
+            className="text-gray-400 hover:text-gray-600"
+          >
+            <Icon icon={copied ? "lucide:check" : "lucide:copy"} className="w-3.5 h-3.5" />
+          </button>
+        </div>
+        <p className="text-xs text-gray-500 md:hidden">{formatDate(order.created_at)}</p>
+      </div>
+
+      {/* Items Details */}
+      <div className="md:col-span-2">
+        <ul className="space-y-2">
+          {order.items.slice(0, 2).map((item, i) => (
+            <li key={i} className="text-sm text-gray-600 space-y-0.5">
+              <a href={item.item_url} target="_blank" rel="noopener noreferrer" className="hover:text-primary hover:underline">
+                {item.name}
+              </a>
+              <div className="space-y-0.5 text-right text-xs text-gray-400">
+                {item.size && <div>Size: {item.size}</div>}
+                {item.quantity && <div>x{item.quantity}</div>}
+                <div>{symbol}{item.price.toLocaleString()}</div>
+              </div>
+            </li>
+          ))}
+        </ul>
+        {order.items.length > 2 && (
+          <p className="text-xs text-gray-400 mt-0.5">+{order.items.length - 2} more</p>
+        )}
+      </div>
+
+      {/* Payment Status */}
+      <div className="flex items-center gap-1.5">
+        <span className="md:hidden text-xs text-gray-400 shrink-0">{t("order.paymentStatus")}</span>
+        <span className="md:hidden flex items-center gap-1.5 ml-auto">
+          <Icon icon={status.icon} className={`w-4 h-4 ${status.color}`} />
+          <span className={`text-sm font-medium ${status.color}`}>{t(status.label)}</span>
+        </span>
+        <span className="hidden md:flex items-center gap-1.5">
+          <Icon icon={status.icon} className={`w-4 h-4 ${status.color}`} />
+          <span className={`text-sm font-medium ${status.color}`}>{t(status.label)}</span>
+        </span>
+      </div>
+
+      {/* Shipping Status */}
+      <div className="flex items-center gap-1.5">
+        <span className="md:hidden text-xs text-gray-400 shrink-0">{t("order.shippingStatusHeader")}</span>
+        <span className="md:hidden flex items-center gap-1.5 ml-auto">
+          <Icon icon={shippingStatus.icon} className={`w-4 h-4 ${shippingStatus.color}`} />
+          <span className={`text-sm font-medium ${shippingStatus.color}`}>{t(shippingStatus.label)}</span>
+        </span>
+        <span className="hidden md:flex items-center gap-1.5">
+          <Icon icon={shippingStatus.icon} className={`w-4 h-4 ${shippingStatus.color}`} />
+          <span className={`text-sm font-medium ${shippingStatus.color}`}>{t(shippingStatus.label)}</span>
+        </span>
+      </div>
+
+      {/* Shipping Desc */}
+      <div className="text-sm text-gray-500">
+        {parseShippingDesc(order.shipping_desc).map((line, i) => (
+          <div key={i} className="truncate">{line}</div>
+        ))}
+      </div>
+
+      {/* Total Amount */}
+      <div className="text-right">
+        <span className="text-lg font-bold">
+          {symbol}{order.total_amount.toLocaleString()}
+        </span>
+      </div>
+
+      {/* Action */}
+      <div className="flex justify-end">
+        <button
+          onClick={() => onEdit(order)}
+          className="p-2 hover:bg-gray-100 rounded"
+        >
+          <Icon icon="lucide:pencil" className="w-4 h-4 text-gray-500" />
+        </button>
+      </div>
+    </div>
+  );
+}

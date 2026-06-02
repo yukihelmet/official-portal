@@ -27,8 +27,8 @@ const notoSerifTC = Noto_Serif_TC({
 });
 
 export const metadata: Metadata = {
-  title: "Yuki Helmet",
-  description: "Yuki Helmet Official Store",
+  title: "結城安全帽",
+  description: "結城安全帽官方商店",
   icons: {
     icon: "/logo.svg",
   },

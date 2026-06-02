@@ -1,4 +1,4 @@
-const API_BASE_URL =
+export const API_BASE_URL =
   process.env.NODE_ENV === "development"
     ? "http://localhost:80"
     : process.env.NEXT_PUBLIC_API_BASE_URL || "https://api.yuki-helmet.com";
@@ -17,7 +17,7 @@ export interface ListProductsParams {
   category?: string;
   limit?: number;
   after_id?: string;
-  order_desc?: boolean;
+  order_by_best_price?: "asc" | "desc";
   [key: string]: string | number | boolean | undefined;
 }
 
@@ -52,7 +52,9 @@ async function request<
   }
 
   try {
-    const res = await fetch(url.toString());
+    const res = await fetch(url.toString(), {
+      credentials: "include",
+    });
     if (!res.ok) {
       throw new Error(`API error: ${res.status}`);
     }
@@ -159,7 +161,10 @@ export function getAccessToken(): string | null {
 
 export function setAccessToken(token: string, exp: number): void {
   if (typeof window === "undefined") return;
-  localStorage.setItem(AUTH_STORAGE_KEY, JSON.stringify({ accessToken: token, accessTokenExp: exp }));
+  localStorage.setItem(
+    AUTH_STORAGE_KEY,
+    JSON.stringify({ accessToken: token, accessTokenExp: exp }),
+  );
 }
 
 export function clearAccessToken(): void {
@@ -172,10 +177,7 @@ export interface ProfileResponse {
   email: string;
 }
 
-async function requestWithAuth<T>(
-  path: string,
-  refreshed = false,
-): Promise<T> {
+async function requestWithAuth<T>(path: string, refreshed = false): Promise<T> {
   const token = getAccessToken();
   if (!token) throw new Error("Not authenticated");
 
@@ -201,9 +203,8 @@ async function requestWithAuth<T>(
 }
 
 export async function getProfile(): Promise<ProfileResponse> {
-  const response = await requestWithAuth<GeneralResponse<ProfileResponse>>(
-    "/v1/profile",
-  );
+  const response =
+    await requestWithAuth<GeneralResponse<ProfileResponse>>("/v1/profile");
   return response.result;
 }
 
@@ -259,4 +260,178 @@ export async function checkout(
     { currency, items },
   );
   return response.result.checkout_url;
+}
+
+// Order types
+export interface OrderItem {
+  name: string;
+  product_id: string;
+  image_url: string;
+  quantity: number;
+  size: string;
+  price: number;
+  item_url: string;
+}
+
+export interface Order {
+  public_id: string;
+  ref_id: string;
+  user_id: string;
+  items: OrderItem[];
+  total_amount: number;
+  currency: string;
+  status: string;
+  shipping_status: string;
+  shipping_desc: string;
+  shipped_at: string | null;
+  created_at: string;
+}
+
+export interface ListOrdersParams {
+  limit?: number;
+  after_id?: string;
+  order_desc?: string;
+  status?: string;
+  shipping_status?: string;
+  [key: string]: string | number | boolean | undefined;
+}
+
+export interface ListOrdersResponse {
+  orders: Order[];
+  nextId: string | null;
+}
+
+export async function listMgntOrders(
+  params?: ListOrdersParams,
+): Promise<ListOrdersResponse> {
+  const response = await getRequestWithAuth<ListResponse<Order>>(
+    "/v1/mgnt/orders",
+    params,
+  );
+  return {
+    orders: response.result,
+    nextId: response.next_id ?? null,
+  };
+}
+
+// Server-side: uses session cookie, bypasses localStorage token check
+export async function serverListMgntOrders(
+  params?: ListOrdersParams,
+): Promise<ListOrdersResponse> {
+  const url = new URL(`${API_BASE_URL}/v1/mgnt/orders`);
+  if (params) {
+    Object.entries(params).forEach(([key, value]) => {
+      if (value !== undefined) {
+        url.searchParams.set(key, String(value));
+      }
+    });
+  }
+
+  const res = await fetch(url.toString(), { credentials: "include" });
+  if (!res.ok) {
+    throw new Error(`API error: ${res.status}`);
+  }
+  const response = await res.json();
+  return {
+    orders: response.result ?? [],
+    nextId: response.next_id ?? null,
+  };
+}
+
+async function getRequestWithAuth<T>(
+  path: string,
+  params?: Record<string, string | number | boolean | undefined>,
+  refreshed = false,
+): Promise<T> {
+  const token = getAccessToken();
+  if (!token) throw new Error("Not authenticated");
+
+  const url = new URL(`${API_BASE_URL}${path}`);
+  if (params) {
+    Object.entries(params).forEach(([key, value]) => {
+      if (value !== undefined) {
+        url.searchParams.set(key, String(value));
+      }
+    });
+  }
+
+  const res = await fetch(url.toString(), {
+    headers: {
+      Authorization: `Bearer ${token}`,
+    },
+  });
+  if (!res.ok) {
+    if (res.status === 401 && !refreshed) {
+      try {
+        const tokens = await refreshToken();
+        setAccessToken(tokens.access_token, tokens.access_token_exp);
+        return getRequestWithAuth<T>(path, params, true);
+      } catch {
+        clearAccessToken();
+        throw new Error("Session expired");
+      }
+    }
+    throw new Error(`API error: ${res.status}`);
+  }
+  return res.json();
+}
+
+export async function listOrders(
+  params?: ListOrdersParams,
+): Promise<ListOrdersResponse> {
+  const response = await getRequestWithAuth<ListResponse<Order>>(
+    "/v1/payment/orders",
+    params,
+  );
+  return {
+    orders: response.result,
+    nextId: response.next_id ?? null,
+  };
+}
+
+async function patchRequestWithAuth<T>(
+  path: string,
+  body: unknown,
+  refreshed = false,
+): Promise<T> {
+  const token = getAccessToken();
+  if (!token) throw new Error("Not authenticated");
+
+  const res = await fetch(`${API_BASE_URL}${path}`, {
+    method: "PATCH",
+    headers: {
+      Authorization: `Bearer ${token}`,
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify(body),
+  });
+  if (!res.ok) {
+    if (res.status === 401 && !refreshed) {
+      try {
+        const tokens = await refreshToken();
+        setAccessToken(tokens.access_token, tokens.access_token_exp);
+        return patchRequestWithAuth<T>(path, body, true);
+      } catch {
+        clearAccessToken();
+        throw new Error("Session expired");
+      }
+    }
+    throw new Error(`API error: ${res.status}`);
+  }
+  return res.json();
+}
+
+export interface UpdateOrderShippingRequest {
+  shipping_status: string;
+  shipping_desc_lines: string[];
+}
+
+export async function updateOrderShipping(
+  id: string,
+  request: UpdateOrderShippingRequest,
+): Promise<void> {
+  await patchRequestWithAuth<GeneralResponse<any>>(
+    `/v1/mgnt/orders/${id}`,
+    request,
+  );
 }

@@ -6,7 +6,11 @@
     "menu": "選單",
     "login": "登入",
     "signInToContinue": "登入以繼續",
-    "loading": "處理中..."
+    "loading": "處理中...",
+    "account": "帳戶",
+    "logout": "登出",
+    "cancel": "取消",
+    "save": "儲存"
   },
   "product": {
     "addToCart": "購物車",
@@ -30,12 +34,19 @@
     "home": "首頁",
     "products": "商品"
   },
+  "header": {
+    "orders": "訂單"
+  },
   "filter": {
     "brands": "品牌",
     "allBrands": "所有品牌",
     "categories": "分類",
     "allCategories": "所有分類",
-    "noProducts": "找不到商品"
+    "noProducts": "找不到商品",
+    "sortByPrice": "價格排序",
+    "defaultSort": "預設",
+    "priceLowToHigh": "價低優先",
+    "priceHighToLow": "價高優先"
   },
   "seo": {
     "productDescription": "日本直送，熱銷現貨在庫"
@@ -55,6 +66,32 @@
       "hint": "確認信將發送至您的電子郵件，請留意收件匣。",
       "continueShopping": "繼續購物"
     }
+  },
+  "order": {
+    "orders": "訂單歷史",
+    "management": "訂單管理",
+    "orderNumber": "訂單編號",
+    "date": "訂單日期",
+    "items": "品項",
+    "viewDetails": "查看詳情",
+    "noOrders": "暫無訂單",
+    "shippingNote": "配送備註",
+    "paymentStatus": "付款狀態",
+    "shippingStatusHeader": "貨運狀態",
+    "status": {
+      "pending": "待付款",
+      "paid": "已付款",
+      "complete": "已完成",
+      "cancelled": "已取消"
+    },
+    "shippingStatus": {
+      "pending": "處理中",
+      "notShipped": "未出貨",
+      "shipped": "已出貨"
+    },
+    "shippingDesc": "配送說明",
+    "action": "操作",
+    "editOrder": "編輯訂單"
   },
   "footer": {
     "brand": "原裝日系魂，一鍵直送你的專屬安全。",

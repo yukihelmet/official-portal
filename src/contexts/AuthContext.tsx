@@ -9,7 +9,7 @@ import {
   ReactNode,
 } from "react";
 import { startTransition } from "react";
-import { getProfile, ProfileResponse, getAccessToken, setAccessToken as saveAccessToken, clearAccessToken as removeAccessToken } from "@/lib/official-portal-api";
+import { getProfile, ProfileResponse, getAccessToken, setAccessToken as saveAccessToken, clearAccessToken as removeAccessToken, refreshToken as refreshTokenApi } from "@/lib/official-portal-api";
 
 interface AuthContextType {
   isAuthenticated: boolean;
@@ -29,7 +29,11 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   useEffect(() => {
     const token = getAccessToken();
     if (token) {
-      getProfile()
+      refreshTokenApi()
+        .then((data) => {
+          saveAccessToken(data.access_token, data.access_token_exp);
+          return getProfile();
+        })
         .then((data) => {
           startTransition(() => {
             setProfile(data);

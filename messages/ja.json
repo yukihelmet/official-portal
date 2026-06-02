@@ -6,7 +6,11 @@
     "menu": "メニュー",
     "login": "ログイン",
     "signInToContinue": "ログインして続行",
-    "loading": "処理中..."
+    "loading": "処理中...",
+    "account": "アカウント",
+    "logout": "ログアウト",
+    "cancel": "キャンセル",
+    "save": "保存"
   },
   "product": {
     "addToCart": "カートに入れる",
@@ -30,12 +34,19 @@
     "home": "ホーム",
     "products": "商品"
   },
+  "header": {
+    "orders": "注文履歴"
+  },
   "filter": {
     "brands": "ブランド",
     "allBrands": "すべてのブランド",
     "categories": "カテゴリー",
     "allCategories": "すべてのカテゴリー",
-    "noProducts": "商品が見つかりません"
+    "noProducts": "商品が見つかりません",
+    "sortByPrice": "価格順",
+    "defaultSort": "デフォルト",
+    "priceLowToHigh": "安い順",
+    "priceHighToLow": "高い順"
   },
   "seo": {
     "productDescription": "日本直送、人気商品在庫あり"
@@ -55,6 +66,32 @@
       "hint": "確認メールをご登録のメールアドレスにお送りしました。受信トレイをご確認ください。",
       "continueShopping": "ショッピングを続ける"
     }
+  },
+  "order": {
+    "orders": "注文履歴",
+    "management": "注文管理",
+    "orderNumber": "注文番号",
+    "date": "注文日",
+    "items": "点",
+    "viewDetails": "詳細を見る",
+    "noOrders": "注文履歴がありません",
+    "shippingNote": "配送メモ",
+    "paymentStatus": "付款狀態",
+    "shippingStatusHeader": "貨運狀態",
+    "status": {
+      "pending": "支払い待ち",
+      "paid": "支払い済み",
+      "complete": "完了",
+      "cancelled": "キャンセル"
+    },
+    "shippingStatus": {
+      "pending": "処理中",
+      "notShipped": "未発送",
+      "shipped": "発送済み"
+    },
+    "shippingDesc": "配送説明",
+    "action": "操作",
+    "editOrder": "注文を編集"
   },
   "footer": {
     "brand": "正規輸入、日本語サポート付き。",

@@ -1,8 +1,8 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Yuki Helmet",
-  description: "Yuki Helmet 隱私權政策",
+  title: "結城安全帽",
+  description: "結城安全帽隱私權政策",
 };
 
 export default function PrivacyPage() {

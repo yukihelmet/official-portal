@@ -29,10 +29,10 @@ export async function generateMetadata({ params }: ProductPageProps): Promise<Me
   const product = await getProductById(id);
 
   if (!product) {
-    return { title: "Yuki Helmet" };
+    return { title: "結城安全帽" };
   }
 
-  const title = `${product.name} | Yuki Helmet`;
+  const title = `${product.name} | 結城安全帽`;
   const description = `${product.brand ? `[${product.brand}] ` : ""}${product.name} ${(messages.seo as Record<string, string>).productDescription}`;
   const image = product.images[0];
 
