@@ -1,6 +1,6 @@
 1:"$Sreact.fragment"
-2:I[97739,["/_next/static/chunks/0j62p~f2h2snv.js","/_next/static/chunks/0eewamb49pw7k.js","/_next/static/chunks/05t.dqp.p40c2.js","/_next/static/chunks/0zdrz05iz73~v.js","/_next/static/chunks/0wftxp5_dwrpl.js","/_next/static/chunks/0z8m53lzz18g3.js"],"ProductDetailClient"]
-6:I[97367,["/_next/static/chunks/0j62p~f2h2snv.js","/_next/static/chunks/0eewamb49pw7k.js","/_next/static/chunks/05t.dqp.p40c2.js"],"OutletBoundary"]
+2:I[97739,["/_next/static/chunks/14ooc2_gxdoyd.js","/_next/static/chunks/0eewamb49pw7k.js","/_next/static/chunks/05t.dqp.p40c2.js","/_next/static/chunks/12t80kc3fty1b.js","/_next/static/chunks/0wftxp5_dwrpl.js","/_next/static/chunks/0z8m53lzz18g3.js"],"ProductDetailClient"]
+6:I[97367,["/_next/static/chunks/14ooc2_gxdoyd.js","/_next/static/chunks/0eewamb49pw7k.js","/_next/static/chunks/05t.dqp.p40c2.js"],"OutletBoundary"]
 7:"$Sreact.suspense"
 3:T109b,LS2ではフルフェイスヘルメットの世界戦略モデルとして新たなツーリングフルフェイスヘルメット【 CHALLENGER F 】(チャレンジャー エフ）を開発しました。
 
@@ -70,6 +70,6 @@ XL-XXL/GR 1675 ± 50
 
 ●為了確保佩戴安全帽時的安全，適當的佩戴非常重要。為了將頭部受到的衝擊影響降到最低，帽體的形狀和所採用的材料特別花了時間進行反覆測試。CHALLENGER F 的頸帶（下巴帶）採用了方便且強度高的鋼製快拆扣。
 
-●在CHALLENGER F中，裝備了前方和上方的進氣口，後腦部的後擾流板和排氣口。主要的各個進氣口配備了開口調整用的開關。0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"product":{"id":"wNObt4","name":"LS2 CHALLENGER F SPIN BLACK TITANIUM PINK","gender":"unisex","brand":"LS2 HELMETS","category":"full_face_helmet","prices":[{"size":"M","prices":{"twd":{"price":9600,"discount_price":9600}}},{"size":"L","prices":{"twd":{"price":9600,"discount_price":9600}}},{"size":"XL","prices":{"twd":{"price":9600,"discount_price":9600}}}],"images":["https://cdn.jsdelivr.net/gh/yukihelmet/images@main/wNObt4/1.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/wNObt4/2.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/wNObt4/3.webp"],"description":{"ja":"$3","zhTW":"$4"}}}],[["$","script","script-0",{"src":"/_next/static/chunks/0wftxp5_dwrpl.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/0z8m53lzz18g3.js","async":true}]],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"NUV4PVzOtRd0XW6S848LX"}
+●在CHALLENGER F中，裝備了前方和上方的進氣口，後腦部的後擾流板和排氣口。主要的各個進氣口配備了開口調整用的開關。0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"product":{"id":"wNObt4","name":"LS2 CHALLENGER F SPIN BLACK TITANIUM PINK","gender":"unisex","brand":"LS2 HELMETS","category":"full_face_helmet","prices":[{"size":"M","prices":{"twd":{"price":9600,"discount_price":9600}}},{"size":"L","prices":{"twd":{"price":9600,"discount_price":9600}}},{"size":"XL","prices":{"twd":{"price":9600,"discount_price":9600}}}],"images":["https://cdn.jsdelivr.net/gh/yukihelmet/images@main/wNObt4/1.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/wNObt4/2.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/wNObt4/3.webp"],"description":{"ja":"$3","zhTW":"$4"}}}],[["$","script","script-0",{"src":"/_next/static/chunks/0wftxp5_dwrpl.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/0z8m53lzz18g3.js","async":true}]],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"qjSDhHWqorFPgOvLeCGbF"}
 5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
 8:null
