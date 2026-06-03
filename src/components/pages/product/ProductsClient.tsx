@@ -127,7 +127,7 @@ export function ProductsClient({
       <div className="flex md:flex-wrap gap-3 md:gap-4 mb-8 justify-end">
         <Select value={selectedBrand} onValueChange={(v) => setSelectedBrand(v || "")}>
           <SelectTrigger className="w-24 md:w-28">
-            <SelectValue placeholder={t("filter.ajllBrands")} />
+            <SelectValue placeholder={t("filter.allBrands")} />
           </SelectTrigger>
           <SelectContent>
             <SelectItem value="">{t("filter.allBrands")}</SelectItem>
