@@ -1,6 +1,6 @@
 1:"$Sreact.fragment"
-2:I[97739,["/_next/static/chunks/14ooc2_gxdoyd.js","/_next/static/chunks/0eewamb49pw7k.js","/_next/static/chunks/05t.dqp.p40c2.js","/_next/static/chunks/0ls5mt-9bw3l6.js","/_next/static/chunks/0wftxp5_dwrpl.js","/_next/static/chunks/0z8m53lzz18g3.js"],"ProductDetailClient"]
-8:I[97367,["/_next/static/chunks/14ooc2_gxdoyd.js","/_next/static/chunks/0eewamb49pw7k.js","/_next/static/chunks/05t.dqp.p40c2.js"],"OutletBoundary"]
+2:I[97739,["/_next/static/chunks/0xj80zfvbhsrd.js","/_next/static/chunks/0eewamb49pw7k.js","/_next/static/chunks/05t.dqp.p40c2.js","/_next/static/chunks/0yj61oy2yzopx.js","/_next/static/chunks/0wftxp5_dwrpl.js","/_next/static/chunks/0z8m53lzz18g3.js"],"ProductDetailClient"]
+8:I[97367,["/_next/static/chunks/0xj80zfvbhsrd.js","/_next/static/chunks/0eewamb49pw7k.js","/_next/static/chunks/05t.dqp.p40c2.js"],"OutletBoundary"]
 9:"$Sreact.suspense"
 3:T11b6,走りが心地よくなるために
 あったらいいなを全部つめ込んだ快適追求ヘルメット
@@ -160,7 +160,7 @@
 
 ■尺寸：S（54-55cm）・M（57-58cm）・L（59-60cm）・XL（61-62cm）
 　※尺寸僅供參考。由於產品設計，即使顯示相同尺寸，佩戴感可能會有所不同。
-　　購買時請務必試穿一次。0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"product":{"id":"YnUv7Q","name":"KAMUI-3 JAG (カムイ3 ジャグ) フルフェイスヘルメット ブラックブルー","gender":"unisex","brand":"Kabuto","category":"full_face_helmet","prices":[{"size":"S","prices":{"twd":{"price":11800,"discount_price":9600}}},{"size":"M","prices":{"twd":{"price":11800,"discount_price":9600}}},{"size":"L","prices":{"twd":{"price":11800,"discount_price":9600}}}],"images":["https://cdn.jsdelivr.net/gh/yukihelmet/images@main/YnUv7Q/1.webp"],"description":{"ja":"$3","zhTW":"$4"}}}],["$L5","$L6"],"$L7"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Rsf_Ci_yUqRT25h-affi9"}
+　　購買時請務必試穿一次。0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"product":{"id":"YnUv7Q","name":"KAMUI-3 JAG (カムイ3 ジャグ) フルフェイスヘルメット ブラックブルー","gender":"unisex","brand":"Kabuto","category":"full_face_helmet","prices":[{"size":"S","prices":{"twd":{"price":11800,"discount_price":9600}}},{"size":"M","prices":{"twd":{"price":11800,"discount_price":9600}}},{"size":"L","prices":{"twd":{"price":11800,"discount_price":9600}}}],"images":["https://cdn.jsdelivr.net/gh/yukihelmet/images@main/YnUv7Q/1.webp"],"description":{"ja":"$3","zhTW":"$4"}}}],["$L5","$L6"],"$L7"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"MIU-4iU1sTs-LaAbiig3R"}
 5:["$","script","script-0",{"src":"/_next/static/chunks/0wftxp5_dwrpl.js","async":true}]
 6:["$","script","script-1",{"src":"/_next/static/chunks/0z8m53lzz18g3.js","async":true}]
 7:["$","$L8",null,{"children":["$","$9",null,{"name":"Next.MetadataOutlet","children":"$@a"}]}]
