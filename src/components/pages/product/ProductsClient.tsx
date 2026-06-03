@@ -21,14 +21,14 @@ interface ProductsClientProps {
   initialProducts: Product[];
   initialBrands: string[];
   initialCategories: string[];
-  initialNextId: string | null;
+  initialTotal: number;
 }
 
 export function ProductsClient({
   initialProducts,
   initialBrands,
   initialCategories,
-  initialNextId: initialNextIdProp,
+  initialTotal,
 }: ProductsClientProps) {
   const { locale, t } = useI18n();
   const currencyKey = locale === "ja" ? "jpy" : "twd";
@@ -46,14 +46,15 @@ export function ProductsClient({
     : orderByBestPrice === "desc"
       ? t("filter.priceHighToLow")
       : t("filter.sortByPrice");
-  const [nextId, setNextId] = useState<string | null>(initialNextIdProp);
+  const [offset, setOffset] = useState(0);
+  const [total, setTotal] = useState(initialTotal);
   const [isLoading, setIsLoading] = useState(false);
   const [isLoadingMore, setIsLoadingMore] = useState(false);
   const [, startTransition] = useTransition();
   const loadMoreRef = useRef<HTMLDivElement>(null);
 
   const fetchProducts = useCallback(
-    async (reset = false, afterId?: string | null) => {
+    async (reset = false) => {
       if (reset) {
         setIsLoading(true);
       } else {
@@ -63,54 +64,50 @@ export function ProductsClient({
       const params: ListProductsParams = {
         brand: selectedBrand || undefined,
         category: selectedCategory || undefined,
-        after_id: reset ? undefined : (afterId ?? undefined),
+        limit: 20,
+        offset: reset ? 0 : offset,
         order_by_best_price: orderByBestPrice || undefined,
       };
 
-      // Fallback: use last product's ID if afterId is not provided but we have products
-      if (!reset && !afterId && products.length > 0) {
-        params.after_id = products[products.length - 1].id;
-      }
-
       try {
-        const { products: fetchedProducts, nextId: fetchedNextId } = await listProducts(params);
+        const { products: fetchedProducts, total: fetchedTotal } = await listProducts(params);
         if (reset) {
           setProducts(fetchedProducts);
-          setNextId(fetchedNextId);
+          setOffset(fetchedProducts.length);
+          setTotal(fetchedTotal);
         } else {
           setProducts((prev) => {
             const existingIds = new Set(prev.map((p) => p.id));
             const newProducts = fetchedProducts.filter((p) => !existingIds.has(p.id));
             return [...prev, ...newProducts];
           });
-          setNextId(fetchedNextId);
+          setOffset((prev) => prev + fetchedProducts.length);
         }
-      } catch (error) {
+      } catch {
       } finally {
         setIsLoading(false);
         setIsLoadingMore(false);
       }
     },
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-    [selectedBrand, selectedCategory, orderByBestPrice]
+    [selectedBrand, selectedCategory, orderByBestPrice, offset]
   );
 
   useEffect(() => {
-    if (!nextId || isLoadingMore) return;
+    if (offset >= total && total > 0) return;
 
     const handleScroll = () => {
       const scrollTop = window.scrollY;
       const docHeight = document.documentElement.scrollHeight;
       const winHeight = window.innerHeight;
 
-      if (docHeight - scrollTop - winHeight < 300 && nextId && !isLoadingMore) {
-        fetchProducts(false, nextId);
+      if (docHeight - scrollTop - winHeight < 300 && !isLoadingMore && offset < total) {
+        fetchProducts(false);
       }
     };
 
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
-  }, [nextId, isLoadingMore, fetchProducts]);
+  }, [offset, total, isLoadingMore, fetchProducts]);
 
   useEffect(() => {
     startTransition(() => {
@@ -194,7 +191,7 @@ export function ProductsClient({
           </div>
 
           {/* Load More Trigger */}
-          {nextId && (
+          {offset < total && (
             <div ref={loadMoreRef} className="flex justify-center py-4">
               {isLoadingMore && <Loading />}
             </div>

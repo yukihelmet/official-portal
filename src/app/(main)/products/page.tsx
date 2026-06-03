@@ -12,7 +12,7 @@ export default async function ProductsPage() {
   let products: Awaited<ReturnType<typeof listProducts>>["products"] = [];
   let brands: string[] = [];
   let categories: string[] = [];
-  let initialNextId: string | null = null;
+  let initialTotal = 0;
 
   try {
     const [productsResponse, brandsResult, categoriesResult] = await Promise.all([
@@ -21,7 +21,7 @@ export default async function ProductsPage() {
       listCategories(),
     ]);
     products = productsResponse.products;
-    initialNextId = productsResponse.nextId;
+    initialTotal = productsResponse.total;
     brands = brandsResult;
     categories = categoriesResult;
   } catch (error) {
@@ -43,7 +43,7 @@ export default async function ProductsPage() {
       initialProducts={products}
       initialBrands={brands}
       initialCategories={categories}
-      initialNextId={initialNextId}
+      initialTotal={initialTotal}
     />
   );
 }

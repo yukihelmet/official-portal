@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef, useCallback } from "react";
 import { useRouter } from "next/navigation";
 import { Order, listMgntOrders, ListOrdersParams, ListOrdersResponse, updateOrderShipping } from "@/lib/official-portal-api";
 import { MgntOrderCard } from "./MgntOrderCard";
@@ -68,7 +68,7 @@ export function MgntOrdersClient() {
 
   const currencyKey = locale === "ja" ? "jpy" : "twd";
 
-  const fetchOrders = async (reset = false, afterId?: string | null) => {
+  const fetchOrders = useCallback(async (reset = false, afterId?: string | null) => {
     if (reset) {
       setIsLoading(true);
     } else {
@@ -99,7 +99,7 @@ export function MgntOrdersClient() {
       setIsLoading(false);
       setIsLoadingMore(false);
     }
-  };
+  }, [shippingFilter]);
 
   useEffect(() => {
     listMgntOrders({ limit: 1 }).catch(() => {
@@ -127,7 +127,7 @@ export function MgntOrdersClient() {
 
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
-  }, [nextId, isLoadingMore]);
+  }, [nextId, isLoadingMore, fetchOrders]);
 
   if (isLoading) {
     return <Loading />;

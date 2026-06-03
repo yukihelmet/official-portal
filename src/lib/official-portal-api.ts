@@ -16,7 +16,7 @@ export interface ListProductsParams {
   brand?: string;
   category?: string;
   limit?: number;
-  after_id?: string;
+  offset?: number;
   order_by_best_price?: "asc" | "desc";
   [key: string]: string | number | boolean | undefined;
 }
@@ -73,7 +73,7 @@ async function request<
 
 export interface ListProductsResponse {
   products: Product[];
-  nextId: string | null;
+  total: number;
 }
 
 export async function listProducts(
@@ -82,7 +82,7 @@ export async function listProducts(
   const response = await request<ListResponse<Product>>("/v1/products", params);
   return {
     products: response.result,
-    nextId: response.next_id ?? null,
+    total: response.total ?? 0,
   };
 }
 
