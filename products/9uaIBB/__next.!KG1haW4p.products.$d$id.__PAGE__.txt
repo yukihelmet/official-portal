@@ -1,6 +1,6 @@
 1:"$Sreact.fragment"
-2:I[97739,["/_next/static/chunks/0swer~2.5rrch.js","/_next/static/chunks/0eewamb49pw7k.js","/_next/static/chunks/078bui296zti1.js","/_next/static/chunks/0qmzdw4-qa8ve.js","/_next/static/chunks/15ji0vfxofmty.js","/_next/static/chunks/0z8m53lzz18g3.js"],"ProductDetailClient"]
-8:I[97367,["/_next/static/chunks/0swer~2.5rrch.js","/_next/static/chunks/0eewamb49pw7k.js","/_next/static/chunks/078bui296zti1.js"],"OutletBoundary"]
+2:I[97739,["/_next/static/chunks/0j62p~f2h2snv.js","/_next/static/chunks/0eewamb49pw7k.js","/_next/static/chunks/05t.dqp.p40c2.js","/_next/static/chunks/0zdrz05iz73~v.js","/_next/static/chunks/0wftxp5_dwrpl.js","/_next/static/chunks/0z8m53lzz18g3.js"],"ProductDetailClient"]
+8:I[97367,["/_next/static/chunks/0j62p~f2h2snv.js","/_next/static/chunks/0eewamb49pw7k.js","/_next/static/chunks/05t.dqp.p40c2.js"],"OutletBoundary"]
 9:"$Sreact.suspense"
 3:T12a0,※写真は世界モデルの為、日本モデルと若干仕様が異なる場合がございます。
 ※掲載商品の仕様、価格は予告なく変更する場合があります。
@@ -94,8 +94,8 @@ S尺寸、M尺寸、L尺寸，各自單獨/XL尺寸-XXL尺寸共通。
 為了確保佩戴頭盔時的安全，能夠正確佩戴是頭盔的重要使命。為了將頭部受到的衝擊影響降到最低，帽體的形狀和所採用的材料經過了特別的時間進行反覆測試。CHALLENGER F 的頸帶（下巴帶）採用了方便且強度高的鋼製快拆扣。
 
 ●VENTILATION
-在CHALLENGER F中，顎部和頭部的前方及上方設有進氣口，後腦部設有後尾翼和排氣口。主要的各個進氣口配備了開口調整用的開關。0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"product":{"id":"9uaIBB","name":"CHALLENGER F TITANIUM","gender":"unisex","brand":"LS2 HELMETS","category":"full_face_helmet","prices":[{"size":"L","prices":{"twd":{"price":9600,"discount_price":9600}}},{"size":"XL","prices":{"twd":{"price":9600,"discount_price":9600}}},{"size":"XXL","prices":{"twd":{"price":9600,"discount_price":9600}}}],"images":["https://cdn.jsdelivr.net/gh/yukihelmet/images@main/9uaIBB/1.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/9uaIBB/2.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/9uaIBB/3.webp"],"description":{"ja":"$3","zhTW":"$4"}}}],["$L5","$L6"],"$L7"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Cj9xbrX0YuTz9hjjuKqoU"}
-5:["$","script","script-0",{"src":"/_next/static/chunks/15ji0vfxofmty.js","async":true}]
+在CHALLENGER F中，顎部和頭部的前方及上方設有進氣口，後腦部設有後尾翼和排氣口。主要的各個進氣口配備了開口調整用的開關。0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"product":{"id":"9uaIBB","name":"CHALLENGER F TITANIUM","gender":"unisex","brand":"LS2 HELMETS","category":"full_face_helmet","prices":[{"size":"L","prices":{"twd":{"price":9600,"discount_price":9600}}},{"size":"XL","prices":{"twd":{"price":9600,"discount_price":9600}}},{"size":"XXL","prices":{"twd":{"price":9600,"discount_price":9600}}}],"images":["https://cdn.jsdelivr.net/gh/yukihelmet/images@main/9uaIBB/1.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/9uaIBB/2.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/9uaIBB/3.webp"],"description":{"ja":"$3","zhTW":"$4"}}}],["$L5","$L6"],"$L7"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"NUV4PVzOtRd0XW6S848LX"}
+5:["$","script","script-0",{"src":"/_next/static/chunks/0wftxp5_dwrpl.js","async":true}]
 6:["$","script","script-1",{"src":"/_next/static/chunks/0z8m53lzz18g3.js","async":true}]
 7:["$","$L8",null,{"children":["$","$9",null,{"name":"Next.MetadataOutlet","children":"$@a"}]}]
 a:null
