@@ -41,7 +41,7 @@ export function Header() {
           <Link href="/" className="shrink-0 flex items-center gap-2">
             <Logo className="w-10 h-10 scale-x-[-1]" />
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/yukihelmet.svg" alt="結城安全帽" className="h-10 w-auto" />
+            <img src="/yukihelmet.svg" alt="結城安全帽" className="h-8 w-auto md:h-10" />
           </Link>
 
           <div className="flex-1 max-w-xl mx-8" />

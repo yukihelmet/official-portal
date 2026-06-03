@@ -124,10 +124,10 @@ export function ProductsClient({
       {/* <h1 className="text-3xl font-bold mb-8">{(t.common as Record<string, string>).products}</h1> */}
 
       {/* Filters */}
-      <div className="flex flex-wrap gap-4 mb-8">
+      <div className="flex md:flex-wrap gap-3 md:gap-4 mb-8 justify-end">
         <Select value={selectedBrand} onValueChange={(v) => setSelectedBrand(v || "")}>
-          <SelectTrigger className="w-28">
-            <SelectValue placeholder={t("filter.allBrands")} />
+          <SelectTrigger className="w-24 md:w-28">
+            <SelectValue placeholder={t("filter.ajllBrands")} />
           </SelectTrigger>
           <SelectContent>
             <SelectItem value="">{t("filter.allBrands")}</SelectItem>
@@ -151,7 +151,7 @@ export function ProductsClient({
               }
             }}
           >
-            <SelectTrigger className="w-28">
+            <SelectTrigger className="w-24 md:w-28">
               <SelectValue>{selectedCategoryLabel}</SelectValue>
           </SelectTrigger>
           <SelectContent>
@@ -165,7 +165,7 @@ export function ProductsClient({
         </Select>
 
         <Select value={orderByBestPrice} onValueChange={(v) => setOrderByBestPrice((v || "") as "asc" | "desc" | "")}>
-          <SelectTrigger className="w-28">
+          <SelectTrigger className="w-24 md:w-28">
             <span>{orderByBestPriceLabel}</span>
           </SelectTrigger>
           <SelectContent>

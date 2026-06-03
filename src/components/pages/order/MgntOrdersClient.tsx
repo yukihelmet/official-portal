@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect, useRef } from "react";
+import { useRouter } from "next/navigation";
 import { Order, listMgntOrders, ListOrdersParams, ListOrdersResponse, updateOrderShipping } from "@/lib/official-portal-api";
 import { MgntOrderCard } from "./MgntOrderCard";
 import { Loading } from "@/components/ui/loading";
@@ -9,6 +10,7 @@ import { useI18n } from "@/i18n";
 
 export function MgntOrdersClient() {
   const { t, locale } = useI18n();
+  const router = useRouter();
   const [orders, setOrders] = useState<Order[]>([]);
   const [nextId, setNextId] = useState<string | null>(null);
   const [isLoading, setIsLoading] = useState(true);
@@ -98,6 +100,12 @@ export function MgntOrdersClient() {
       setIsLoadingMore(false);
     }
   };
+
+  useEffect(() => {
+    listMgntOrders({ limit: 1 }).catch(() => {
+      router.push("/");
+    });
+  }, [router]);
 
   useEffect(() => {
     fetchOrders(true);
