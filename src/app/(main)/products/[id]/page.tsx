@@ -11,13 +11,14 @@ interface ProductPageProps {
 
 export async function generateStaticParams() {
   const allProducts: { id: string }[] = [];
-  let afterId: string | undefined;
+  let offset = 0;
+  let products: Awaited<ReturnType<typeof listProducts>>["products"] = [];
 
   do {
-    const { products, nextId } = await listProducts({ limit: 100, after_id: afterId });
+    ({ products } = await listProducts({ limit: 20, offset }));
     allProducts.push(...products.map((product) => ({ id: product.id })));
-    afterId = nextId ?? undefined;
-  } while (afterId);
+    offset += products.length;
+  } while (products.length !== 0);
 
   return allProducts;
 }

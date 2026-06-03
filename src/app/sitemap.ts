@@ -5,16 +5,14 @@ export const revalidate = 3600;
 
 async function getAllProducts(): Promise<string[]> {
   const productIds: string[] = [];
-  let nextId: string | undefined;
+  let offset = 0;
+  let products: Awaited<ReturnType<typeof listProducts>>["products"] = [];
 
   do {
-    const response = await listProducts({
-      limit: 20,
-      after_id: nextId,
-    });
-    productIds.push(...response.products.map((p) => p.id));
-    nextId = response.nextId ?? undefined;
-  } while (nextId);
+    ({ products } = await listProducts({ limit: 20, offset }));
+    productIds.push(...products.map((p) => p.id));
+    offset += products.length;
+  } while (products.length !== 0);
 
   return productIds;
 }
