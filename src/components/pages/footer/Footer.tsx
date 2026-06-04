@@ -38,6 +38,7 @@ export function Footer() {
             <h3 className="font-semibold mb-4">{t("footer.customerService")}</h3>
             <ul className="space-y-2 text-sm text-gray-400">
               <li><Link href="/about" className="hover:text-white transition-colors">{t("footer.aboutUs")}</Link></li>
+              <li><Link href="/company-info" className="hover:text-white transition-colors">{t("footer.companyInfo")}</Link></li>
               <li><Link href="/privacy" className="hover:text-white transition-colors">{t("footer.privacyPolicy")}</Link></li>
               <li><Link href="/terms" className="hover:text-white transition-colors">{t("footer.termsOfService")}</Link></li>
             </ul>

@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect, useRef, useCallback } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { Product } from "@/entities/Product";
@@ -14,6 +14,7 @@ import {
   CarouselItem,
   CarouselPrevious,
   CarouselNext,
+  type CarouselApi,
 } from "@/components/ui/carousel";
 
 interface ProductDetailClientProps {
@@ -28,6 +29,30 @@ export function ProductDetailClient({
   const [selectedSize, setSelectedSize] = useState<string>(product.prices[0]?.size ?? "");
   const [quantity, setQuantity] = useState(1);
   const [added, setAdded] = useState(false);
+  const [isHovering, setIsHovering] = useState(false);
+  const [apiReady, setApiReady] = useState(false);
+  const apiRef = useRef<CarouselApi | null>(null);
+  const totalImages = product.images.length;
+
+  const handleSetApi = useCallback((api: CarouselApi) => {
+    apiRef.current = api;
+    setApiReady(true);
+  }, []);
+
+  useEffect(() => {
+    if (!apiReady || !apiRef.current || totalImages <= 1) return;
+
+    const api = apiRef.current;
+    let currentIndex = 0;
+
+    const interval = setInterval(() => {
+      if (isHovering) return;
+      currentIndex = (currentIndex + 1) % totalImages;
+      api.scrollTo(currentIndex, true);
+    }, 3000);
+
+    return () => clearInterval(interval);
+  }, [totalImages, isHovering, apiReady]);
 
   const currencyKey = locale === "ja" ? "JPY" : "TWD";
 
@@ -63,7 +88,12 @@ export function ProductDetailClient({
       <div className="flex flex-col lg:flex-row gap-8 items-stretch">
         {/* Left: Images */}
         <div className="lg:w-1/2">
-          <Carousel className="w-full">
+          <Carousel
+            className="w-full"
+            setApi={handleSetApi}
+            onMouseEnter={() => setIsHovering(true)}
+            onMouseLeave={() => setIsHovering(false)}
+          >
             <CarouselContent>
               {product.images.length > 0 ? (
                 product.images.map((src, index) => (
