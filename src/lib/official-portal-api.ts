@@ -314,6 +314,14 @@ export async function listMgntOrders(
   };
 }
 
+export async function getMgntOrder(publicId: string): Promise<Order> {
+  const response = await getRequestWithAuth<ListResponse<Order>>(
+    "/v1/mgnt/orders",
+    { public_id: publicId },
+  );
+  return response.result[0];
+}
+
 // Server-side: uses session cookie, bypasses localStorage token check
 export async function serverListMgntOrders(
   params?: ListOrdersParams,

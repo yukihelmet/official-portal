@@ -91,6 +91,7 @@
     },
     "shippingDesc": "配送説明",
     "action": "操作",
+    "userId": "ユーザー",
     "editOrder": "注文を編集"
   },
   "footer": {

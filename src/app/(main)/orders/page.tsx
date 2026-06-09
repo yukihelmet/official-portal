@@ -14,7 +14,7 @@ export default async function OrdersPage() {
     const ordersResponse = await listOrders({ limit: 20 });
     orders = ordersResponse.orders;
     initialNextId = ordersResponse.nextId;
-  } catch (error) {
+  } catch () {
     // User might not be authenticated, orders will be empty
   }
 

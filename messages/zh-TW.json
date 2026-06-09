@@ -91,6 +91,7 @@
     },
     "shippingDesc": "配送說明",
     "action": "操作",
+    "userId": "用戶",
     "editOrder": "編輯訂單"
   },
   "footer": {

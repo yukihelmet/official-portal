@@ -9,6 +9,7 @@ interface MgntOrderCardProps {
   order: Order;
   currencyKey: "jpy" | "twd";
   onEdit: (order: Order) => void;
+  forceMobileLayout?: boolean;
 }
 
 const statusConfig: Record<string, { label: string; color: string; icon: string }> = {
@@ -34,7 +35,7 @@ function parseShippingDesc(desc: string | null | undefined): string[] {
   }
 }
 
-export function MgntOrderCard({ order, currencyKey, onEdit }: MgntOrderCardProps) {
+export function MgntOrderCard({ order, currencyKey, onEdit, forceMobileLayout }: MgntOrderCardProps) {
   const { t, locale } = useI18n();
   const [copied, setCopied] = useState(false);
   const symbol = currencyKey === "jpy" ? "¥" : "$";
@@ -53,12 +54,16 @@ export function MgntOrderCard({ order, currencyKey, onEdit }: MgntOrderCardProps
     setTimeout(() => setCopied(false), 1500);
   };
 
+  const rootClass = forceMobileLayout
+    ? "flex flex-col gap-3 p-4 border border-gray-200 rounded-lg hover:bg-gray-50"
+    : "flex flex-col md:grid md:grid-cols-9 gap-2 p-4 border-b border-gray-200 last:border-b-0 hover:bg-gray-50";
+
   return (
-    <div className="flex flex-col md:grid md:grid-cols-8 gap-2 p-4 border-b border-gray-200 last:border-b-0 hover:bg-gray-50">
-      {/* Order Number & Date */}
-      <div className="md:col-span-1 flex justify-between md:block">
+    <div className={rootClass}>
+      {/* Order Number & Date & User ID */}
+      <div className={forceMobileLayout ? "flex items-start justify-between" : "md:col-span-1 flex flex-col gap-1 md:block"}>
         <div className="flex items-center gap-1">
-          <p className="font-mono font-semibold text-sm">{order.public_id.slice(0, 8)}</p>
+          <p className="font-mono font-semibold text-sm">{order.public_id?.slice(0, 8)}</p>
           <button
             onClick={() => handleCopy(order.public_id)}
             className="text-gray-400 hover:text-gray-600"
@@ -66,13 +71,25 @@ export function MgntOrderCard({ order, currencyKey, onEdit }: MgntOrderCardProps
             <Icon icon={copied ? "lucide:check" : "lucide:copy"} className="w-3.5 h-3.5" />
           </button>
         </div>
-        <p className="text-xs text-gray-500 md:hidden">{formatDate(order.created_at)}</p>
+        <div className="flex items-center justify-between md:hidden">
+          <div className="flex items-center gap-2">
+            <span className="text-xs text-gray-600 break-all" title={order.user_id}>
+              {order.user_id}
+            </span>
+          </div>
+          <p className="text-xs text-gray-500 shrink-0">{formatDate(order.created_at)}</p>
+        </div>
+        <div className="hidden md:block">
+          <span className="text-xs text-gray-600 break-all" title={order.user_id}>
+            {order.user_id}
+          </span>
+        </div>
       </div>
 
       {/* Items Details */}
-      <div className="md:col-span-2">
+      <div className={forceMobileLayout ? "space-y-3" : "md:col-span-2"}>
         <ul className="space-y-2">
-          {order.items.slice(0, 2).map((item, i) => (
+          {order.items.map((item, i) => (
             <li key={i} className="text-sm text-gray-600 space-y-0.5">
               <a href={item.item_url} target="_blank" rel="noopener noreferrer" className="hover:text-primary hover:underline">
                 {item.name}
@@ -85,13 +102,10 @@ export function MgntOrderCard({ order, currencyKey, onEdit }: MgntOrderCardProps
             </li>
           ))}
         </ul>
-        {order.items.length > 2 && (
-          <p className="text-xs text-gray-400 mt-0.5">+{order.items.length - 2} more</p>
-        )}
       </div>
 
       {/* Payment Status */}
-      <div className="flex items-center gap-1.5">
+      <div className={forceMobileLayout ? "flex items-center gap-2" : "flex items-center gap-1.5"}>
         <span className="md:hidden text-xs text-gray-400 shrink-0">{t("order.paymentStatus")}</span>
         <span className="md:hidden flex items-center gap-1.5 ml-auto">
           <Icon icon={status.icon} className={`w-4 h-4 ${status.color}`} />
@@ -104,7 +118,7 @@ export function MgntOrderCard({ order, currencyKey, onEdit }: MgntOrderCardProps
       </div>
 
       {/* Shipping Status */}
-      <div className="flex items-center gap-1.5">
+      <div className={forceMobileLayout ? "flex items-center gap-2" : "flex items-center gap-1.5"}>
         <span className="md:hidden text-xs text-gray-400 shrink-0">{t("order.shippingStatusHeader")}</span>
         <span className="md:hidden flex items-center gap-1.5 ml-auto">
           <Icon icon={shippingStatus.icon} className={`w-4 h-4 ${shippingStatus.color}`} />
@@ -117,21 +131,21 @@ export function MgntOrderCard({ order, currencyKey, onEdit }: MgntOrderCardProps
       </div>
 
       {/* Shipping Desc */}
-      <div className="text-sm text-gray-500">
+      <div className={forceMobileLayout ? "text-sm text-gray-500 space-y-1" : "text-sm text-gray-500"}>
         {parseShippingDesc(order.shipping_desc).map((line, i) => (
           <div key={i} className="truncate">{line}</div>
         ))}
       </div>
 
       {/* Total Amount */}
-      <div className="text-right">
+      <div className={forceMobileLayout ? "text-left" : "text-right"}>
         <span className="text-lg font-bold">
           {symbol}{order.total_amount.toLocaleString()}
         </span>
       </div>
 
       {/* Action */}
-      <div className="flex justify-end">
+      <div className={forceMobileLayout ? "flex justify-start" : "flex justify-end"}>
         <button
           onClick={() => onEdit(order)}
           className="p-2 hover:bg-gray-100 rounded"
