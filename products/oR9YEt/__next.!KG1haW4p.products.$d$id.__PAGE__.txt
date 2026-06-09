@@ -1,6 +1,6 @@
 1:"$Sreact.fragment"
-2:I[97739,["/_next/static/chunks/0xj80zfvbhsrd.js","/_next/static/chunks/0eewamb49pw7k.js","/_next/static/chunks/0iozoknvsb5cn.js","/_next/static/chunks/0tu4pk5a6balk.js","/_next/static/chunks/065pk0z-bl2vr.js","/_next/static/chunks/0z8m53lzz18g3.js"],"ProductDetailClient"]
-8:I[97367,["/_next/static/chunks/0xj80zfvbhsrd.js","/_next/static/chunks/0eewamb49pw7k.js","/_next/static/chunks/0iozoknvsb5cn.js"],"OutletBoundary"]
+2:I[97739,["/_next/static/chunks/0fskech6ykj6g.js","/_next/static/chunks/0eewamb49pw7k.js","/_next/static/chunks/0zogqio-rqccb.js","/_next/static/chunks/051jgirgv9~u~.js","/_next/static/chunks/065pk0z-bl2vr.js","/_next/static/chunks/0z8m53lzz18g3.js"],"ProductDetailClient"]
+8:I[97367,["/_next/static/chunks/0fskech6ykj6g.js","/_next/static/chunks/0eewamb49pw7k.js","/_next/static/chunks/0zogqio-rqccb.js"],"OutletBoundary"]
 9:"$Sreact.suspense"
 3:T117d,「かわす性能」でライダーの頭を護り続けるアライと共に昨年、世界最高峰レースのMoto２クラスでチャンピオンを獲得し、今シーズンはトラックハウスMotoGPチーム（アプリリア）より最高峰「MotoGP」クラスでデビューより快進撃をしている日本人唯一のフル参戦ライダー『小椋 藍』選手のオープンフェイス版〈VZ-RAM オグラ〉の登場です。
 更なるプロテクション進化のステージに生まれ変わった〈VZ-RAM〉をベースに世界で戦っているフルフェイスカラーと同じ、スピード感あふれるラインと日本古来の伝統美「藍染」模様は、まさに侍ブルーで世界に挑む若きライダーを象徴したカラーリングモデルとなっています。
@@ -92,7 +92,7 @@ VAS-Z專業遮陽片的太陽罩，抬起時作為遮陽片功能，放下時作
 鏡片系統：VAS-Z鏡片系統
 鏡片：VAS-Z 吹風鏡片（淺煙色）標準裝備（※防霧釘鎖片另售）
 內裝：高配戴可調式內裝（抗菌・除臭・防污內裝）
-尺寸：（54）（55-56）（57-58）（59-60）（61-62）0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"product":{"id":"oR9YEt","name":"VZ-RAM OGURA (VZ RAM Ogura 小椋藍) 3/4安全帽安全帽","gender":"unisex","brand":"Arai","category":"jet_helmet","prices":[{"size":"54cm","prices":{"twd":{"price":18100,"discount_price":18100}}},{"size":"S(55-56cm)","prices":{"twd":{"price":18100,"discount_price":18100}}},{"size":"M(57-58cm)","prices":{"twd":{"price":18100,"discount_price":18100}}},{"size":"L(59-60cm)","prices":{"twd":{"price":18100,"discount_price":18100}}},{"size":"XL(61-62cm)","prices":{"twd":{"price":18100,"discount_price":18100}}}],"images":["https://cdn.jsdelivr.net/gh/yukihelmet/images@main/oR9YEt/1.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/oR9YEt/2.webp"],"description":{"ja":"$3","zhTW":"$4"}}}],["$L5","$L6"],"$L7"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"DqaWm5AVBTMKsTf-or2B_"}
+尺寸：（54）（55-56）（57-58）（59-60）（61-62）0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"product":{"id":"oR9YEt","name":"VZ-RAM OGURA (VZ RAM Ogura 小椋藍) 3/4安全帽安全帽","gender":"unisex","brand":"Arai","category":"jet_helmet","prices":[{"size":"54cm","prices":{"twd":{"price":18100,"discount_price":18100}}},{"size":"S(55-56cm)","prices":{"twd":{"price":18100,"discount_price":18100}}},{"size":"M(57-58cm)","prices":{"twd":{"price":18100,"discount_price":18100}}},{"size":"L(59-60cm)","prices":{"twd":{"price":18100,"discount_price":18100}}},{"size":"XL(61-62cm)","prices":{"twd":{"price":18100,"discount_price":18100}}}],"images":["https://cdn.jsdelivr.net/gh/yukihelmet/images@main/oR9YEt/1.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/oR9YEt/2.webp"],"description":{"ja":"$3","zhTW":"$4"}}}],["$L5","$L6"],"$L7"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"0hHUHhOZxVZzA1evmL77S"}
 5:["$","script","script-0",{"src":"/_next/static/chunks/065pk0z-bl2vr.js","async":true}]
 6:["$","script","script-1",{"src":"/_next/static/chunks/0z8m53lzz18g3.js","async":true}]
 7:["$","$L8",null,{"children":["$","$9",null,{"name":"Next.MetadataOutlet","children":"$@a"}]}]
