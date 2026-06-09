@@ -1,5 +1,6 @@
 'use client';
 
+import { Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
 import { useEffect, useState, useCallback } from 'react';
 import { getMgntOrder, Order } from '@/lib/official-portal-api';
@@ -8,7 +9,7 @@ import { MgntOrderEditModal } from '@/components/pages/order/MgntOrderEditModal'
 import { Loading } from '@/components/ui/loading';
 import { useI18n } from '@/i18n';
 
-export default function MgntOrderIdViewPage() {
+function MgntOrderIdViewContent() {
   const searchParams = useSearchParams();
   const id = searchParams.get('id');
   const [order, setOrder] = useState<Order | null>(null);
@@ -48,5 +49,13 @@ export default function MgntOrderIdViewPage() {
         </>
       )}
     </div>
+  );
+}
+
+export default function MgntOrderIdViewPage() {
+  return (
+    <Suspense fallback={<Loading />}>
+      <MgntOrderIdViewContent />
+    </Suspense>
   );
 }
