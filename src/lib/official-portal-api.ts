@@ -283,6 +283,9 @@ export interface Order {
   status: string;
   shipping_status: string;
   shipping_desc: string;
+  shipping_address: string;
+  shipping_mobile: string;
+  recipient_name: string;
   shipped_at: string | null;
   created_at: string;
 }
@@ -431,7 +434,7 @@ async function patchRequestWithAuth<T>(
 
 export interface UpdateOrderShippingRequest {
   shipping_status: string;
-  shipping_desc_lines: string[];
+  shipping_desc: string;
 }
 
 export async function updateOrderShipping(

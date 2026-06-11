@@ -80,6 +80,7 @@ export function OrdersClient({
   };
 
   useEffect(() => {
+    // eslint-disable-next-line
     fetchOrders(true);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);

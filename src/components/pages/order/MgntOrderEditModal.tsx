@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { Order, updateOrderShipping } from '@/lib/official-portal-api';
-import { Icon } from '@iconify/react';
+import { Textarea } from '@/components/ui/textarea';
 import { useI18n } from '@/i18n';
 
 interface MgntOrderEditModalProps {
@@ -14,30 +14,15 @@ interface MgntOrderEditModalProps {
 export function MgntOrderEditModal({ order, onClose, onSaved }: MgntOrderEditModalProps) {
   const { t } = useI18n();
   const [shippingStatus, setShippingStatus] = useState(order.shipping_status);
-  const [descLines, setDescLines] = useState<string[]>(() => parseShippingDesc(order.shipping_desc));
+  const [shippingDesc, setShippingDesc] = useState(order.shipping_desc ?? '');
   const [isSaving, setIsSaving] = useState(false);
-
-  function parseShippingDesc(desc: string | null | undefined): string[] {
-    if (!desc) return [];
-    try {
-      const parsed = JSON.parse(desc);
-      return Array.isArray(parsed) ? parsed : [];
-    } catch {
-      return [];
-    }
-  }
-
-  const addDescLine = () => setDescLines((prev) => [...prev, '']);
-  const removeDescLine = (index: number) => setDescLines((prev) => prev.filter((_, i) => i !== index));
-  const updateDescLine = (index: number, value: string) =>
-    setDescLines((prev) => prev.map((line, i) => (i === index ? value : line)));
 
   const handleSave = async () => {
     setIsSaving(true);
     try {
       await updateOrderShipping(order.public_id, {
         shipping_status: shippingStatus,
-        shipping_desc_lines: descLines.filter((l) => l.trim() !== ''),
+        shipping_desc: shippingDesc,
       });
       onSaved();
       onClose();
@@ -69,31 +54,12 @@ export function MgntOrderEditModal({ order, onClose, onSaved }: MgntOrderEditMod
 
         {/* Desc */}
         <div className="mb-4">
-          <div className="flex items-center justify-between mb-1">
-            <label className="block text-sm font-medium text-gray-700">{t('order.shippingDesc')}</label>
-            <button type="button" onClick={addDescLine} className="text-sm text-blue-600 hover:text-blue-800">
-              <Icon icon="lucide:plus" className="w-4 h-4" />
-            </button>
-          </div>
-          <div className="space-y-2">
-            {descLines.map((line, i) => (
-              <div key={i} className="flex gap-2">
-                <input
-                  type="text"
-                  value={line}
-                  onChange={(e) => updateDescLine(i, e.target.value)}
-                  className="flex-1 border rounded px-3 py-2 text-sm"
-                />
-                <button
-                  type="button"
-                  onClick={() => removeDescLine(i)}
-                  className="text-gray-400 hover:text-red-500"
-                >
-                  <Icon icon="lucide:x" className="w-5 h-5" />
-                </button>
-              </div>
-            ))}
-          </div>
+          <label className="block text-sm font-medium text-gray-700 mb-1">{t('order.shippingDesc')}</label>
+          <Textarea
+            value={shippingDesc}
+            onChange={(e) => setShippingDesc(e.target.value)}
+            className="min-h-[80px]"
+          />
         </div>
 
         {/* Actions */}

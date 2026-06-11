@@ -23,16 +23,6 @@ const shippingStatusConfig: Record<string, { label: string; color: string; icon:
   shipped: { label: "order.shippingStatus.shipped", color: "text-green-600", icon: "lucide:truck" },
 };
 
-function parseShippingDesc(desc: string | null | undefined): string[] {
-  if (!desc) return [];
-  try {
-    const parsed = JSON.parse(desc);
-    return Array.isArray(parsed) ? parsed : [];
-  } catch {
-    return [];
-  }
-}
-
 export function OrderCard({ order, currencyKey }: OrderCardProps) {
   const { t, locale } = useI18n();
   const [copied, setCopied] = useState(false);
@@ -71,8 +61,8 @@ export function OrderCard({ order, currencyKey }: OrderCardProps) {
       {/* Items Details */}
       <div className="md:col-span-2">
         <ul className="space-y-0.5 list-disc list-inside">
-          {order.items.slice(0, 2).map((item, i) => (
-            <li key={i} className="text-sm text-gray-600 truncate">
+          {order.items.map((item, i) => (
+            <li key={i} className="text-sm text-gray-600">
               {item.name} x{item.quantity}
               <span className="ml-1 text-xs text-gray-400">
                 {symbol}{item.price.toLocaleString()}
@@ -80,9 +70,6 @@ export function OrderCard({ order, currencyKey }: OrderCardProps) {
             </li>
           ))}
         </ul>
-        {order.items.length > 2 && (
-          <p className="text-xs text-gray-400 mt-0.5">+{order.items.length - 2} more</p>
-        )}
       </div>
 
       {/* Payment Status */}
@@ -112,10 +99,8 @@ export function OrderCard({ order, currencyKey }: OrderCardProps) {
       </div>
 
       {/* Shipping Desc */}
-      <div className="text-sm text-gray-500 space-y-0.5">
-        {parseShippingDesc(order.shipping_desc).map((line, i) => (
-          <div key={i} className="truncate">{line}</div>
-        ))}
+      <div className="text-sm text-gray-500 wrap-break-word whitespace-pre-wrap">
+        {order.shipping_desc}
       </div>
 
       {/* Total Amount */}

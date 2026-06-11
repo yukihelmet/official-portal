@@ -78,6 +78,7 @@
     "shippingNote": "配送備註",
     "paymentStatus": "付款狀態",
     "shippingStatusHeader": "貨運狀態",
+    "shippingInfo": "配送資訊",
     "status": {
       "pending": "待付款",
       "paid": "已付款",
@@ -92,7 +93,8 @@
     "shippingDesc": "配送說明",
     "action": "操作",
     "userId": "用戶",
-    "editOrder": "編輯訂單"
+    "editOrder": "編輯訂單",
+    "orderDetail": "訂單詳情"
   },
   "footer": {
     "brand": "原裝日系魂，一鍵直送你的專屬安全。",

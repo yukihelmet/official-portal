@@ -15,7 +15,7 @@ function MgntOrderIdViewContent() {
   const [order, setOrder] = useState<Order | null>(null);
   const [isLoading, setIsLoading] = useState(false);
   const [selectedOrder, setSelectedOrder] = useState<Order | null>(null);
-  const { locale } = useI18n();
+  const { locale, t } = useI18n();
   const currencyKey = locale === 'ja' ? 'jpy' : 'twd';
 
   const refreshOrder = useCallback(async () => {
@@ -35,18 +35,18 @@ function MgntOrderIdViewContent() {
 
   return (
     <div className="max-w-md mx-auto px-4 py-8">
-      <h1 className="text-2xl font-bold mb-4">Order Detail</h1>
+      <h1 className="text-2xl font-bold mb-4">{t("order.orderDetail")}</h1>
       {order && (
         <>
           <MgntOrderCard order={order} currencyKey={currencyKey} onEdit={setSelectedOrder} forceMobileLayout />
-          {selectedOrder && (
-            <MgntOrderEditModal
-              order={selectedOrder}
-              onClose={() => setSelectedOrder(null)}
-              onSaved={refreshOrder}
-            />
-          )}
         </>
+      )}
+      {selectedOrder && (
+        <MgntOrderEditModal
+          order={selectedOrder}
+          onClose={() => setSelectedOrder(null)}
+          onSaved={refreshOrder}
+        />
       )}
     </div>
   );

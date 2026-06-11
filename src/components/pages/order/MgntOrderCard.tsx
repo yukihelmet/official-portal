@@ -25,15 +25,6 @@ const shippingStatusConfig: Record<string, { label: string; color: string; icon:
   shipped: { label: "order.shippingStatus.shipped", color: "text-green-600", icon: "lucide:truck" },
 };
 
-function parseShippingDesc(desc: string | null | undefined): string[] {
-  if (!desc) return [];
-  try {
-    const parsed = JSON.parse(desc);
-    return Array.isArray(parsed) ? parsed : [];
-  } catch {
-    return [];
-  }
-}
 
 export function MgntOrderCard({ order, currencyKey, onEdit, forceMobileLayout }: MgntOrderCardProps) {
   const { t, locale } = useI18n();
@@ -56,7 +47,7 @@ export function MgntOrderCard({ order, currencyKey, onEdit, forceMobileLayout }:
 
   const rootClass = forceMobileLayout
     ? "flex flex-col gap-3 p-4 border border-gray-200 rounded-lg hover:bg-gray-50"
-    : "flex flex-col md:grid md:grid-cols-9 gap-2 p-4 border-b border-gray-200 last:border-b-0 hover:bg-gray-50";
+    : "flex flex-col md:grid md:grid-cols-10 gap-2 p-4 border-b border-gray-200 last:border-b-0 hover:bg-gray-50";
 
   return (
     <div className={rootClass}>
@@ -106,12 +97,9 @@ export function MgntOrderCard({ order, currencyKey, onEdit, forceMobileLayout }:
 
       {/* Payment Status */}
       <div className={forceMobileLayout ? "flex items-center gap-2" : "flex items-center gap-1.5"}>
-        <span className="md:hidden text-xs text-gray-400 shrink-0">{t("order.paymentStatus")}</span>
-        <span className="md:hidden flex items-center gap-1.5 ml-auto">
-          <Icon icon={status.icon} className={`w-4 h-4 ${status.color}`} />
-          <span className={`text-sm font-medium ${status.color}`}>{t(status.label)}</span>
-        </span>
-        <span className="hidden md:flex items-center gap-1.5">
+        {!forceMobileLayout && <span className="md:hidden text-xs text-gray-400 shrink-0">{t("order.paymentStatus")}</span>}
+        {forceMobileLayout && <span className="text-xs text-gray-400 shrink-0">{t("order.paymentStatus")}</span>}
+        <span className={forceMobileLayout ? "flex items-center gap-1.5 ml-auto" : "hidden md:flex items-center gap-1.5"}>
           <Icon icon={status.icon} className={`w-4 h-4 ${status.color}`} />
           <span className={`text-sm font-medium ${status.color}`}>{t(status.label)}</span>
         </span>
@@ -119,22 +107,32 @@ export function MgntOrderCard({ order, currencyKey, onEdit, forceMobileLayout }:
 
       {/* Shipping Status */}
       <div className={forceMobileLayout ? "flex items-center gap-2" : "flex items-center gap-1.5"}>
-        <span className="md:hidden text-xs text-gray-400 shrink-0">{t("order.shippingStatusHeader")}</span>
-        <span className="md:hidden flex items-center gap-1.5 ml-auto">
-          <Icon icon={shippingStatus.icon} className={`w-4 h-4 ${shippingStatus.color}`} />
-          <span className={`text-sm font-medium ${shippingStatus.color}`}>{t(shippingStatus.label)}</span>
-        </span>
-        <span className="hidden md:flex items-center gap-1.5">
+        {!forceMobileLayout && <span className="md:hidden text-xs text-gray-400 shrink-0">{t("order.shippingStatusHeader")}</span>}
+        {forceMobileLayout && <span className="text-xs text-gray-400 shrink-0">{t("order.shippingStatusHeader")}</span>}
+        <span className={forceMobileLayout ? "flex items-center gap-1.5 ml-auto" : "hidden md:flex items-center gap-1.5"}>
           <Icon icon={shippingStatus.icon} className={`w-4 h-4 ${shippingStatus.color}`} />
           <span className={`text-sm font-medium ${shippingStatus.color}`}>{t(shippingStatus.label)}</span>
         </span>
       </div>
 
+      {/* Shipping Info */}
+      <div className={forceMobileLayout ? "space-y-1" : "md:col-span-2"}>
+        {!forceMobileLayout && <span className="md:hidden text-xs text-gray-400 shrink-0">{t("order.shippingInfo")}</span>}
+        {forceMobileLayout && <span className="text-xs text-gray-400 shrink-0">{t("order.shippingInfo")}</span>}
+        <div className="text-xs text-gray-600 space-y-0.5">
+          <div className="font-medium truncate">{order.recipient_name}</div>
+          <div className="truncate">{order.shipping_mobile}</div>
+          <div className="text-gray-400 truncate">{order.shipping_address}</div>
+        </div>
+      </div>
+
       {/* Shipping Desc */}
-      <div className={forceMobileLayout ? "text-sm text-gray-500 space-y-1" : "text-sm text-gray-500"}>
-        {parseShippingDesc(order.shipping_desc).map((line, i) => (
-          <div key={i} className="truncate">{line}</div>
-        ))}
+      <div className={forceMobileLayout ? "space-y-1" : ""}>
+        {!forceMobileLayout && <span className="md:hidden text-xs text-gray-400 shrink-0">{t("order.shippingDesc")}</span>}
+        {forceMobileLayout && <span className="text-xs text-gray-400 shrink-0">{t("order.shippingDesc")}</span>}
+        <div className="text-sm text-gray-500 wrap-break-word whitespace-pre-wrap">
+          {order.shipping_desc}
+        </div>
       </div>
 
       {/* Total Amount */}
