@@ -1,7 +1,7 @@
 1:"$Sreact.fragment"
-2:I[97739,["/_next/static/chunks/0fskech6ykj6g.js","/_next/static/chunks/0eewamb49pw7k.js","/_next/static/chunks/0zogqio-rqccb.js","/_next/static/chunks/051jgirgv9~u~.js","/_next/static/chunks/065pk0z-bl2vr.js","/_next/static/chunks/0z8m53lzz18g3.js"],"ProductDetailClient"]
-8:I[97367,["/_next/static/chunks/0fskech6ykj6g.js","/_next/static/chunks/0eewamb49pw7k.js","/_next/static/chunks/0zogqio-rqccb.js"],"OutletBoundary"]
-9:"$Sreact.suspense"
+2:I[97739,["/_next/static/chunks/0fskech6ykj6g.js","/_next/static/chunks/0eewamb49pw7k.js","/_next/static/chunks/014zyyppwzygy.js","/_next/static/chunks/14wjx2_b5pnw7.js","/_next/static/chunks/0uzee0rleesdk.js","/_next/static/chunks/0g01l.l5h~i5a.js","/_next/static/chunks/0u8c67ev9~tqr.js"],"ProductDetailClient"]
+9:I[97367,["/_next/static/chunks/0fskech6ykj6g.js","/_next/static/chunks/0eewamb49pw7k.js","/_next/static/chunks/014zyyppwzygy.js"],"OutletBoundary"]
+a:"$Sreact.suspense"
 3:T105a,WYVERN 0
 1997 年に登場した初代 WYVERN。機能性が更に向上し 2003 年に登場した WYVERN 0。
 その個性的なフォルムで多くのライダーから支持を得ていた WYVERN 0リーズの歴史と
@@ -74,8 +74,9 @@ WYVERN 0 在承襲傳統外殼設計的同時，搭載 SHOEI 的最新技術，�
 ■E.Q.R.S.(緊急快速釋放系統)
 為了應對意外情況而設計的緊急頭盔拆卸系統。
 在需要騎士救護的萬一情況下，裝備的系統使第三者能更迅速地進行救護活動。救護時需要迅速的同時，從騎士身上脫下頭盔則需要謹慎。E.Q.R.S. 在頰墊上裝備專用的繩帶，救護時拉動這根繩帶即可輕鬆將頰墊從頭盔上拆下，通過拔出緊貼臉頰的頰墊，能夠輕鬆地將頭盔脫下。
-※平時在進行維護等目的時，請勿使用 E.Q.R.S.0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"product":{"id":"lRimgr","name":"WYVERN ０ REBOOT (Wyvern Zero Reboot) TC-5 BLACK/SILVER 全罩式安全帽","gender":"unisex","brand":"SHOEI","category":"full_face_helmet","prices":[{"size":"55cm","prices":{"twd":{"price":17100,"discount_price":17100}}},{"size":"57cm","prices":{"twd":{"price":17100,"discount_price":17100}}},{"size":"59cm","prices":{"twd":{"price":17100,"discount_price":17100}}},{"size":"61cm","prices":{"twd":{"price":17100,"discount_price":17100}}},{"size":"63cm","prices":{"twd":{"price":17100,"discount_price":17100}}}],"images":["https://cdn.jsdelivr.net/gh/yukihelmet/images@main/lRimgr/1.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/lRimgr/2.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/lRimgr/3.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/lRimgr/4.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/lRimgr/5.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/lRimgr/6.webp"],"description":{"ja":"$3","zhTW":"$4"}}}],["$L5","$L6"],"$L7"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"0hHUHhOZxVZzA1evmL77S"}
-5:["$","script","script-0",{"src":"/_next/static/chunks/065pk0z-bl2vr.js","async":true}]
-6:["$","script","script-1",{"src":"/_next/static/chunks/0z8m53lzz18g3.js","async":true}]
-7:["$","$L8",null,{"children":["$","$9",null,{"name":"Next.MetadataOutlet","children":"$@a"}]}]
-a:null
+※平時在進行維護等目的時，請勿使用 E.Q.R.S.0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"product":{"id":"lRimgr","name":"WYVERN ０ REBOOT (Wyvern Zero Reboot) TC-5 BLACK/SILVER 全罩式安全帽","gender":"unisex","brand":"SHOEI","category":"full_face_helmet","prices":[{"size":"55cm","prices":{"twd":{"price":17100,"discount_price":17100}}},{"size":"57cm","prices":{"twd":{"price":17100,"discount_price":17100}}},{"size":"59cm","prices":{"twd":{"price":17100,"discount_price":17100}}},{"size":"61cm","prices":{"twd":{"price":17100,"discount_price":17100}}},{"size":"63cm","prices":{"twd":{"price":17100,"discount_price":17100}}}],"images":["https://cdn.jsdelivr.net/gh/yukihelmet/images@main/lRimgr/1.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/lRimgr/2.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/lRimgr/3.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/lRimgr/4.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/lRimgr/5.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/lRimgr/6.webp"],"description":{"ja":"$3","zhTW":"$4"}}}],["$L5","$L6","$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"1nzcnW2m9rBdg1wu5B5vw"}
+5:["$","script","script-0",{"src":"/_next/static/chunks/0uzee0rleesdk.js","async":true}]
+6:["$","script","script-1",{"src":"/_next/static/chunks/0g01l.l5h~i5a.js","async":true}]
+7:["$","script","script-2",{"src":"/_next/static/chunks/0u8c67ev9~tqr.js","async":true}]
+8:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
+b:null
