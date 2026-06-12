@@ -120,9 +120,9 @@ export function MgntOrderCard({ order, currencyKey, onEdit, forceMobileLayout }:
         {!forceMobileLayout && <span className="md:hidden text-xs text-gray-400 shrink-0">{t("order.shippingInfo")}</span>}
         {forceMobileLayout && <span className="text-xs text-gray-400 shrink-0">{t("order.shippingInfo")}</span>}
         <div className="text-xs text-gray-600 space-y-0.5">
-          <div className="font-medium truncate">{order.recipient_name}</div>
-          <div className="truncate">{order.shipping_mobile}</div>
-          <div className="text-gray-400 truncate">{order.shipping_address}</div>
+          <div className="font-medium">{order.recipient_name}</div>
+          <div className="">{order.shipping_mobile}</div>
+          <div className="text-gray-400">{order.shipping_address}</div>
         </div>
       </div>
 

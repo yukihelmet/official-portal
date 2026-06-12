@@ -134,7 +134,7 @@ export default function CartPage() {
                 {item.loading || !item.product ? (
                   <div className="h-5 w-48 bg-gray-100 animate-pulse mb-2" />
                 ) : (
-                  <Link href={`/products/${item.productId}`} className="font-semibold truncate hover:text-primary">
+                  <Link href={`/products/${item.productId}`} className="font-semibold hover:text-primary">
                     {item.product.name}
                   </Link>
                 )}
