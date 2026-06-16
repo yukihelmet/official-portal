@@ -31,9 +31,16 @@ export function OrderCard({ order, currencyKey }: OrderCardProps) {
   const status = statusConfig[order.status] ?? { label: `order.status.${order.status}`, color: "text-gray-600", icon: "lucide:circle" };
   const shippingStatus = shippingStatusConfig[order.shipping_status] ?? { label: `order.shippingStatus.${order.shipping_status}`, color: "text-gray-600", icon: "lucide:package" };
 
-  const formatDate = (dateStr: string) => {
-    const date = new Date(dateStr);
-    return date.toLocaleDateString(locale === "ja" ? "ja-JP" : "zh-TW");
+  const formatDate = (date: string | Date) => {
+    if (!date) return "—";
+    const d = typeof date === "string" ? new Date(date) : date;
+    const pad = (n: number) => String(n).padStart(2, "0");
+    const yyyy = d.getFullYear();
+    const MM = pad(d.getMonth() + 1);
+    const dd = pad(d.getDate());
+    const HH = pad(d.getHours());
+    const mm = pad(d.getMinutes());
+    return `${yyyy}/${MM}/${dd} ${HH}:${mm}`;
   };
 
   const handleCopy = (text: string) => {
@@ -43,7 +50,7 @@ export function OrderCard({ order, currencyKey }: OrderCardProps) {
   };
 
   return (
-    <div className="flex flex-col md:grid md:grid-cols-7 gap-2 p-4 border-b border-gray-200 last:border-b-0">
+    <div className="flex flex-col md:grid md:grid-cols-8 gap-2 p-4 border-b border-gray-200 last:border-b-0">
       {/* Order Number & Date */}
       <div className="md:col-span-1 flex justify-between md:block">
         <div className="flex items-center gap-1">
@@ -55,7 +62,6 @@ export function OrderCard({ order, currencyKey }: OrderCardProps) {
             <Icon icon={copied ? "lucide:check" : "lucide:copy"} className="w-3.5 h-3.5" />
           </button>
         </div>
-        <p className="text-xs text-gray-500 md:hidden">{formatDate(order.created_at)}</p>
       </div>
 
       {/* Items Details */}
@@ -108,6 +114,11 @@ export function OrderCard({ order, currencyKey }: OrderCardProps) {
         <span className="text-lg font-bold">
           {symbol}{order.total_amount.toLocaleString()}
         </span>
+      </div>
+
+      {/* Last Updated */}
+      <div className="text-xs text-gray-400 text-right md:text-right">
+        <div>{order.updated_at ? formatDate(new Date(order.updated_at)) : "—"}</div>
       </div>
     </div>
   );

@@ -287,7 +287,7 @@ export interface Order {
   shipping_mobile: string;
   recipient_name: string;
   shipped_at: string | null;
-  created_at: string;
+  updated_at: number;
 }
 
 export interface ListOrdersParams {

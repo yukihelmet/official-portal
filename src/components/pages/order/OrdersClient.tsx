@@ -12,7 +12,6 @@ import Link from "next/link";
 interface OrderRowComponentProps {
   order: Order;
   currencyKey: "jpy" | "twd";
-  onEdit?: (order: Order) => void;
 }
 
 interface OrdersClientProps {
@@ -21,7 +20,6 @@ interface OrdersClientProps {
   listFn?: (params: ListOrdersParams) => ReturnType<typeof listOrders>;
   serverListFn?: (params: ListOrdersParams) => Promise<ListOrdersResponse>;
   RowComponent?: React.ComponentType<OrderRowComponentProps>;
-  onEdit?: (order: Order) => void;
 }
 
 export function OrdersClient({
@@ -30,7 +28,6 @@ export function OrdersClient({
   listFn = listOrders,
   serverListFn,
   RowComponent = OrderCard,
-  onEdit,
 }: OrdersClientProps) {
   const { t, locale } = useI18n();
   const router = useRouter();
@@ -133,20 +130,20 @@ export function OrdersClient({
 
       <div className="border border-gray-200 rounded-lg overflow-hidden bg-white flex-1 overflow-y-auto">
         {/* Table Header */}
-        <div className={`hidden md:grid gap-4 p-4 bg-gray-50 border-b border-gray-200 text-sm font-semibold text-gray-600 sticky top-0 ${onEdit ? "grid-cols-8" : "grid-cols-7"}`}>
-          <div className={onEdit ? "md:col-span-1" : "md:col-span-2"}>{t("order.orderNumber")}</div>
+        <div className="hidden md:grid gap-4 p-4 bg-gray-50 border-b border-gray-200 text-sm font-semibold text-gray-600 sticky top-0 grid-cols-8">
+          <div className="md:col-span-2">{t("order.orderNumber")}</div>
           <div>{t("order.items")}</div>
           <div>{t("order.paymentStatus")}</div>
           <div>{t("order.shippingStatusHeader")}</div>
           <div>{t("order.shippingDesc")}</div>
           <div className="text-right">{t("cart.subtotal")}</div>
-          {onEdit && <div className="text-right">Action</div>}
+          <div className="text-right">{t("order.lastUpdated")}</div>
         </div>
 
         {/* Table Body */}
         <div>
           {orders.map((order) => (
-            <RowComponent key={order.public_id} order={order} currencyKey={currencyKey} onEdit={onEdit} />
+            <RowComponent key={order.public_id} order={order} currencyKey={currencyKey} />
           ))}
         </div>
       </div>

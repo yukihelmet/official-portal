@@ -118,7 +118,7 @@ export function MgntOrdersClient() {
 
   return (
     <>
-      <div className="max-w-4xl mx-auto px-4 py-8 h-[calc(100dvh-64px)] flex flex-col">
+      <div className="max-w-6xl mx-auto px-4 py-8 h-[calc(100dvh-64px)] flex flex-col">
         <div className="flex items-center justify-between mb-4">
           <h1 className="text-3xl font-bold">{t("order.management")}</h1>
           <select
@@ -133,7 +133,7 @@ export function MgntOrdersClient() {
 
         <div className="border border-gray-200 rounded-lg overflow-hidden bg-white flex-1 overflow-y-auto">
           {/* Table Header */}
-          <div className="hidden md:grid gap-2 p-4 bg-gray-50 border-b border-gray-200 text-sm font-semibold text-gray-600 grid-cols-10 sticky top-0">
+          <div className="hidden md:grid gap-2 p-4 bg-gray-50 border-b border-gray-200 text-sm font-semibold text-gray-600 grid-cols-11 sticky top-0">
             <div>{t("order.orderNumber")}</div>
             <div className="md:col-span-2">{t("order.items")}</div>
             <div>{t("order.paymentStatus")}</div>
@@ -141,6 +141,7 @@ export function MgntOrdersClient() {
             <div className="md:col-span-2">{t("order.shippingInfo")}</div>
             <div>{t("order.shippingDesc")}</div>
             <div className="text-right">{t("cart.subtotal")}</div>
+            <div className="text-right">{t("order.lastUpdated")}</div>
             <div className="text-right">{t("order.action")}</div>
           </div>
 

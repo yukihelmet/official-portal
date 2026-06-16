@@ -34,9 +34,16 @@ export function MgntOrderCard({ order, currencyKey, onEdit, forceMobileLayout }:
   const status = statusConfig[order.status] ?? { label: `order.status.${order.status}`, color: "text-gray-600", icon: "lucide:circle" };
   const shippingStatus = shippingStatusConfig[order.shipping_status] ?? { label: `order.shippingStatus.${order.shipping_status}`, color: "text-gray-600", icon: "lucide:package" };
 
-  const formatDate = (dateStr: string) => {
-    const date = new Date(dateStr);
-    return date.toLocaleDateString(locale === "ja" ? "ja-JP" : "zh-TW");
+  const formatDate = (date: string | Date) => {
+    if (!date) return "—";
+    const d = typeof date === "string" ? new Date(date) : date;
+    const pad = (n: number) => String(n).padStart(2, "0");
+    const yyyy = d.getFullYear();
+    const MM = pad(d.getMonth() + 1);
+    const dd = pad(d.getDate());
+    const HH = pad(d.getHours());
+    const mm = pad(d.getMinutes());
+    return `${yyyy}/${MM}/${dd} ${HH}:${mm}`;
   };
 
   const handleCopy = (text: string) => {
@@ -47,7 +54,7 @@ export function MgntOrderCard({ order, currencyKey, onEdit, forceMobileLayout }:
 
   const rootClass = forceMobileLayout
     ? "flex flex-col gap-3 p-4 border border-gray-200 rounded-lg hover:bg-gray-50"
-    : "flex flex-col md:grid md:grid-cols-10 gap-2 p-4 border-b border-gray-200 last:border-b-0 hover:bg-gray-50";
+    : "flex flex-col md:grid md:grid-cols-11 gap-2 p-4 border-b border-gray-200 last:border-b-0 hover:bg-gray-50";
 
   return (
     <div className={rootClass}>
@@ -68,7 +75,6 @@ export function MgntOrderCard({ order, currencyKey, onEdit, forceMobileLayout }:
               {order.user_id}
             </span>
           </div>
-          <p className="text-xs text-gray-500 shrink-0">{formatDate(order.created_at)}</p>
         </div>
         <div className="hidden md:block">
           <span className="text-xs text-gray-600 break-all" title={order.user_id}>
@@ -140,6 +146,11 @@ export function MgntOrderCard({ order, currencyKey, onEdit, forceMobileLayout }:
         <span className="text-lg font-bold">
           {symbol}{order.total_amount.toLocaleString()}
         </span>
+      </div>
+
+      {/* Last Updated */}
+      <div className="text-xs text-gray-400 text-right">
+        {order.updated_at ? formatDate(new Date(order.updated_at)) : "—"}
       </div>
 
       {/* Action */}

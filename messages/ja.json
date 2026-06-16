@@ -94,7 +94,8 @@
     "action": "操作",
     "userId": "ユーザー",
     "editOrder": "注文を編集",
-    "orderDetail": "注文详情"
+    "orderDetail": "注文详情",
+    "lastUpdated": "最終更新"
   },
   "footer": {
     "brand": "正規輸入、日本語サポート付き。",

@@ -44,7 +44,7 @@
     "allCategories": "所有分類",
     "noProducts": "找不到商品",
     "sortByPrice": "價格排序",
-    "defaultSort": "預設",
+    "defaultSort": "上架時間",
     "priceLowToHigh": "價低優先",
     "priceHighToLow": "價高優先"
   },
@@ -94,7 +94,8 @@
     "action": "操作",
     "userId": "用戶",
     "editOrder": "編輯訂單",
-    "orderDetail": "訂單詳情"
+    "orderDetail": "訂單詳情",
+    "lastUpdated": "最後更新"
   },
   "footer": {
     "brand": "原裝日系魂，一鍵直送你的專屬安全。",

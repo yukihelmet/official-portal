@@ -39,7 +39,7 @@ export function ProductsClient({
   const [selectedBrand, setSelectedBrand] = useState<string>("");
   const [selectedCategory, setSelectedCategory] = useState<string>("");
   const [selectedCategoryLabel, setSelectedCategoryLabel] = useState<string>(t("filter.allCategories"));
-  const [orderByBestPrice, setOrderByBestPrice] = useState<"asc" | "desc" | "">("");
+  const [orderByBestPrice, setOrderByBestPrice] = useState<"asc" | "desc" | "">("desc");
 
   const orderByBestPriceLabel = orderByBestPrice === "asc"
     ? t("filter.priceLowToHigh")
@@ -166,9 +166,9 @@ export function ProductsClient({
             <span>{orderByBestPriceLabel}</span>
           </SelectTrigger>
           <SelectContent>
-            <SelectItem value="">{t("filter.defaultSort")}</SelectItem>
-            <SelectItem value="asc">{t("filter.priceLowToHigh")}</SelectItem>
             <SelectItem value="desc">{t("filter.priceHighToLow")}</SelectItem>
+            <SelectItem value="asc">{t("filter.priceLowToHigh")}</SelectItem>
+            <SelectItem value="">{t("filter.defaultSort")}</SelectItem>
           </SelectContent>
         </Select>
       </div>
