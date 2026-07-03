@@ -1,5 +1,5 @@
 1:"$Sreact.fragment"
-2:I[97739,["/_next/static/chunks/0fskech6ykj6g.js","/_next/static/chunks/0eewamb49pw7k.js","/_next/static/chunks/071jjs8mcag-..js","/_next/static/chunks/0tzef3ln_0ggn.js","/_next/static/chunks/0uzee0rleesdk.js","/_next/static/chunks/0g01l.l5h~i5a.js","/_next/static/chunks/0u8c67ev9~tqr.js"],"ProductDetailClient"]
+2:I[97739,["/_next/static/chunks/0fskech6ykj6g.js","/_next/static/chunks/0eewamb49pw7k.js","/_next/static/chunks/071jjs8mcag-..js","/_next/static/chunks/0ht3-4dorh4bx.js","/_next/static/chunks/0uzee0rleesdk.js","/_next/static/chunks/0g01l.l5h~i5a.js","/_next/static/chunks/0u8c67ev9~tqr.js"],"ProductDetailClient"]
 7:I[97367,["/_next/static/chunks/0fskech6ykj6g.js","/_next/static/chunks/0eewamb49pw7k.js","/_next/static/chunks/071jjs8mcag-..js"],"OutletBoundary"]
 8:"$Sreact.suspense"
 3:T1092,快適な軽さのカタチ
@@ -144,7 +144,7 @@ IRカットシールド採用軽量システムヘルメット。
 
 ■尺寸：S（55-56cm）・M（57-58cm）・L（59-60cm）・XL（61-62cm）
 　※尺寸僅供參考。由於產品設計，即使顯示相同尺寸，佩戴感可能會有所不同。
-　　購買時請務必試戴一次。0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"product":{"id":"lWY7OJ","name":"RYUKI ENERGY 汽水帽 消光黑黃","gender":"unisex","brand":"Kabuto","category":"system_helmet","prices":[{"size":"S","prices":{"twd":{"price":12300,"discount_price":12300}}},{"size":"M","prices":{"twd":{"price":12300,"discount_price":12300}}},{"size":"L","prices":{"twd":{"price":12300,"discount_price":12300}}},{"size":"XL","prices":{"twd":{"price":12300,"discount_price":12300}}}],"images":["https://cdn.jsdelivr.net/gh/yukihelmet/images@main/lWY7OJ/1.webp"],"description":{"ja":"$3","zhTW":"$4"}}}],[["$","script","script-0",{"src":"/_next/static/chunks/0uzee0rleesdk.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/0g01l.l5h~i5a.js","async":true}],"$L5"],"$L6"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Y6u1MNGqlDlvm_a_iIX_0"}
+　　購買時請務必試戴一次。0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"product":{"id":"lWY7OJ","name":"RYUKI ENERGY 汽水帽 消光黑黃","gender":"unisex","brand":"Kabuto","category":"system_helmet","prices":[{"size":"S","prices":{"twd":{"price":12300,"discount_price":12300}}},{"size":"M","prices":{"twd":{"price":12300,"discount_price":12300}}},{"size":"L","prices":{"twd":{"price":12300,"discount_price":12300}}},{"size":"XL","prices":{"twd":{"price":12300,"discount_price":12300}}}],"images":["https://cdn.jsdelivr.net/gh/yukihelmet/images@main/lWY7OJ/1.webp"],"description":{"ja":"$3","zhTW":"$4"}}}],[["$","script","script-0",{"src":"/_next/static/chunks/0uzee0rleesdk.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/0g01l.l5h~i5a.js","async":true}],"$L5"],"$L6"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"9LHA8oqcT8_4RFCBrjfYa"}
 5:["$","script","script-2",{"src":"/_next/static/chunks/0u8c67ev9~tqr.js","async":true}]
 6:["$","$L7",null,{"children":["$","$8",null,{"name":"Next.MetadataOutlet","children":"$@9"}]}]
 9:null
