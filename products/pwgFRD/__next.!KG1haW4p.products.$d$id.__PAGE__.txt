@@ -1,0 +1,37 @@
+1:"$Sreact.fragment"
+2:I[97739,["/_next/static/chunks/0fskech6ykj6g.js","/_next/static/chunks/0eewamb49pw7k.js","/_next/static/chunks/071jjs8mcag-..js","/_next/static/chunks/02mc0zdelsdw9.js","/_next/static/chunks/0uzee0rleesdk.js","/_next/static/chunks/0g01l.l5h~i5a.js","/_next/static/chunks/0u8c67ev9~tqr.js"],"ProductDetailClient"]
+4:I[97367,["/_next/static/chunks/0fskech6ykj6g.js","/_next/static/chunks/0eewamb49pw7k.js","/_next/static/chunks/071jjs8mcag-..js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:Tb38,●型式：フルフェイスヘルメット 
+●品番：BRT-003
+●全排気量対応 
+●SG規格/PSCマーク取得 
+●サイズ：M/L/XL 
+●帽体素材：FRP 
+●帽体重量：1,200g±50g 内装着脱洗濯可(手洗い推奨) 
+●あご紐Dリング仕様 
+●インカム対応※ 
+●メガネ対応
+
+FRP素材について
+BLADE RIDER FRP（BRT-003）は、高強度なガラスクロスを積層したファイバーグラスコンポジットシェル（GFRP：Glass Fiber Reinforced Plastic）を採用しています。 ガラス繊維を何層にも積層し、樹脂と一体化させることで、高い強度・剛性・耐衝撃性を実現。成形には高度な技術を要し、ライダーの安全性と快適性を支える高品質なシェルに仕上がっています。
+GFRPは一般的なABS樹脂に比べ、軽量化しやすく、高い強度と適度なしなやかさを兼ね備えた素材です。衝撃を効率よく分散し、ヘルメットのシェル素材として広く採用されています。
+
+内装について
+日本人ライダーの頭部形状を考慮したジャパンフィッティングを採用。 内装の外側のフチ部分には、しなやかで肌触りの良いラムレザー（羊革）を使用。内側には起毛素材を採用し、やさしい肌触りと快適なフィット感を追求しました。 頭部を包み込むような安定感があり、長時間のライディングでも快適な被り心地をサポートします。 ※内装、あご紐は脱着・洗濯可能です。
+
+アイコニックなスタッズデザイン
+口元を印象づけるスタッズ。細部までこだわったディテールが、BLADE RIDERらしい存在感を引き立てます。
+
+ゴールド仕上げのブランドロゴ
+サイドに配したゴールド仕上げのブランドロゴは、 さりげなくも大胆な存在感を放ち、 ヘルメット全体に上質な印象を与えます。 高級感が漂う佇まいは、所有する歓びを満たし、 他とは一線を画す唯一無二の独立性を演出します。
+
+走りを楽しむ、すべてのライダーへ。
+高品質なGFRPシェルを採用し、軽快な被り心地と高い剛性を両立。BLADE RIDERならではのデザインと快適性を備え、ライディングの楽しさをさらに広げます。
+
+PSC・SG規格取得
+日本国内での使用に対応するPSC・SG規格を取得。 軽量でありながら、必要とされる安全基準をしっかりとクリアしています。 性能だけでなく、安心感も備えたヘルメットです。
+
+別売りゴーグル対応
+別売りのゴーグルを装着することで、 スタイリングの幅が広がり、ドレスアップが可能。 さらに走行風やホコリを抑え、快適性も向上します。0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"product":{"id":"pwgFRD","name":"BRT-003 BLADE RIDER FRP 全罩式安全帽 MATT BLACK","gender":"unisex","brand":"Marushin","category":"full_face_helmet","prices":[{"size":"M(57-58cm)","prices":{"twd":{"price":10800,"discount_price":10800}}},{"size":"L(59-60cm)","prices":{"twd":{"price":10800,"discount_price":10800}}},{"size":"XL(61-62cm)","prices":{"twd":{"price":10800,"discount_price":10800}}}],"images":["https://cdn.jsdelivr.net/gh/yukihelmet/images@main/pwgFRD/1.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/pwgFRD/2.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/pwgFRD/3.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/pwgFRD/4.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/pwgFRD/5.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/pwgFRD/6.webp","https://cdn.jsdelivr.net/gh/yukihelmet/images@main/pwgFRD/7.webp"],"description":{"ja":"$3","zhTW":"●型式：全罩式安全帽\n●品番：BRT-003\n●全排氣量適用\n●SG規格/PSC標誌取得\n●尺寸：M/L/XL\n●帽體材質：FRP\n●帽體重量：1,200g±50g 內裝可拆卸洗滌（建議手洗）\n●下巴帶D環規格\n●支援對講機※\n●適合眼鏡\n\nFRP材質說明\nBLADE RIDER FRP（BRT-003）採用高強度的玻璃布層壓的玻璃纖維複合外殼（GFRP：玻璃纖維增強塑料）。通過多層玻璃纖維的層壓，與樹脂一體化，實現高強度、剛性和耐衝擊性。成型需要高度技術，製作出支持騎士安全性和舒適性的高品質外殼。\nGFRP相比一般的ABS樹脂，更容易輕量化，兼具高強度和適度的柔韌性。有效分散衝擊，廣泛應用於安全帽的外殼材料。\n\n內裝說明\n考慮到日本騎士的頭部形狀，採用日本配戴設計。內裝外側邊緣部分使用柔軟且觸感良好的羊皮革。內側採用起毛材料，追求柔和的觸感和舒適的配戴感。包覆頭部的穩定感，支持長時間騎乘的舒適感。※內裝和下巴帶可拆卸及洗滌。\n\n標誌性的鉚釘設計\n口部印象深刻的鉚釘。細節的精緻設計，突顯出BLADE RIDER獨特的存在感。\n\n金色品牌標誌\n側邊配有金色的品牌標誌，低調卻大膽的存在感，為整體安全帽增添高質感的印象。散發出奢華感的外觀，滿足擁有的喜悅，展現出與眾不同的獨立性。\n\n享受騎行的所有騎士。\n採用高品質的GFRP外殼，兼具輕盈的配戴感和高剛性。具備BLADE RIDER獨特的設計和舒適性，進一步擴展騎行的樂趣。\n\n取得PSC・SG規格\n取得適用於日本國內使用的PSC・SG規格。雖然輕量，但確實符合所需的安全標準。這是一款不僅具備性能，還具備安心感的安全帽。\n\n支援另售護目鏡\n透過安裝另售的護目鏡，擴大造型的範圍，實現裝飾效果。進一步減少行駛風和灰塵，提高舒適性。"}}}],[["$","script","script-0",{"src":"/_next/static/chunks/0uzee0rleesdk.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/0g01l.l5h~i5a.js","async":true}],["$","script","script-2",{"src":"/_next/static/chunks/0u8c67ev9~tqr.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Xz4WfQZaggPHKma2iDK5-"}
+6:null

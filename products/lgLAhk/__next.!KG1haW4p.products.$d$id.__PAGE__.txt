@@ -1,5 +1,5 @@
 1:"$Sreact.fragment"
-2:I[97739,["/_next/static/chunks/0fskech6ykj6g.js","/_next/static/chunks/0eewamb49pw7k.js","/_next/static/chunks/071jjs8mcag-..js","/_next/static/chunks/08khob9bp63o..js","/_next/static/chunks/0uzee0rleesdk.js","/_next/static/chunks/0g01l.l5h~i5a.js","/_next/static/chunks/0u8c67ev9~tqr.js"],"ProductDetailClient"]
+2:I[97739,["/_next/static/chunks/0fskech6ykj6g.js","/_next/static/chunks/0eewamb49pw7k.js","/_next/static/chunks/071jjs8mcag-..js","/_next/static/chunks/02mc0zdelsdw9.js","/_next/static/chunks/0uzee0rleesdk.js","/_next/static/chunks/0g01l.l5h~i5a.js","/_next/static/chunks/0u8c67ev9~tqr.js"],"ProductDetailClient"]
 9:I[97367,["/_next/static/chunks/0fskech6ykj6g.js","/_next/static/chunks/0eewamb49pw7k.js","/_next/static/chunks/071jjs8mcag-..js"],"OutletBoundary"]
 a:"$Sreact.suspense"
 3:T1422,ヘルメットをよりファッショナブルに楽しめる、洗練されたグラフィックデザイン。
@@ -119,7 +119,7 @@ CFD（数値流体解析）によるベンチレーション性能の最適化�
 部分使用觸感良好的COOLMAXR面料。內裝可完全拆卸並清洗。
 
 ●「抗菌加工」內裝 DEOFACTOR
-內墊表面採用抑制纖維上細菌增殖的DEOFACTORR的「抗菌加工」。0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"product":{"id":"lgLAhk","name":"KAMUI-5 VELTA Kamui5 Velta 全罩式安全帽 白紅","gender":"unisex","brand":"Kabuto","category":"full_face_helmet","prices":[{"size":"XS(54-55cm)","prices":{"twd":{"price":12800,"discount_price":12800}}},{"size":"S(55-56cm)","prices":{"twd":{"price":12800,"discount_price":12800}}},{"size":"M(57-58cm)","prices":{"twd":{"price":12800,"discount_price":12800}}},{"size":"L(59-60cm)","prices":{"twd":{"price":12800,"discount_price":12800}}},{"size":"XL(61-62cm)","prices":{"twd":{"price":12800,"discount_price":12800}}}],"images":["https://cdn.jsdelivr.net/gh/yukihelmet/images@main/lgLAhk/1.webp"],"description":{"ja":"$3","zhTW":"$4"}}}],["$L5","$L6","$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"AvCCLi-jiGmt9xYZzq3jl"}
+內墊表面採用抑制纖維上細菌增殖的DEOFACTORR的「抗菌加工」。0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"product":{"id":"lgLAhk","name":"KAMUI-5 VELTA Kamui5 Velta 全罩式安全帽 白紅","gender":"unisex","brand":"Kabuto","category":"full_face_helmet","prices":[{"size":"XS(54-55cm)","prices":{"twd":{"price":12800,"discount_price":12800}}},{"size":"S(55-56cm)","prices":{"twd":{"price":12800,"discount_price":12800}}},{"size":"M(57-58cm)","prices":{"twd":{"price":12800,"discount_price":12800}}},{"size":"L(59-60cm)","prices":{"twd":{"price":12800,"discount_price":12800}}},{"size":"XL(61-62cm)","prices":{"twd":{"price":12800,"discount_price":12800}}}],"images":["https://cdn.jsdelivr.net/gh/yukihelmet/images@main/lgLAhk/1.webp"],"description":{"ja":"$3","zhTW":"$4"}}}],["$L5","$L6","$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Xz4WfQZaggPHKma2iDK5-"}
 5:["$","script","script-0",{"src":"/_next/static/chunks/0uzee0rleesdk.js","async":true}]
 6:["$","script","script-1",{"src":"/_next/static/chunks/0g01l.l5h~i5a.js","async":true}]
 7:["$","script","script-2",{"src":"/_next/static/chunks/0u8c67ev9~tqr.js","async":true}]
